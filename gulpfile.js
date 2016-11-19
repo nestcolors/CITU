@@ -9,17 +9,19 @@ var gulp        = require('gulp'),
   replace       = require('gulp-replace'),
   notify        = require('gulp-notify'),
   path          = require('path');
+  autoprefixer = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
   return gulp.src('sass/**/*.scss')
     .pipe(sass())
+    .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
     .pipe(minifyCSS())
-    .pipe(gulp.dest('./css/'))
+    .pipe(gulp.dest('./build/css/'))
     .pipe(notify({ message: 'CSS complete' }));
 });
 
 gulp.task('jshint', function() {
-  return gulp.src(['./js/**/*.js', './bin/*'])
+  return gulp.src(['./js/*.js', './bin/*'])
     .pipe(jshint())
     .pipe(jshint.reporter(jshintStyle))
     .pipe(jshint.reporter('fail'))

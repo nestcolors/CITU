@@ -1,0 +1,27 @@
+@font-face{
+  font-family: 'RobotoSlab';
+  src: url('../../fonts/Roboto_Slab/RobotoSlab-Regular.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'OpenSans';
+  src: url('../../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
+}
+@font-face{
+  font-family: 'OpenSansLight';
+  src: url('../../fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
+}
+
+$roboto-font: RobotoSlab, serif;
+$opensans-font: OpenSans, sansserif;
+$opensans-font-light: OpenSansLight, sansserif;
+
+$light-white: #fefefe;
+$half-white: rgba(255,255,255,0.5);
+$main-blue: #186287;
+$light-navy: #186287;
+$bluish-grey: #78909c;
+$white-grey: #fbfbfb;
+$pale-grey: #eceff1;
+$mango-orange: #fbb025;
+
+$top-bar-bg: #1f4a65;
