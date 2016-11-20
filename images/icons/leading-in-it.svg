@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
+    <title>leading-in-it</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="leading-in-it">
+            <g id="5" transform="translate(0.000000, 2.000000)">
+                <g id="Layer_1">
+                    <g id="Group">
+                        <g opacity="0.62" transform="translate(47.000000, 11.000000)" id="Shape" fill="#738E98">
+                            <path d="M16.5,58 L11.1,58 L11.1,42.2 C31.1,33.8 26.4,0.2 26.4,0.2 L19.8,0.4 C19.8,0.4 21.4,15 16.8,27.8 C14.5,34.2 9.2,39.5 6.4,40.6 L6.6,58 L4,58 L4,60.7 L0.2,60.7 L0,65.8 L22.3,65.8 L22.3,60.7 L16.5,60.7 L16.5,58 L16.5,58 Z"></path>
+                        </g>
+                        <g opacity="0.62" transform="translate(31.000000, 77.000000)" id="Rectangle-path" fill="#738E98">
+                            <rect x="0.5" y="0.9" width="42" height="16.8"></rect>
+                        </g>
+                        <g opacity="0.62" transform="translate(45.000000, 20.000000)" id="Shape" fill="#738E98">
+                            <g>
+                                <path d="M11.6,0.3 L11.6,20.7 L6,20.7 L6,7.3 C5.1,8 4.2,8.6 3.4,9 C2.5,9.4 1.5,9.8 0.2,10.2 L0.2,5.6 C2.1,5 3.6,4.3 4.6,3.4 C5.6,2.5 6.5,1.5 7.1,0.2 L11.6,0.2 L11.6,0.3 Z"></path>
+                            </g>
+                        </g>
+                        <circle id="Oval" fill="#E4B465" cx="82.5" cy="83.6" r="2"></circle>
+                        <circle id="Oval" fill="#E4B465" cx="87.7" cy="83.6" r="2"></circle>
+                        <circle id="Oval" fill="#E4B465" cx="92.7" cy="83.6" r="2"></circle>
+                        <g transform="translate(76.000000, 38.000000)" id="Rectangle-path" fill="#1C75BC">
+                            <rect x="6.1" y="34.8" width="1" height="10"></rect>
+                            <rect x="0.3" y="0.4" width="1" height="27.1"></rect>
+                            <rect transform="translate(3.714310, 31.049030) rotate(52.905491) translate(-3.714310, -31.049030) " x="-1.28542842" y="30.5490562" width="9.99947684" height="0.999947684"></rect>
+                        </g>
+                        <g transform="translate(81.000000, 30.000000)" id="Rectangle-path" fill="#1C75BC">
+                            <rect x="6.3" y="42.8" width="1" height="10"></rect>
+                            <rect x="0.5" y="0.8" width="1" height="34.7"></rect>
+                            <rect transform="translate(3.897520, 39.084040) rotate(52.908946) translate(-3.897520, -39.084040) " x="-1.10261725" y="38.5840263" width="10.0002745" height="1.00002745"></rect>
+                        </g>
+                        <g transform="translate(86.000000, 14.000000)" id="Rectangle-path" fill="#1C75BC">
+                            <rect x="6.5" y="58.8" width="1" height="10"></rect>
+                            <rect x="0.7" y="0.5" width="1" height="51"></rect>
+                            <rect transform="translate(4.200160, 55.065430) rotate(52.905491) translate(-4.200160, -55.065430) " x="-0.799578418" y="54.5654562" width="9.99947684" height="0.999947684"></rect>
+                        </g>
+                        <g transform="translate(2.000000, 14.000000)">
+                            <circle id="Oval" fill="#E4B465" cx="2" cy="15.6" r="2"></circle>
+                            <circle id="Oval" fill="#E4B465" cx="2" cy="8.9" r="2"></circle>
+                            <circle id="Oval" fill="#E4B465" cx="2" cy="2.6" r="2"></circle>
+                            <g transform="translate(2.000000, 14.000000)" id="Rectangle-path" fill="#1C75BC">
+                                <rect x="0.7" y="1" width="10" height="1"></rect>
+                                <rect x="18.1" y="6.8" width="13" height="1"></rect>
+                                <rect transform="translate(14.487560, 4.368590) rotate(37.094509) translate(-14.487560, -4.368590) " x="9.48782158" y="3.86861616" width="9.99947684" height="0.999947684"></rect>
+                            </g>
+                            <g transform="translate(2.000000, 8.000000)" id="Rectangle-path" fill="#1C75BC">
+                                <rect x="0.7" y="0.3" width="10" height="1"></rect>
+                                <rect x="18.1" y="6.1" width="11.7" height="1"></rect>
+                                <rect transform="translate(14.497280, 3.710340) rotate(37.091054) translate(-14.497280, -3.710340) " x="9.49714275" y="3.21032628" width="10.0002745" height="1.00002745"></rect>
+                            </g>
+                            <g transform="translate(2.000000, 1.000000)" id="Rectangle-path" fill="#1C75BC">
+                                <rect x="0.7" y="0.8" width="10" height="1"></rect>
+                                <rect x="18.1" y="6.6" width="11.2" height="1"></rect>
+                                <rect transform="translate(14.479480, 4.166470) rotate(37.094509) translate(-14.479480, -4.166470) " x="9.47974158" y="3.66649616" width="9.99947684" height="0.999947684"></rect>
+                            </g>
+                        </g>
+                        <g transform="translate(22.000000, 52.000000)" id="Shape" fill="#E4B465">
+                            <polygon points="6.2 12.8 0.7 12.8 0.7 11.6 2.8 11.6 2.8 2 0.7 2 0.7 0.8 6.2 0.8 6.2 2 4.2 2 4.2 11.6 6.2 11.6"></polygon>
+                            <polygon points="18.5 1.8 14.8 1.8 14.8 12.7 13.4 12.7 13.4 1.8 9.7 1.8 9.7 0.7 18.6 0.7 18.6 1.8"></polygon>
+                        </g>
+                        <path d="M15.1,81.6 C13.6,81.6 12.4,80.4 12.4,78.9 C12.4,77.4 13.6,76.2 15.1,76.2 C16.6,76.2 17.8,77.4 17.8,78.9 C17.8,80.4 16.6,81.6 15.1,81.6 L15.1,81.6 Z M15.1,77.2 C14.2,77.2 13.4,78 13.4,78.9 C13.4,79.8 14.2,80.6 15.1,80.6 C16,80.6 16.8,79.8 16.8,78.9 C16.8,77.9 16,77.2 15.1,77.2 L15.1,77.2 Z" id="Shape" fill="#1C75BC"></path>
+                        <path d="M96,19.4 C94.5,19.4 93.3,18.2 93.3,16.7 C93.3,15.2 94.5,14 96,14 C97.5,14 98.7,15.2 98.7,16.7 C98.7,18.2 97.5,19.4 96,19.4 L96,19.4 Z M96,15 C95.1,15 94.3,15.8 94.3,16.7 C94.3,17.6 95.1,18.4 96,18.4 C96.9,18.4 97.7,17.6 97.7,16.7 C97.7,15.8 96.9,15 96,15 L96,15 Z" id="Shape" fill="#1C75BC"></path>
+                        <path d="M17.9,71.3 C16.8,71.3 15.9,70.4 15.9,69.3 C15.9,68.2 16.8,67.3 17.9,67.3 C19,67.3 19.9,68.2 19.9,69.3 C19.9,70.4 19,71.3 17.9,71.3 L17.9,71.3 Z M17.9,68.2 C17.3,68.2 16.9,68.7 16.9,69.2 C16.9,69.8 17.4,70.2 17.9,70.2 C18.5,70.2 18.9,69.7 18.9,69.2 C19,68.7 18.5,68.2 17.9,68.2 L17.9,68.2 Z" id="Shape" fill="#1C75BC"></path>
+                        <path d="M91.2,29.3 C90.1,29.3 89.2,28.4 89.2,27.3 C89.2,26.2 90.1,25.3 91.2,25.3 C92.3,25.3 93.2,26.2 93.2,27.3 C93.2,28.4 92.3,29.3 91.2,29.3 L91.2,29.3 Z M91.2,26.3 C90.6,26.3 90.2,26.8 90.2,27.3 C90.2,27.9 90.7,28.3 91.2,28.3 C91.7,28.3 92.2,27.8 92.2,27.3 C92.2,26.7 91.8,26.3 91.2,26.3 L91.2,26.3 Z" id="Shape" fill="#1C75BC"></path>
+                        <g opacity="0.54" transform="translate(24.000000, 73.000000)" id="Shape" fill="#E4B465">
+                            <path d="M0.9,1.2 C1.3,1.2 5,0.8 5,0.8 L3.1,4.2 L0.9,1.2 L0.9,1.2 Z"></path>
+                        </g>
+                        <g opacity="0.54" transform="translate(0.000000, 80.000000)" id="Shape" fill="#E4B465">
+                            <path d="M0.6,5.3 C0.9,4.9 4,0 4,0 L6.3,5.6 L0.6,5.3 L0.6,5.3 Z"></path>
+                        </g>
+                        <g opacity="0.54" transform="translate(79.000000, 0.000000)" id="Shape" fill="#E4B465">
+                            <path d="M2.4,0 C2.7,0.5 6.3,4.9 6.3,4.9 L0.3,5.2 L2.4,0 L2.4,0 Z"></path>
+                        </g>
+                        <g opacity="0.54" transform="translate(64.000000, 52.000000)" id="Shape" fill="#E4B465">
+                            <path d="M5.7,0.4 C5.6,1 4.8,6.6 4.8,6.6 L0.4,2.5 L5.7,0.4 L5.7,0.4 Z"></path>
+                        </g>
+                        <rect id="Rectangle-path" fill="#1C75BC" x="31.3" y="94.2" width="42.4" height="2"></rect>
+                        <path d="M37.7,44.8 C30.6,41.7 25.1,35.5 21.8,26.8 C19.4,20.3 19,14.8 19,14.5 L18.9,13.4 L33.3,13.4 L33.3,15.4 L21.1,15.4 C21.3,17.3 21.9,21.5 23.7,26.1 C26.8,34.4 31.8,40 38.5,42.9 L37.7,44.8 L37.7,44.8 Z" id="Shape" fill="#1C75BC"></path>
+                        <path d="M70.3,77.7 L36.8,77.7 L36.8,70.7 L42.1,70.7 L42.1,68 L47.8,68 L47.8,53.9 C39.6,50.2 34.4,41.7 32.7,29.2 C31.4,19.7 32.5,11.4 32.5,11.1 L32.6,10.2 L51.5,10.3 L74.4,10.2 L74.5,11.1 C74.5,11.4 75.7,19.8 74.3,29.2 C72.5,41.6 67.3,50.1 59.2,53.9 L59.2,68 L64.6,68 L64.6,70.7 L70.4,70.7 L70.4,77.7 L70.3,77.7 Z M38.8,75.7 L68.3,75.7 L68.3,72.7 L62.5,72.7 L62.5,70 L57.1,70 L57.1,52.6 L57.7,52.3 C75,45 73.1,17.5 72.5,12.2 L51.4,12.3 L34.3,12.2 C33.8,17.5 31.9,45 49.1,52.3 L49.7,52.6 L49.7,70 L44,70 L44,72.7 L38.7,72.7 L38.7,75.7 L38.8,75.7 Z" id="Shape" fill="#1C75BC"></path>
+                        <path d="M69.3,44.5 L68.5,42.7 C82.1,36.5 84.7,19.8 85.1,15.5 L73.9,15.5 L73.9,13.5 L87.2,13.5 L87.2,14.5 C87.2,14.7 86.9,20.1 84.6,26.6 C81.5,35.1 76.2,41.3 69.3,44.5 L69.3,44.5 Z" id="Shape" fill="#1C75BC"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

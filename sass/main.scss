@@ -1,4 +1,5 @@
 @import 'variables';
+// @import 'components';
 
 body{
   color: $main-blue;
@@ -11,56 +12,22 @@ body{
   transition: 0.1s;
   box-sizing: border-box;
 }
-a:hover{
-  text-decoration: none;
-}
+a{font-size: 1.6rem;}
+a:hover{text-decoration: none;}
 h1, h2, h3, h4, h5{font-family: $roboto-font;}
-h1{
-  color: $white-grey;
-  font-size: 4.2rem;
-}
-h2{
-  color: $light-navy;
-  font-size: 3.4rem;
-}
-h3{
-  color: $bluish-grey;
-  font-size: 2.1rem;
-}
-p{
-  color: $bluish-grey;
-  font-size: 1.6rem;
-  line-height: 1.4;
-}
-ul, ol{
-  font-size: 1.6rem;
-}
+h1{color: $white-grey;font-size: 4.2rem;}
+h2{color: $light-navy; font-size: 3.4rem;}
+h3{color: $bluish-grey;font-size: 2.1rem;line-height: 2.8rem;}
+p{color: $bluish-grey;font-size: 1.6rem;line-height: 1.4;}
+ul, ol{font-size: 1.6rem;}
 .no-padding{padding: 0;}
-.logo-white{
-  background-image: url('../../images/logo-white.png');
-  height: 50px;
-  width: 160px;
-  margin-top: 4px;
-  display: inline-block;
-  background-size: contain;
-  padding: 4px;
-}
-.logo-white:hover{
-  background-image: url('../../images/logo-color.png');
-}
+
 .home-page{
-  .top-bar{
-    background-color: $top-bar-bg;
-    height: 3rem;
-    opacity: 0.8;
-  }
-  .top-bar:hover{
-    opacity: 1;
-  }
   section.intro{
     position: relative;
     height: 100vh;
     background-image: url('../../images/lviv-morning.jpg');
+    // background-attachment: fixed;
     background-size: cover;
     background-position: left;
     .gradient-overlay{
@@ -71,59 +38,161 @@ ul, ol{
       height: 100vh;
       background: linear-gradient(113deg, #24c6dc, #514a9d);
       opacity: 0.4;
+      z-index: 1;
     }
-    .nav-bar{
-      height: 64px;
-      // background-color: $half-white;
-      .logo-white{
-        float: left;
+    .tagline-container{
+      position: relative;
+      z-index: 10;
+      text-align: center;
+      margin-top: 40vh;
+      .logo{
+        background-image: url('../../images/tulip-logo.png');
+        width: 30rem;
+        height: 15.5rem;
+        background-size: 100%;
+        margin: 0 auto;
       }
-      a{
-        color: $white-grey;
-        font-size: 1.6rem;
-        font-family: $opensans-font-light;
+      .header-line{
+        border-bottom: 1px solid $light-white;
       }
-      .main-links{
-        display: inline-block;
-        margin: 10px 0 0 20px;
-        a{
-          display: inline-block;
-          margin-right: 20px;
-          span{
-            display: inline-block;
-            float: left;
-          }
-          span.white-arrow{
-            background-image: url('../../images/arrow-white.svg');
-            height: 13px;
-            width: 13px;
-            margin: 15px 0 0 20px;
-            background-size: 100%;
-          }
-        }
-        a:hover{
-          span.white-arrow{
-            transform: translateX(3px);
-          }
-        }
-        a:first-child{
-          border-right: 1px solid $light-white;
-          padding-right: 20px;
+      h2{
+        color: $pale-grey;
+      }
+    }
+  }
+  section.features{
+    padding: 7rem 0;
+    h1, h2, h3, h4{text-align: center;}
+    .header-line{border-bottom: 1px solid $light-navy;}
+    h2{
+
+    }
+    h3{
+      color: $bluish-grey;
+      margin-bottom: 6.3rem;
+    }
+    .feature-item{
+      text-align: center;
+      .feature-icon{
+        width: 10rem;
+        height: 10rem;
+        background-size: 100%;
+        margin: 0 auto;
+      }
+      .lead-in-it{
+        background-image: url('../../images/icons/leading-in-it.svg');
+      }
+      .agriculture{
+        background-image: url('../../images/icons/agriculture.svg');
+      }
+      .professionals{
+        background-image: url('../../images/icons/professionals.svg');
+      }
+      .cost-advances{
+        background-image: url('../../images/icons/cost-advances.svg');
+      }
+      h4{
+        color: $mango-orange;
+        margin: 3.5rem 0 1.2rem;
+      }
+      .header-line{
+        border-bottom: 1px solid $silver;
+        width: 4rem;
+      }
+      p{
+        margin-top: .7rem;
+        letter-spacing: -0.4px;
+        .small{
+          text-align: right;
+          font-size: 1.3rem;
+          letter-spacing: -0.5px;
+          font-style: italic;
+          color: $silver;
         }
       }
-      ul.menu{
-        list-style-type: none;
-        li{
-          padding: 21px 13px 19px 13px;
-          float: left;
-          border-bottom: 2px solid rgba(0,0,0,0);
+    }
+    .advantages{
+      position: relative;
+      margin: 5rem 0 7rem;
+      padding: 1.5rem 0 4.7rem;
+      background-image: url('../../images/icons/holland-to-ua.svg');
+      background-size: 90%;
+      background-position: 50% 70%;
+      h3{
+        padding-bottom: 1rem;
+        border-bottom: 1px solid $silver;
+        margin-bottom: 0;
+      }
+      .advantages-list{
+        padding-top: 9rem;
+        ul{
+          list-style-type: none;
+          width: 310px;
+          margin: 0 auto;
+          li{
+            font-size: 1.8rem;
+            line-height: 2.1rem;
+            color: $bluish-grey;
+            margin-top: 1rem;
+            letter-spacing: 0.3px;
+          }
         }
-        li:hover, li.active{
-          border-bottom: 2px solid $light-white;
-        }
-        li:last-child{
-          background-color: $half-white;
-        }
+      }
+      .read-more{
+        position: absolute;
+        right: 3rem;
+        bottom: -4rem;
+      }
+    }
+  }
+  section.services{
+    background-color: $pale-grey;
+    margin-top: -20rem;
+    padding-top: 16.4rem;
+    padding-bottom: 7rem;
+    .services-logo{
+      width: 25rem;
+      height: 8rem;
+      background-size: 100%;
+      margin: 0 auto;
+    }
+    .header-line{
+      border-bottom: 1px solid $light-navy;
+      width: 20rem;
+    }
+    h2{
+      text-align: center;
+      margin-top: 1rem;
+      color: $mango-orange;
+    }
+    .service-box{
+      margin-top: 5rem;
+      .service-icon{
+        width: 30rem;
+        height: 17rem;
+        background-size: 100%;
+        margin: 0 auto;
+      }
+      .service-icon.itc{
+        background-image: url('../../images/icons/itc.svg');
+      }
+      .service-icon.bds{
+        background-image: url('../../images/icons/bds.svg');
+      }
+      h4{
+        text-align: center;
+        border-bottom: 1px solid $silver;
+        padding-bottom: 1.5rem;
+        line-height: 1.6;
+        margin-top: 2rem;
+      }
+      p{
+        margin: 1.5rem 3rem;
+      }
+      .button{
+        margin: 3.8rem auto 0;
+        display: block;
+        width: 14.6rem;
       }
     }
   }

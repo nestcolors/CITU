@@ -8,13 +8,15 @@ var gulp        = require('gulp'),
   jshintStyle   = require('jshint-stylish'),
   replace       = require('gulp-replace'),
   notify        = require('gulp-notify'),
-  path          = require('path');
-  autoprefixer = require('gulp-autoprefixer');
+  path          = require('path'),
+  concat        = require('gulp-concat'),
+  autoprefixer  = require('gulp-autoprefixer');
 
 gulp.task('sass', function () {
   return gulp.src('sass/**/*.scss')
     .pipe(sass())
     .pipe(autoprefixer(['last 15 versions', '> 1%', 'ie 8', 'ie 7'], { cascade: true }))
+    .pipe(concat('main.css'))
     .pipe(minifyCSS())
     .pipe(gulp.dest('./build/css/'))
     .pipe(notify({ message: 'CSS complete' }));
