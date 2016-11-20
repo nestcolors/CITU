@@ -10,14 +10,20 @@
   font-family: 'OpenSansLight';
   src: url('../../fonts/Open_Sans/OpenSans-Light.ttf') format('truetype');
 }
+@font-face{
+  font-family: 'OpenSansBold';
+  src: url('../../fonts/Open_Sans/OpenSans-Bold.ttf') format('truetype');
+}
 
 $roboto-font: RobotoSlab, serif;
-$opensans-font: OpenSans, sansserif;
-$opensans-font-light: OpenSansLight, sansserif;
+$opensans-font: OpenSans, sans-serif;
+$opensans-font-light: OpenSansLight, sans-serif;
+$opensans-font-bold: OpenSansBold, sans-serif;
 
 $white: #fff;
 $light-white: #fefefe;
 $half-white: rgba(255,255,255,0.5);
+$transparent: rgba(0,0,0,0);
 $white-grey: #fbfbfb;
 $silver: #d8dde0;
 $pale-grey: #eceff1;

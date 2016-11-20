@@ -4,8 +4,8 @@
   box-shadow: 0 2px 5px 0 $light-black;
   border-radius: 2px;
 }
-.box-normal:hover{
-  box-shadow: 0 6px 15px 0 $light-black;
+.box-hover:hover{
+  box-shadow: 0 8px 20px 0 $light-black;
 }
 .service-box{
   padding: 3rem 0 2rem;
@@ -30,6 +30,15 @@
   border-color: $mango-orange;
 }
 .button-orange:hover{
+  background-color: $light-white;
+  color: $mango-orange;
+}
+.button-white{
+  background-color: $transparent;
+  color: $light-white;
+  border-color: $light-white;
+}
+.button-white:hover{
   background-color: $light-white;
   color: $mango-orange;
 }
@@ -59,6 +68,7 @@
   width: 21.5rem;
   margin: 1.7rem auto 0;
 }
+.right-align{text-align: right;}
 .nav-bar{
   height: 64px;
   // background-color: $half-white;
