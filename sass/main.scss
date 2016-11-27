@@ -1,11 +1,15 @@
 @import 'variables';
 // @import 'components';
-
+html{
+  // font-size: 100%;
+  font-size: 62.5%;
+}
 body{
+  font-size: 1rem;
   color: $main-blue;
   font-family: $opensans-font;
-  font-size: 62.5%;
   background-color: $light-white;
+  text-rendering: optimizeLegibility;
 }
 *{
   background-repeat: no-repeat;
@@ -22,44 +26,42 @@ p{color: $bluish-grey;font-size: 1.6rem;line-height: 1.4;}
 ul, ol{font-size: 1.6rem;}
 .no-padding{padding: 0;}
 
-.home-page{
-  section.intro{
+section.intro{
+  position: relative;
+  height: 96vh;
+  background-image: url('../../images/lviv-morning.jpg');
+  // background-attachment: fixed;
+  background-size: cover;
+  background-position: left;
+  .gradient-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 96vh;
+    background: linear-gradient(113deg, #24c6dc, #514a9d);
+    opacity: 0.4;
+    z-index: 1;
+  }
+  .tagline-container{
     position: relative;
-    height: 100vh;
-    background-image: url('../../images/lviv-morning.jpg');
-    // background-attachment: fixed;
-    background-size: cover;
-    background-position: left;
-    .gradient-overlay{
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 100vh;
-      background: linear-gradient(113deg, #24c6dc, #514a9d);
-      opacity: 0.4;
-      z-index: 1;
+    z-index: 10;
+    text-align: center;
+    margin-top: 40vh;
+    .logo{
+      background-image: url('../../images/tulip-logo.png');
+      width: 30rem;
+      height: 15.5rem;
     }
-    .tagline-container{
-      position: relative;
-      z-index: 10;
-      text-align: center;
-      margin-top: 40vh;
-      .logo{
-        background-image: url('../../images/tulip-logo.png');
-        width: 30rem;
-        height: 15.5rem;
-        background-size: 100%;
-        margin: 0 auto;
-      }
-      .header-line{
-        border-bottom: 1px solid $light-white;
-      }
-      h2{
-        color: $pale-grey;
-      }
+    .header-line{
+      border-bottom: 1px solid $light-white;
+    }
+    h2{
+      color: $pale-grey;
     }
   }
+}
+.home-page{
   section.features{
     padding: 7rem 0;
     background-color: $white-grey;
@@ -121,6 +123,7 @@ ul, ol{font-size: 1.6rem;}
       background-size: 90%;
       background-position: 50% 70%;
       h3{
+        color: $light-navy;
         padding-bottom: 1rem;
         border-bottom: 1px solid $silver;
         margin-bottom: 0;
@@ -140,18 +143,13 @@ ul, ol{font-size: 1.6rem;}
           }
         }
       }
-      .read-more{
-        position: absolute;
-        right: 3rem;
-        bottom: -4rem;
-      }
     }
   }
   section.services{
     background-color: $pale-grey;
     margin-top: -20rem;
-    padding-top: 16.4rem;
-    padding-bottom: 7rem;
+    padding-top: 17.4rem;
+    padding-bottom: 10rem;
     .services-logo{
       width: 25rem;
       height: 8rem;
@@ -199,174 +197,12 @@ ul, ol{font-size: 1.6rem;}
     }
   }
   section.magazine{
-    padding: 7rem 0;
-    background-image: linear-gradient(70deg, #f9d323, #f79835);
-    .section-header{
-      text-align: center;
-      h2{
-        color: $light-white;
-        margin-bottom: 1.2rem;
-      }
-      .header-line{
-        border-bottom: 1px solid $light-white;
-      }
-      h3{
-        margin-top: 7px;
-        color: $white-grey;
-      }
-    }
-    .blog-slider-container{
-      margin-top: 5rem;
-      // width: 120%;
-      a.slide{
-        height: 22rem;
-        width: 37rem;
-        display: inline-block;
-        margin: 0 0.5rem 0 0.5rem;
-        .post-image{
-          display: inline-block;
-          width: 12rem;
-          height: 100%;
-          background-color: $light-navy;
-          background-image: url('../../images/blogpost-img.jpg');
-          background-size: cover;
-          background-position: left;
-        }
-        .post-text{
-          width: 25rem;
-          padding: 1rem;
-          display: inline-block;
-          h4{
-            line-height: 1.4;
-            margin-top: 0;
-            color: $light-navy;
-            letter-spacing: 0.5px;
-          }
-          p.excerpt{
-            font-size: 1.5rem;
-            margin-top: 13px;
-          }
-          p.small-text{
-            font-style: italic;
-            font-size: 1.3rem;
-            margin: 0;
-            color: $mango-orange;
-            font-family: $opensans-font-light;
-          }
-        }
-      }
-      a:hover{
-        .post-text{
-          h4{
-            color: $mango-orange;
-          }
-        }
-      }
-      .slick-list{
-        height: 24rem;
-      }
-      .slick-arrow{
-        top: -2rem;
-        right: 0;
-      }
-      .slick-dots li.slick-active button:before{
-        border: 1px solid $light-white;
-        border-radius: 100%;
-        color: $light-white;
-      }
-      .slick-dots li button:before{
-        font-size: 8px;
-        line-height: 12px;
-        width: 12px;
-        height: 12px;
-        opacity: 1;
-        color: white;
-      }
-      .slick-arrow.slick-prev{
-        left: inherit;
-        right: 2rem;
-      }
-      .slick-next{
-
-      }
-    }
     a.button-white{
-      width: 13.6rem;
-      display: block;
-      margin: 5rem auto 4rem;
-    }
-    .subscribe-block{
-      position: relative;
-      // width: 110%;
-      padding: 1.5rem 7rem 1.3rem;
-      h3{
-        display: inline-block;
-        margin: 0;
-        border-right: 1px solid $silver;
-        padding-right: 4rem;
-        margin-right: 4rem;
-        line-height: 2.5;
-      }
-      input.mail{
-        display: inline-block;
-        border: 1px solid $transparent;
-        border-bottom: 1px solid $silver;
-        font-weight: 100;
-        font-style: italic;
-        color: $bluish-grey;
-        margin-right: 1rem;
-        position: relative;
-        width: 22rem;
-        top: -3px;
-      }
-      input.subscribe{
-        height: 3.7rem;
-        width: 3.7rem;
-        background-image: url('../../images/icons/subscribe.png');
-        background-size: 100%;
-        background-color: $transparent;
-        border: 1px solid $transparent;
-        background-position: bottom;
-      }
-      input.subscribe:hover{
-        transform: translateY(-2px);
-      }
-    }
-    .social-links{
-      font-family: $opensans-font-bold;
-      color: $light-white;
-      position: absolute;
-      right: 2rem;
-      bottom: -4.5rem;
-      .subs-icon{
-        width: 2rem;
-        height: 2rem;
-        background-size: contain;
-        display: inline-block;
-        margin: 1rem 0.5rem -4px 0.5rem;
-      }
-      .fb{
-        background-image: url('../../images/icons/subs-fb.svg')
-      }
-      .in{
-        background-image: url('../../images/icons/subs-in.svg')
-      }
-      .insta{
-        background-image: url('../../images/icons/subs-inst.svg')
-      }
-      .fb:hover{
-        background-image: url('../../images/icons/subs-fb-hover.svg')
-      }
-      .in:hover{
-        background-image: url('../../images/icons/subs-in-hover.svg')
-      }
-      .insta:hover{
-        background-image: url('../../images/icons/subs-inst-hover.svg')
-      }
+      width: 17.7rem;
     }
   }
   section.about-us{
-    padding: 7rem 0;
+    padding: 9rem 0 10rem;
     background-color: $white-grey;
     .section-header{
       text-align: center;
@@ -384,6 +220,9 @@ ul, ol{font-size: 1.6rem;}
     }
     .about-us-container{
       margin: 5rem 0;
+      p{
+        font-family: $opensans-font-light;
+      }
       .about-us-icon{
         width: 7rem;
         height: 7rem;
@@ -404,5 +243,12 @@ ul, ol{font-size: 1.6rem;}
         background-image: url('../../images/icons/about-dutch-team.svg');
       }
     }
+  }
+
+  section.contact-us{
+  }
+  section.footer{
+  }
+  section.cellar{
   }
 }

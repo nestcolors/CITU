@@ -16,9 +16,111 @@ $('document').ready(function(){
     },{
       breakpoint: 769,
       settings: {
-        slidesToShow: 1.5
+        slidesToShow: 1.85
+      }
+    },{
+      breakpoint: 376,
+      settings: {
+        slidesToShow: 1.1
       }
     }]
   });
+
+  $('#blogPage-slider').slick({
+    dots: true,
+    infinite: false,
+    slidesToShow: 2,
+    slidesToScroll: 1,
+    speed: 300,
+    responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 1.45
+      }
+    },{
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 1.15
+      }
+    },{
+      breakpoint: 376,
+      settings: {
+        slidesToShow: 1.1
+      }
+    }]
+  });
+
+  if($( window ).width() < 1025){
+    $('#its-project-type').slick({
+      dots: true,
+      infinite: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      speed: 300,
+      adaptiveHeight: true,
+      responsive: [
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 2.1
+        }
+      },{
+        breakpoint: 769,
+        settings: {
+          slidesToShow: 2.1
+        }
+      },{
+        breakpoint: 376,
+        settings: {
+          slidesToShow: 1.1
+        }
+      }]
+    });
+  }
+
+  if($( window ).width() < 376){
+    $('#its-services').slick({
+      dots: true,
+      infinite: false,
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      speed: 300,
+      adaptiveHeight: true,
+      responsive: [{
+        breakpoint: 376,
+        settings: {
+          slidesToShow: 1.3
+        }
+      }]
+    });
+  }
+
+
+  $('#mobile-services-slider').slick({
+    dots: true,
+    infinite: false,
+    slidesToShow: 1.2,
+    adaptiveHeight: true
+  })
+
+  var navbarPage = $('body').hasClass('full-navbar-page');
+  if(navbarPage){
+    $(document).scroll(function(){
+      var showNavbar = $(document).scrollTop() > $('.intro').height() - 40
+      var el = $('.nav-bar-full-width');
+      if(showNavbar){
+        console.log('show');
+        el.fadeIn();
+      }else{
+        el.fadeOut();
+      }
+    });
+  }
+
+
+  var showHideNavbar = function(){
+
+  }
 
 });

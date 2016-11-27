@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 39 (31667) - http://www.bohemiancoding.com/sketch -->
-    <title>subs-inst</title>
+    <title>Artboard 2</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="38" height="38" rx="11"></rect>
@@ -10,11 +10,11 @@
         </mask>
     </defs>
     <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-2" transform="translate(-1.000000, -1.000000)">
+        <g id="Artboard-2">
             <g id="subs-inst" transform="translate(1.000000, 1.000000)">
                 <circle id="Oval-2" fill="#FBFBFB" cx="29" cy="9" r="2"></circle>
-                <use id="Rectangle-12" stroke="#FBFBFB" mask="url(#mask-2)" stroke-width="6" xlink:href="#path-1"></use>
-                <circle id="Oval" stroke="#FBFBFB" stroke-width="3" cx="19" cy="19" r="9"></circle>
+                <use id="Rectangle-12" stroke="#FBFBFB" mask="url(#mask-2)" stroke-width="8" xlink:href="#path-1"></use>
+                <circle id="Oval" stroke="#FBFBFB" stroke-width="4" cx="19" cy="19" r="9"></circle>
             </g>
         </g>
     </g>

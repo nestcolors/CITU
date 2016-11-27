@@ -1,0 +1,250 @@
+@import 'variables';
+body.about-us-page{
+  background-color: $light-white;
+}
+.about-us-page{
+  .nav-bar-full-width{
+    display: block;
+  }
+  .about-us-intro{
+    margin-top: 6.3rem;
+    background-image: url('../../images/old_wall.png');
+    background-attachment: fixed;
+    padding-top: 11rem;
+    background-repeat: repeat;
+    height: 33rem;
+    .logo{
+      background-image: url('../../images/tulip-logo.png');
+      background-size: 100%;
+    }
+    h1{
+      color: $light-navy;
+      text-align: center;
+    }
+  }
+  section.we-have{
+    padding: 5rem 0 7rem;
+    .we-have-container{
+      h2{
+        margin: 0 0 6rem;
+        color: $mango-orange;
+        text-align: center;
+      }
+      .row{
+        margin: 4rem 0;
+      }
+      .box-normal{
+        width: 27rem;
+        padding: 20px;
+        float: left;
+        h3{
+          text-align: center;
+          color: $light-navy;
+          margin: 0;
+        }
+        .header-line{
+          border-bottom: 1px solid $mango-orange;
+          width: 4.7rem;
+          margin: 1rem auto 1.4rem;
+        }
+      }
+      .about-us-item{
+        margin: 0 auto;
+        width: 64rem;
+        .about-us-item-el{
+          margin: 0 3rem;
+        }
+        .icon{
+          float: left;
+          height: 16rem;
+          width: 25rem;
+          background-size: 100%;
+        }
+        .icon.vision-icon{
+          background-image: url('../../images/icons/about-vision.svg');
+        }
+        .icon.mission-icon{
+          background-image: url('../../images/icons/about-mission.svg');
+        }
+      }
+    }
+    a.button{display: block; width: 19rem; margin: 2rem auto;}
+  }
+  section.history-features{
+    position: relative;
+    padding: 10rem 0 7rem;
+    background-image: url('../../images/citu-pano.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    background-position: center;
+    .color-overlay{
+      position: absolute;
+      top: 0;
+      width: 100vw;
+      height: 100%;
+      background-color: rgba(0,0,0,0.4);
+    }
+    .about-us-citu{
+      margin: 3rem;
+      padding: 0 8rem;
+    }
+    .about-us-feature-item{
+      .about-us-icon{
+        width: 7rem;
+        height: 7rem;
+        background-size: contain;
+        display: inline-block;
+        margin-bottom: 1rem;
+      }
+      .lang-icon-inverse{
+        background-image: url('../../images/icons/about-lang-inverse.svg');
+      }
+      .cult-diff-icon-inverse{
+        background-image: url('../../images/icons/about-culture-diff-inverse.svg');
+      }
+      .all-in-one-icon-inverse{
+        background-image: url('../../images/icons/about-all-in-one-inverse.svg');
+      }
+      .one-site-icon-inverse{
+        background-image: url('../../images/icons/about-dutch-team-inverse.svg');
+      }
+    }
+  }
+  section.who-we-are{
+    padding: 7rem 0;
+    .section-intro{
+      text-align: center;
+      h2{
+        color: $bluish-grey;
+      }
+      .header-line{
+        border-bottom: 1px solid $bluish-grey;
+        margin: 15px auto;
+      }
+      h3{
+        margin-top: 0;
+        color: $mango-orange;
+      }
+    }
+    .about-founder{
+      margin: 5rem 0;
+      .founder-photo{
+        // background-image: url('../../images/founder-photo.jpg');
+        // background-size: 100%;
+        width: 100%;
+        height: auto;
+        border-radius: 100%;
+        padding: 3px;
+        border: 1px solid $silver;
+      }
+    }
+    .citate{
+      .box-normal{
+        padding: 2rem 2rem 2rem 13.5rem;
+        background-image: url('../../images/icons/citate.png');
+        background-size: 8rem;
+        background-position: 2rem 2.8rem;
+        p{font-style: italic;}
+        p.founder-creads, p.founder-title{font-family: $opensans-font;margin: 0; line-height: 1.5;}
+        p.founder-creads{font-style: normal; color: #4e809d;}
+        p.founder-title{ font-size: 1.5rem;}
+      }
+      .social-links{
+        color: $mango-orange; font-family: $opensans-font;
+        .fb{
+          background-image: url(../../images/icons/subs-fb-hover.svg);
+        }
+        .in{
+          background-image: url(../../images/icons/subs-in-hover.svg);
+        }
+        .insta{
+          background-image: url(../../images/icons/subs-inst-hover.svg);
+        }
+      }
+    }
+  }
+  section.our-clients{
+  }
+  section.magazine{
+    padding: 4rem 0 6rem;
+  }
+}
+@media (max-width: 1024px){
+  .about-us-page{
+    section.we-have{
+      .we-have-container{
+        .about-us-item{
+          .about-us-item-el{
+            margin: 0;
+          }
+        }
+      }
+    }
+    section.history-features{
+      .citu-history{
+        .about-us-citu{
+          margin: 3rem 0;
+          padding: 0;
+        }
+      }
+    }
+    section.who-we-are{
+      padding: 7rem 0 10rem;
+      .citate{
+        .social-links{
+          bottom: -5rem;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px){
+  .about-us-page{
+    section.we-have{
+      .we-have-container{
+        .about-us-item{
+          .about-us-item-el{
+            margin: 0;
+          }
+          .icon.vision-icon{
+            margin-right: -16rem;
+          }
+          .icon.mission-icon{
+            margin-left: -11rem;
+          }
+        }
+        .box-normal{
+          width: 22rem;
+        }
+      }
+    }
+    section.history-features{
+      padding: 1rem 0 0rem;
+      .citu-history{
+        .about-us-citu{
+          margin-top: 1rem;
+        }
+      }
+    }
+    section.who-we-are{
+      .founder-photo{
+        margin-bottom: 3rem;
+      }
+      .citate{
+        .box-normal{
+          padding: 2rem;
+        }
+      }
+    }
+    section.magazine{
+      padding: 2rem 0 8rem;
+      h3{
+        color: $light-white;
+      }
+      .subscribe-block {
+        padding: 1.5rem 3rem;
+      }
+    }
+  }
+}

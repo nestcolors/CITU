@@ -1,0 +1,318 @@
+@import 'variables';
+.its-service-page{
+  section.about-service{
+    padding: 5rem 0 19rem;
+    background-image: $grey-gradient;
+    .intro-block{
+      padding: 0 3rem;
+      .itc-icon{
+        width: 100%;
+        background-image: url('../../images/icons/itc.svg');
+        height: 19rem;
+        background-size: 100%;
+      }
+      h3{
+        color: $light-navy;
+        line-height: 1.81;
+        letter-spacing: 0.8px;
+      }
+    }
+    .exp-we-provide{
+      margin-top: 5rem;
+      margin-bottom: 7rem;
+      h2{
+        text-align: center;
+        color: $light-navy;
+      }
+      .exp-items-container{
+        margin: 5rem 0;
+        .form-item{
+          padding: 3rem 2rem 2rem;
+          .icon{
+            height: 8rem;
+            width: 9rem;
+            background-size: 100%;
+            margin: 0 auto;
+          }
+          .dev-its{background-image: url('../../images/icons/service/ITS-development.svg');}
+          .des-its{background-image: url('../../images/icons/service/ITS-design.svg');}
+          .ill-its{background-image: url('../../images/icons/service/ITS-illustration.svg'); background-size: 107%;}
+          h3{
+            text-align: center;
+            color: $mango-orange;
+          }
+          .header-line{
+            border-bottom: 1px solid $silver;
+            width: 4rem;
+            margin: 7px auto 1.6rem;
+          }
+          ul{
+            li{
+              color: $bluish-grey;
+            }
+          }
+        }
+      }
+    }
+  }
+  section.form-we-work{
+    padding: 7rem 0;
+    background-color: $pale-grey;
+    .form-items-container{
+      margin-top: -25rem;
+      margin-bottom: 10rem;
+      h2{
+        text-align: center;
+        margin-bottom: 4rem;
+      }
+      .box-normal{
+        margin-top: 2rem;
+        padding: 3rem 3rem 2rem;
+        h3{
+          color: $light-navy;
+          margin: 0 0 1.5rem;
+        }
+        ul{
+          li{color: $bluish-grey;margin-top: 5px;}
+        }
+      }
+    }
+    .how-it-works{
+      text-align: center;
+      h2{margin-bottom: 4rem;}
+      h3{color: $light-navy;}
+      .steps-container{
+        margin-bottom: 5rem;
+        .step-item{
+          padding-bottom: 1rem;
+          height: 17rem;
+          margin-top: 3rem;
+          h2{color: $mango-orange; text-align: left; margin: 0rem 0 1rem 1rem; font-size: 2.8rem;}
+          .header-line{
+            border-bottom: 1px solid $pale-grey;
+            width: 100%;
+            margin-top: 0.5rem;
+            margin-bottom: 1rem;
+          }
+          p{
+            padding: 0 1rem 1rem;
+            text-align: left;
+            color: $bluish-grey;
+            font-size: 1.8rem;
+          }
+        }
+      }
+      .project-type-container{
+        padding: 1rem 0 5rem;
+        .project-type-item{
+          margin-top: 3rem;
+          padding: 2rem 2rem 3rem;
+          h3{color: $mango-orange;}
+          .header-line{
+            width: 4rem;
+            margin: 1rem auto 1rem;
+            border-bottom: 1px solid $silver;
+          }
+          .icon{
+            width: 11rem;
+            height: 9rem;
+            background-size: 100%;
+            background-position: center;
+            margin: 2rem auto 1.5rem;
+          }
+          .icon-one{background-image: url('../../images/icons/service/ITS-one.svg');}
+          .icon-team{background-image: url('../../images/icons/service/ITS-team.svg');}
+          .icon-solution{background-image: url('../../images/icons/service/ITS-solution.svg');}
+          ul{
+            li{
+              color: #4e809d;
+              text-align: left;
+              margin-top: 1rem;
+              padding-left: 0.5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+  section.magazine{
+    padding: 4rem 0 6rem;
+  }
+}
+
+@media (max-width: 1024px){
+  .its-service-page{
+    section.about-service{
+      .exp-we-provide{
+        margin-top: 3rem;
+        margin-bottom: 4rem;
+        .form-item{
+          ul{
+            padding-left: 2rem;
+          }
+        }
+      }
+    }
+    section.form-we-work{
+      padding: 2rem 0 0;
+      .container{width: 100%;}
+      .how-it-works{
+        .project-type-container{
+          .project-type-item{
+            margin-bottom: 2rem;
+          }
+          #its-services{
+            padding-left: 10rem;
+            .slick-slide{
+              margin-right: 3rem;
+            }
+            .slick-list.draggable {
+              padding: 0 0 4rem;
+            }
+            .slick-dots{margin-left:-10rem;}
+          }
+        }
+      }
+    }
+    .slick-dots li.slick-active button:before{
+      border: 1px solid $light-navy;
+    }
+    .slick-dots li button:before{
+      color: $light-navy;
+    }
+  }
+}
+
+@media (max-width: 768px){
+  .its-service-page{
+    section.about-service{
+      padding-bottom: 12rem;
+      .exp-we-provide{
+        .exp-items-container{
+          .form-item{
+            padding: 1rem 2rem;
+            ul{
+              li{
+                margin-top: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    section.form-we-work{
+      .container{}
+      .form-items-container{
+        margin-top: -17rem;
+      }
+      .how-it-works{
+        .project-type-container{
+          #its-services{
+            padding-left: 0rem;
+            .slick-slide{
+              margin-right: 0rem;
+            }
+            .slick-list.draggable {
+            }
+            .slick-dots{margin-left:-4rem;}
+          }
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 375px){
+  .its-service-page{
+    section.intro{
+      .tagline-container{
+        margin-top: 30vh;
+        .logo{
+          width: 20rem;
+          height: 11rem;
+        }
+      }
+      .intro-block{
+        padding: 0;
+        .itc-icon{
+          height: 16rem;
+        }
+      }
+    }
+    section.about-service{
+      padding: 3rem 0 8rem;
+      .intro-block{
+        padding:0;
+        h3{
+          letter-spacing: 0;
+        }
+      }
+      .exp-we-provide{
+        .exp-items-container{
+          .form-item{
+            padding: 1rem 2rem;
+            margin-bottom: 2rem;
+            ul{
+              padding-left: 3rem;
+              li{
+                // margin-top: 0.3rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    section.form-we-work{
+      .form-items-container{
+        margin-top: -15rem;
+      }
+
+      .how-it-works{
+        h2{
+          margin-bottom: 0;
+        }
+        .project-type-container{
+          .project-type-item{
+            padding: 1rem 2rem 3rem;
+            ul{
+              padding-left: 2rem;
+              li{
+                margin-top: 0.3rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    section.magazine{
+      padding: 2rem 0 8rem;
+      h3{
+        color: $white-grey;
+      }
+      .subscribe-block {
+        padding: 1.5rem 3rem;
+      }
+    }
+  }
+}
+@media (max-width: 375px){
+  .its-service-page{
+    section.intro{
+      .tagline-container{
+        margin-top: 26vh;
+        .logo{
+          width: 20rem;
+          height: 10rem;
+        }
+      }
+      .intro-block{
+        padding: 0;
+        line-height: 1.6;
+        .itc-icon{
+          height: 16rem;
+        }
+      }
+    }
+  }
+}

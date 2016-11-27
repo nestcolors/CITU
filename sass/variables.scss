@@ -3,6 +3,10 @@
   src: url('../../fonts/Roboto_Slab/RobotoSlab-Regular.ttf') format('truetype');
 }
 @font-face{
+  font-family: 'RobotoSlabLight';
+  src: url('../../fonts/Roboto_Slab/RobotoSlab-Light.ttf') format('truetype');
+}
+@font-face{
   font-family: 'OpenSans';
   src: url('../../fonts/Open_Sans/OpenSans-Regular.ttf') format('truetype');
 }
@@ -16,11 +20,13 @@
 }
 
 $roboto-font: RobotoSlab, serif;
+$roboto-font-light: RobotoSlabLight, serif;
 $opensans-font: OpenSans, sans-serif;
 $opensans-font-light: OpenSansLight, sans-serif;
 $opensans-font-bold: OpenSansBold, sans-serif;
 
 $white: #fff;
+$black: #000;
 $light-white: #fefefe;
 $half-white: rgba(255,255,255,0.5);
 $transparent: rgba(0,0,0,0);
@@ -32,5 +38,8 @@ $light-navy: #186287;
 $bluish-grey: #78909c;
 $mango-orange: #fbb025;
 $light-black: rgba(0,0,0,0.2);
+
+$grey-gradient: linear-gradient(130deg,#FCFCFC,#F8F8F8);
+$orange-gradient: linear-gradient(70deg, #f9d323, #f79835);
 
 $top-bar-bg: #1f4a65;

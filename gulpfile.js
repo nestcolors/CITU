@@ -32,23 +32,23 @@ gulp.task('jshint', function() {
 
 gulp.task('scripts', function() {
   gulp.src('js/*.js')
-    .pipe(browserify({
-      insertGlobals : true,
-      debug : !gulp.env.production
-    }))
-    .pipe(gulp.dest('./build/js/'))
-    .pipe(uglify())
-    .pipe(rename({
-	     extname: '.min.js'
-	   }))
-    .pipe(replace('./build/js/*.min.js'))
+    // .pipe(browserify({
+    //   insertGlobals : true,
+    //   debug : !gulp.env.production
+    // }))
+    // .pipe(gulp.dest('./build/js/'))
+    // .pipe(uglify())
+    // .pipe(rename({
+	   //   extname: '.min.js'
+	   // }))
+    // .pipe(replace('./build/js/*.min.js'))
     .pipe(gulp.dest('./build/js'))
     .pipe(notify({ message: 'JS files complete' }));
 });
 
 gulp.task('watch', function() {
   gulp.watch('sass/**/*.scss', ['sass']);
-  gulp.watch('js/**/*.js', ['jshint', 'scripts']);
+  gulp.watch('js/**/*.js', ['scripts']);
   gulp.watch('views/**/*.html', ['html']);
 });
 

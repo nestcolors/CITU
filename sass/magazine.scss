@@ -1,0 +1,204 @@
+@import 'variables';
+body.about-us-page{
+  background-color: $light-white;
+}
+.magazine-page{
+  .intro{
+    position: relative;
+    background-image: url('../../images/magazine-bg.jpg');
+    background-size: 130%;
+    background-position: center;
+    background-attachment: fixed;
+    padding-bottom: 4rem;
+    height: initial;
+    .tagline-container{
+      margin-top: initial;
+    }
+    .color-overlay{
+      background-color: $light-navy;
+      opacity: 0.4;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+    }
+    .logo{
+      margin-top: 4rem;
+      background-image: url('../../images/icons/logo-blog.png');
+      position: relative;
+    }
+    h1{
+      color: $light-white;
+      font-family: $roboto-font-light;
+      text-align: center;
+      position: relative;
+      margin: 0;
+    }
+  }
+  section.magazine{
+    padding: 7rem 0;
+    background-image: $grey-gradient;
+    h3{
+      color: $light-navy;
+    }
+    .blog-items-list-container{
+      .init-blog-item{
+        height: 30rem;
+        .post-image{
+          width: 22rem;
+        }
+        .post-text{
+          padding: 1rem 2rem 1rem 1rem;
+          width: 53rem;
+          p.small-text{
+            font-size: 1.5rem;
+          }
+        }
+      }
+      .blog-items-list{
+        margin: 4rem 0;
+        .box-normal{
+          margin-top: 1rem;
+          height: 22rem;
+          .post-text{
+            width: 24rem;
+          }
+        }
+      }
+      a.box-normal:hover{
+        h3, h4{
+          color: $mango-orange;
+        }
+      }
+    }
+    .button{
+      display: block;
+      width: 14rem;
+      margin: 0 auto;
+    }
+  }
+  section.magazine-blog{
+    padding: 4rem 0 6rem;
+    background-image: $orange-gradient;
+  }
+}
+@media (max-width: 1200px){
+  .magazine-page{
+    section.magazine{
+      .blog-items-list-container{
+        .init-blog-item{
+          .post-image{
+            width: 14rem;
+          }
+          .post-text{
+            width: 47rem;
+            p.small-text{
+              font-size: 1.3rem;
+            }
+          }
+        }
+        .blog-items-list{
+          .box-normal{
+            .post-image{
+              width: 5rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 768px){
+  .magazine-page{
+    .intro{
+      background-position: top;
+      }
+    section.magazine{
+      .blog-items-list-container{
+        .init-blog-item{
+          // height: 28rem;
+          .post-image{
+            width: 14rem;
+          }
+          .post-text{
+            width: 45rem;
+            p.small-text{
+              font-size: 1.3rem;
+            }
+          }
+        }
+        .blog-items-list{
+          .box-normal{
+            margin: 1rem 0;
+            height: 18rem;
+            .post-image{
+              width: 14rem;
+            }
+            .post-text{
+              width: 35rem;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px){
+  .magazine-page{
+    section.intro{
+      padding-bottom: 2rem;
+      .tagline-container{
+        .logo{
+          margin-top: 6rem;
+          width: 20rem;
+          height: 11rem;
+        }
+      }
+    }
+    .slick-arrow{display: none;}
+    section.magazine{
+      .blog-items-list-container{
+        .init-blog-item{
+          overflow-y: hidden;
+          height: 28rem;
+          .post-image{
+            width: 10rem;
+          }
+          .post-text{
+            width: 24rem;
+            p.small-text{
+              font-size: 1.3rem;
+            }
+          }
+        }
+        .blog-items-list{
+          .box-normal{
+            .post-image{
+              width: 6rem;
+            }
+            .post-text{
+              width: 28rem;
+              h4{
+                letter-spacing: 0;
+                margin-bottom: 0.5rem;
+              }
+              p{
+                margin-top: 0.5rem;
+              }
+            }
+          }
+        }
+      }
+    }
+    section.magazine-blog{
+      padding: 2rem 0 8rem;
+      h3{
+        color: $white-grey;
+      }
+      .subscribe-block {
+        padding: 1.5rem 3rem;
+      }
+    }
+  }
+}
