@@ -1,0 +1,56 @@
+@import 'variables';
+.bds-service-page{
+  section.about-service{
+    padding-bottom: 13rem;
+    .intro-block{
+      .itc-icon{
+        background-image: url(../../images/icons/bds.svg)
+      }
+    }
+    .exp-we-provide{
+      .exp-items-container{
+        .icon{
+          background-size: 86% !important;
+        }
+        .form-item{
+          .biz-support-bds{background-image: url('../../images/icons/service/BDS-biz-support.svg');}
+          .biz-dev-bds{background-image: url('../../images/icons/service/BDS-biz-dev.svg');}
+          .marketing-bds{background-image: url('../../images/icons/service/BDS-marketing.svg');}
+        }
+      }
+    }
+  }
+  section.form-we-work{
+    padding-bottom: 0;
+  }
+}
+@media (max-width: 1024px){
+  .bds-service-page{
+    section.about-service{
+      .exp-we-provide{
+        margin-bottom: 0rem;
+      }
+    }
+    section.form-we-work{
+      .form-items-container{
+        margin-bottom: 0rem;
+      }
+    }
+  }
+}
+@media (max-width: 375px){
+  section.form-we-work{
+    .form-items-container{
+      .box-normal{
+        .row{
+          div{
+            margin: 1.5rem 0;
+          }
+        }
+      }
+    }
+    .project-type{
+      border-bottom: 1px solid $pale-grey;
+    }
+  }
+}

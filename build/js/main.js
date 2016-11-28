@@ -80,7 +80,7 @@ $('document').ready(function(){
   }
 
   if($( window ).width() < 376){
-    $('#its-services').slick({
+    $('#its-services, #bds-services').slick({
       dots: true,
       infinite: false,
       slidesToShow: 2,
