@@ -118,3 +118,45 @@
 [Wed Nov 30 07:31:05.389188 2016] [:error] [pid 1262] [client 127.0.0.1:51394] PHP   2. do_action($tag = *uninitialized*, $arg = *uninitialized*) /home/alex/sites/citu/wp-admin/admin-ajax.php:44, referer: http://citu/wp-admin/options-general.php?page=home%2Falex%2Fsites%2Fcitu%2Fwp-content%2Fthemes%2Fcitu%2Fabv_options.php
 [Wed Nov 30 07:31:05.389193 2016] [:error] [pid 1262] [client 127.0.0.1:51394] PHP   3. abv_admin_settings(*uninitialized*) /home/alex/sites/citu/wp-includes/plugin.php:524, referer: http://citu/wp-admin/options-general.php?page=home%2Falex%2Fsites%2Fcitu%2Fwp-content%2Fthemes%2Fcitu%2Fabv_options.php
 [Wed Nov 30 07:31:05.389199 2016] [:error] [pid 1262] [client 127.0.0.1:51394] PHP   4. add_settings_field($id = *uninitialized*, $title = *uninitialized*, $callback = *uninitialized*, $page = *uninitialized*, $section = *uninitialized*, $args = *uninitialized*) /home/alex/sites/citu/wp-content/themes/citu/abv_options.php:40, referer: http://citu/wp-admin/options-general.php?page=home%2Falex%2Fsites%2Fcitu%2Fwp-content%2Fthemes%2Fcitu%2Fabv_options.php
+[Wed Nov 30 14:08:20.742848 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-index.php on line 308
+[Wed Nov 30 14:08:20.742879 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP Stack trace:
+[Wed Nov 30 14:08:20.742922 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   1. {main}() /home/alex/sites/citu/index.php:0
+[Wed Nov 30 14:08:20.742927 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   2. require() /home/alex/sites/citu/index.php:17
+[Wed Nov 30 14:08:20.742932 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19
+[Wed Nov 30 14:08:20.742936 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75
+[Wed Nov 30 14:08:20.742941 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:12
+[Wed Nov 30 14:08:20.742951 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-index.php on line 308
+[Wed Nov 30 14:08:20.742957 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP Stack trace:
+[Wed Nov 30 14:08:20.742962 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   1. {main}() /home/alex/sites/citu/index.php:0
+[Wed Nov 30 14:08:20.742966 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   2. require() /home/alex/sites/citu/index.php:17
+[Wed Nov 30 14:08:20.742970 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19
+[Wed Nov 30 14:08:20.742974 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75
+[Wed Nov 30 14:08:20.742978 2016] [:error] [pid 7550] [client 127.0.0.1:58016] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:12
+[Wed Nov 30 14:17:25.335346 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-index.php on line 308
+[Wed Nov 30 14:17:25.335380 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP Stack trace:
+[Wed Nov 30 14:17:25.335411 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   1. {main}() /home/alex/sites/citu/index.php:0
+[Wed Nov 30 14:17:25.335417 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   2. require() /home/alex/sites/citu/index.php:17
+[Wed Nov 30 14:17:25.335422 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19
+[Wed Nov 30 14:17:25.335426 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75
+[Wed Nov 30 14:17:25.335430 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:12
+[Wed Nov 30 14:17:25.335443 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-index.php on line 308
+[Wed Nov 30 14:17:25.335448 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP Stack trace:
+[Wed Nov 30 14:17:25.335452 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   1. {main}() /home/alex/sites/citu/index.php:0
+[Wed Nov 30 14:17:25.335462 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   2. require() /home/alex/sites/citu/index.php:17
+[Wed Nov 30 14:17:25.335466 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19
+[Wed Nov 30 14:17:25.335470 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75
+[Wed Nov 30 14:17:25.335474 2016] [:error] [pid 10926] [client 127.0.0.1:58150] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:12
+[Wed Nov 30 14:21:37.806957 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-index.php on line 312
+[Wed Nov 30 14:21:37.806991 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP Stack trace:
+[Wed Nov 30 14:21:37.807032 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   1. {main}() /home/alex/sites/citu/index.php:0
+[Wed Nov 30 14:21:37.807039 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   2. require() /home/alex/sites/citu/index.php:17
+[Wed Nov 30 14:21:37.807043 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19
+[Wed Nov 30 14:21:37.807048 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75
+[Wed Nov 30 14:21:37.807052 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:12
+[Wed Nov 30 14:21:37.807062 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-index.php on line 312
+[Wed Nov 30 14:21:37.807068 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP Stack trace:
+[Wed Nov 30 14:21:37.807073 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   1. {main}() /home/alex/sites/citu/index.php:0
+[Wed Nov 30 14:21:37.807077 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   2. require() /home/alex/sites/citu/index.php:17
+[Wed Nov 30 14:21:37.807081 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19
+[Wed Nov 30 14:21:37.807086 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75
+[Wed Nov 30 14:21:37.807090 2016] [:error] [pid 10875] [client 127.0.0.1:58188] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:12

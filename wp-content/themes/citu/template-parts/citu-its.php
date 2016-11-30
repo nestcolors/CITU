@@ -29,28 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="nav-bar color">
-                <div class="pull-left">
-                    <a href="index.html" class="nav-logo logo-color"></a>
-                    <div class="main-links hide-mobile">
-                        <a href="its.html" class="itc"><span>Internet Communication<br> & Technolory</span> <span class="nav-arrow color-arrow"></span></a>
-                        <a href="bds.html" class="bds"><span>Business Development<br> & Support</span> <span class="nav-arrow color-arrow"></span></a>
-                    </div>
-                </div>
-                <div class="pull-right no-padding ">
-                    <ul class="menu hide-tablet">
-                        <li><a href="magazine.html">magazine</a></li>
-                        <li><a href="about-us.html">about us</a></li>
-                        <li><a href="">eng *</a></li>
-                        <li><a href="">get in touch</a></li>
-                    </ul>
-                    <div class="mobile-menu-icon hide-pc">
-                        <ul class="black">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
+                <?php include ('citu-menu-main-color.php'); ?>
             </div>
         </div>
     </div>
