@@ -29,7 +29,7 @@
   }
 }
 section.about-service{
-  padding: 5rem 0 19rem;
+  padding: 5rem 0 29rem;
   background-image: $grey-gradient;
   .intro-block{
     padding: 0 3rem;
@@ -39,14 +39,16 @@ section.about-service{
       background-size: 100%;
     }
     h3{
-      color: $light-navy;
-      line-height: 1.81;
+      color: $bluish-grey;
+      line-height: 1.6;
       letter-spacing: 0.8px;
+      text-align: center;
+      margin-top: -0.5rem;
     }
   }
   .exp-we-provide{
-    margin-top: 5rem;
-    margin-bottom: 7rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
     h2{
       text-align: center;
       color: $light-navy;
@@ -78,18 +80,12 @@ section.about-service{
       }
     }
   }
-}
-section.form-we-work{
-  padding: 7rem 0;
-  background-color: $pale-grey;
   .form-items-container{
-    margin-top: -25rem;
-    margin-bottom: 10rem;
     h2{
       text-align: center;
       margin-bottom: 4rem;
     }
-    .box-normal{
+    .form-items{
       margin-top: 2rem;
       padding: 3rem 3rem 2rem;
       h3{
@@ -101,7 +97,12 @@ section.form-we-work{
       }
     }
   }
+}
+section.form-we-work{
+  padding: 7rem 0;
+  background-color: $pale-grey;
   .how-it-works{
+    margin-top: -32rem;
     text-align: center;
     h2{margin-bottom: 4rem;}
     h3{color: $light-navy;}
@@ -109,9 +110,9 @@ section.form-we-work{
       margin-bottom: 5rem;
       .step-item{
         padding-bottom: 1rem;
-        height: 17rem;
+        height: 16rem;
         margin-top: 3rem;
-        h2{color: $mango-orange; text-align: left; margin: 0rem 0 1rem 1rem; font-size: 2.8rem;}
+        h3{font-size: 2.3rem;color: $mango-orange; text-align: left; margin: 0rem 0 1rem 1rem;}
         .header-line{
           border-bottom: 1px solid $pale-grey;
           width: 100%;
@@ -164,8 +165,8 @@ section.magazine{
   section.about-service{
     .exp-we-provide{
       margin-top: 3rem;
-      margin-bottom: 4rem;
-      padding-bottom: 4rem;
+      // margin-bottom: 4rem;
+      // padding-bottom: 4rem;
       .form-item{
         ul{
           padding-left: 2rem;
@@ -177,6 +178,7 @@ section.magazine{
     padding: 2rem 0 0;
     .container{width: 100%;}
     .how-it-works{
+      margin-top: -27rem;
       .project-type-container{
         .project-type-item{
           margin-bottom: 2rem;
@@ -218,12 +220,9 @@ section.magazine{
         }
       }
     }
-  }
-  section.form-we-work{
-    padding: 2rem 0 5rem;
-    .container{}
     .form-items-container{
       margin-top: -17rem;
+      padding-bottom: 14rem;
       .box-normal{
         padding: 3rem 2rem 2rem;
         ul{
@@ -231,6 +230,10 @@ section.magazine{
         }
       }
     }
+  }
+  section.form-we-work{
+    padding: 2rem 0 5rem;
+    .container{}
     .how-it-works{
       .project-type-container{
         #its-services{
@@ -287,17 +290,22 @@ section.magazine{
           }
         }
       }
-    }
-    section.form-we-work{
       .form-items-container{
         margin-top: -15rem;
+        padding-bottom: 19rem;
+        h2{
+          margin-bottom: 0;
+        }
       }
+    }
+    section.form-we-work{
 
       .how-it-works{
         h2{
           margin-bottom: 0;
         }
         .project-type-container{
+          padding-bottom: 0;
           .project-type-item{
             padding: 1rem 2rem 3rem;
             ul{

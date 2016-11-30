@@ -61,11 +61,15 @@
         <div class="row"><!-- intro-block -->
             <div class="col-md-8 col-md-offset-2">
                 <div class="intro-block ">
-                    <div class="col-sm-6">
-                        <div class="itc-icon icon"></div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <div class="itc-icon icon"></div>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        <h3>We work with a network of partners in Ukraine who make our full-range services possible.</h3>
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1">
+                            <h3>We work with a network of partners in Ukraine who make our full-range services possible.</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,47 +126,48 @@
                 </div>
             </div>
         </div><!-- EOF form-block -->
+
+        <div class="form-items-container"> <!-- form-items-container -->
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                    <h2>In the form that You need</h2>
+                    <div class="form-items">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3>Developers</h3>
+                                <ul>
+                                    <li>Project basis (fixed price)</li>
+                                    <li>Part-time (time & material)</li>
+                                    <li>Fulltime (dedicated)</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Teams</h3>
+                                <ul>
+                                    <li>Dedicated specialists according to your requirements</li>
+                                    <li>Legal and administrative assistance</li>
+                                    <li>Back-office support</li>
+                                    <li>Project management</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Solutions</h3>
+                                <ul>
+                                    <li>Project management in the Netherlands</li>
+                                    <li>Dedicated team in Ukraine including project managers</li>
+                                    <li>business analysts, testers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- EOF form-items-container -->
     </div>
 </section>
 
 <section class="form-we-work"><!-- form-we-work -->
     <div class="container">
-        <div class="form-items-container"> <!-- form-items-container -->
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
-                    <h2>In the form that You need</h2>
-
-                    <div class="box-normal">
-                        <h3>IT specialists on a different basis:</h3>
-                        <ul>
-                            <li>Project basis (fixed price)</li>
-                            <li>Part-time (time & material)</li>
-                            <li>Fulltime (dedicated)</li>
-                        </ul>
-                    </div>
-
-                    <div class="box-normal">
-                        <h3>Set up your own team in Ukraine:</h3>
-                        <ul>
-                            <li>Dedicated specialists according to your requirements</li>
-                            <li>Legal and administrative assistance</li>
-                            <li>Back-office support</li>
-                            <li>Project management</li>
-                        </ul>
-                    </div>
-
-                    <div class="box-normal">
-                        <h3>We can develop a completed solution for you:</h3>
-                        <ul>
-                            <li>Project management in the Netherlands</li>
-                            <li>Dedicated team in Ukraine including project managers</li>
-                            <li>business analysts, testers</li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </div> <!-- EOF form-items-container -->
 
         <div class="how-it-works"> <!-- how-it-works-container -->
             <h2>How it works?</h2>
@@ -174,7 +179,7 @@
                     <div class="col-md-2 col-sm-3">
                         <div class="box-normal step-item">
                             &nbsp
-                            <h2>I</h2>
+                            <h3>step 1</h3>
                             <div class="header-line"></div>
                             <p>Define a service package</p>
                         </div>
@@ -183,7 +188,7 @@
                     <div class="col-md-2 col-sm-3">
                         <div class="box-normal step-item">
                             &nbsp
-                            <h2>II</h2>
+                            <h3>step 2</h3>
                             <div class="header-line"></div>
                             <p>Create a roadmap </p>
                         </div>
@@ -192,7 +197,7 @@
                     <div class="col-md-2 col-sm-3">
                         <div class="box-normal step-item">
                             &nbsp
-                            <h2>III</h2>
+                            <h3>step 3</h3>
                             <div class="header-line"></div>
                             <p>Work it out!</p>
                         </div>
@@ -201,7 +206,7 @@
                     <div class="col-md-2 col-sm-3">
                         <div class="box-normal step-item">
                             &nbsp
-                            <h2>IV</h2>
+                            <h3>step 4</h3>
                             <div class="header-line"></div>
                             <p>Evaluate the results</p>
                         </div>
