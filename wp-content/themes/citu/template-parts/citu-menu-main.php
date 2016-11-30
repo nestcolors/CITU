@@ -7,14 +7,18 @@
 </div>
 <div class="pull-right no-padding">
     <ul class="menu hide-tablet">
-        <li><a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>">magazine</a></li>
-        <li><a href="<?php echo AbvFunctions::set_pll_link('/about') ?>">about us</a></li>
-        <li><ul><?php pll_the_languages(array('show_flags'=>0,
+        <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>">magazine</a>
+        <a href="<?php echo AbvFunctions::set_pll_link('/about') ?>">about us</a>
+        
+            <ul class="lang-switcher">
+                <?php pll_the_languages(array('show_flags'=>0,
                     'show_names'=>1,
                     'dropdown'=>0,
                     'display_names_as'=>'slug'
-                ));?></ul></li>
-        <li><a href="#getintouch">get in touch</a></li>
+                ));?>
+            </ul>
+        
+        <a href="#getintouch">get in touch</a>
     </ul>
     <div class="mobile-menu-icon hide-pc">
         <ul class="white">

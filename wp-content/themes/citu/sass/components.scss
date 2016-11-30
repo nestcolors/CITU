@@ -1,3 +1,4 @@
+// AIzaSyCvg6ly2yFkg4LMQfvvJJzRiuLcSDdU2ms
 @import 'variables';
 .show-pc{display: block;}
 .hide-pc{display: none;}
@@ -169,24 +170,38 @@ p{
   }
   ul.menu{
     list-style-type: none;
-    width: 40rem;
+    width: 50rem;
     a{
-      padding: 21px 11px 19px 11px;
       float: left;
+      padding: 21px 11px 19px 11px;
       border-bottom: 2px solid rgba(0,0,0,0);
     }
     a:hover, a.active{
       border-bottom: 2px solid $light-white;
       color: $mango-orange;
     }
-    li:last-child a{
-      background-color: $half-white;
-      color: $light-navy;
+    ul.lang-switcher{
+      list-style-type: none;
+      float: left;
+      padding: 0;
+      margin: 1rem 2rem;
+      a{
+        float: none;
+        padding: 0;
+      }
+      a:hover{
+        color: orange;
+        border-bottom: 1px solid rgba(0,0,0,0);
+      }
     }
-    li:last-child a:hover, li:last-child a.active{
-      color: $light-white;
-      border-bottom: 2px solid $mango-orange;
-    }
+  }
+  ul.menu > a:last-child{
+    background-color: $half-white;
+    color: $light-navy;
+  }
+  ul.menu > a:last-child:hover, ul.menu> a.active:last-child{
+    color: $light-white;
+    border-bottom: 2px solid $mango-orange;
   }
 }
 .nav-bar-full-width{
@@ -220,14 +235,14 @@ p{
     a:hover, a.active{
       border-bottom: 2px solid $light-navy;
     }
-    li:last-child a{
-      color: $light-white;
-      background-color: $light-navy;
-    }
-    li:last-child a:hover, li:last-child a.active{
-      color: $light-white;
-      border-bottom: 2px solid $mango-orange;
-    }
+  }
+  ul.menu > a:last-child{
+    color: $light-white;
+    background-color: $light-navy;
+  }
+  ul.menu > a:last-child:hover, ul.menu > a.active:last-child{
+    color: $light-white;
+    border-bottom: 2px solid $mango-orange;
   }
 }
 .mobile-menu-icon{
@@ -501,10 +516,30 @@ section.our-clients{
 section.contact-us{
   padding: 17rem 0 15rem;
   background-color: silver;
+  position: relative;
+  #map{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+  }
+  .gradient{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 5rem;
+    background-image: linear-gradient(180deg,rgba(250, 250, 250, 1),rgba(250, 250, 250, 0));
+    z-index: 2;
+  }
   .contact-us-container{
     background-color: $light-navy;
     padding: 6rem 7rem 3rem;
     position: relative;
+    border-radius: 2px;
+    z-index: 3;
     h2{
       color: $white-grey;
       margin: 0 0 2.7rem;
@@ -555,7 +590,7 @@ section.contact-us{
         border-radius: 2px;
         border-color: $silver;
         font-style: italic;
-        color: orange;
+        color: $bluish-grey;
       }
       input[type=text], input[type=email]{
         width: 28rem;
@@ -565,7 +600,7 @@ section.contact-us{
         border: 1px solid transparent;
         border-bottom: 1px solid $silver;
         font-style: italic;
-        color: orange;
+        color: $bluish-grey;
         transition: 0.1s;
       }
       input[type=submit]{

@@ -36,6 +36,24 @@
 </section><!-- cellar section end-->
 
 <?php wp_footer(); ?>
-
+<script type="text/javascript">
+	var map;
+	function initMap() {
+	  map = new google.maps.Map(document.getElementById('map'), {
+	    center: {lat: -34.397, lng: 150.644},
+	    zoom: 8,
+		  scrollwheel: false,
+		  navigationControl: false,
+		  mapTypeControl: false,
+		  scaleControl: false,
+		  scaleControl: false,
+		  streetViewControl: false,
+		  rotateControl: false
+	  });
+	}
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvg6ly2yFkg4LMQfvvJJzRiuLcSDdU2ms&callback=initMap">
+    </script>
 </body>
 </html>
