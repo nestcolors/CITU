@@ -2,124 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="94da474b-c827-4bf1-b610-c6d347c87ab4" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/ABVCitu.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/about-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/bds-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/bds.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/index-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/its-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/its.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/magazine-nl.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/magazine.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/toggle-switch/toggle-switch-rtl.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/toggle-switch/toggle-switch-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/toggle-switch/toggle-switch.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/toggle-switch/toggle-switch.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-basic-seo-training.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-configuration-service.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-local-seo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-news-seo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-premium-seo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-seo-copywriting-training.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-video-seo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-website-review.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-woocommerce-seo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/images/banner-yoast-seo-for-wordpress-training.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-admin-global-350.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-metabox-380.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-post-scraper-380.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-recalculate-380.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-term-scraper-380.min.js" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/bds.html" afterPath="$PROJECT_DIR$/wp-content/themes/citu/bds.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/icons/service/BDS-biz-support.svg" afterPath="$PROJECT_DIR$/wp-content/themes/citu/images/icons/service/BDS-biz-support.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-bg_BG.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-bg_BG.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ca.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ca.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-da_DK.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-de_DE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-de_DE.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_AU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_AU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_GB.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-en_GB.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_ES.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_ES.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_MX.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-es_MX.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fa_IR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fa_IR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-fr_FR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-he_IL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-he_IL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-hr.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-hr.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ja.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ja.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nb_NO.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nb_NO.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-nl_NL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pl_PL.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pl_PL.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_PT.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-pt_PT.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ru_RU.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-ru_RU.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-sv_SE.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-sv_SE.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-tr_TR.mo" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-tr_TR.mo" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/1.sql" afterPath="$PROJECT_DIR$/db/1.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload_52.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/autoload_52.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_classmap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real_52.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/vendor/composer/autoload_real_52.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/bds.scss" afterPath="$PROJECT_DIR$/sass/bds.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin-asset-manager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/class-gsc.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/class-gsc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/metabox/class-metabox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-opengraph.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/frontend/class-opengraph.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-product-upsell-notice.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-product-upsell-notice.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/inc/sitemaps/class-sitemap-timezone.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-metabox.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/taxonomy/class-taxonomy-metabox.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-dashboard-widget.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-dashboard-widget.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/class-yoast-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/configuration-wizard-380.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/configuration-wizard-380.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main-color.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/abv_options.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/abv_options.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access.log" afterPath="$PROJECT_DIR$/access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/footer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/functions.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/views/gsc-display.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/google_search_console/views/gsc-display.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/header.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/index.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/kb-search-350-rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/kb-search-350-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/kb-search-350-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/kb-search-350-rtl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/licenses.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/pages/licenses.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-380-rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-380-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-380-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/metabox-380-rtl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/metabox-380.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/metabox-380.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-330-rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-330-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-330-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/toggle-switch-330-rtl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/toggle-switch-330.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/toggle-switch-330.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tool-bulk-editor.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/admin/views/tool-bulk-editor.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/wordpress-seo-it_IT.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-admin-380.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-admin-380.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo-main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-replacevar-plugin-380.min.js" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/js/dist/wp-seo-replacevar-plugin-380.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/wp-seo.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yoast-components-371-rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yoast-components-371-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yoast-components-371-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yoast-components-371-rtl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yoast-components-371.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yoast-components-371.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ca.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-ca.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_NL.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-nl_NL.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_PT.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-pt_PT.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-tr_TR.json" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/languages/yoast-components-tr_TR.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-380-rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-380-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-380-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_plugin_tools-380-rtl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yst_plugin_tools-380.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yst_plugin_tools-380.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-330-rtl.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-330-rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-330-rtl.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/dist/yst_seo_score-330-rtl.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yst_seo_score-330.min.css" afterPath="$PROJECT_DIR$/wp-content/plugins/wordpress-seo/css/yst_seo_score-330.min.css" />
     </list>
     <ignored path="citu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -144,18 +35,84 @@
       <file leaf-file-name="citu-magazine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.375">
-              <caret line="21" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="191" selection-end-column="38" />
+            <state vertical-scroll-proportion="-30.625">
+              <caret line="132" column="9" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="39" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="citu-magazine-nl.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="citu-magazine-nl.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.96363634">
+            <state vertical-scroll-proportion="-38.666668">
               <caret line="191" column="38" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.8">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="citu-contact-form" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6181818">
+              <caret line="34" column="94" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbvFunctions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-36.625">
+              <caret line="248" column="49" selection-start-line="248" selection-start-column="49" selection-end-line="248" selection-end-column="49" />
+              <folding>
+                <marker date="1480434687065" expanded="true" signature="320:435" placeholder="SELECT ID FR..." />
+                <marker date="1480434687065" expanded="true" signature="4546:4786" placeholder="select meta_..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abv_options.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/abv_options.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.1111112">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="24" />
+              <folding>
+                <marker date="1480485690102" expanded="true" signature="4878:5237" placeholder="..." />
+                <marker date="1480485690102" expanded="true" signature="4958:5229" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="citu-index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.375">
+              <caret line="328" column="39" selection-start-line="328" selection-start-column="39" selection-end-line="328" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="citu-menu-main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.625">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -171,10 +128,8 @@
       <list>
         <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/abv_options.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/citu/abv_options.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/ABVCitu.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/citu/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/index-nl.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/its.php" />
@@ -189,17 +144,21 @@
         <option value="$PROJECT_DIR$/wp-content/themes/citu/magazine-nl.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/functions.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about-nl.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds-nl.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index-nl.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its-nl.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main-color.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/abv_options.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form" />
       </list>
     </option>
   </component>
@@ -398,7 +357,7 @@
     <frame x="0" y="0" width="1280" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26704547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2508117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -480,17 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/abv_options.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.108827084">
-          <caret line="6" column="75" selection-start-line="6" selection-start-column="75" selection-end-line="6" selection-end-column="75" />
-          <folding>
-            <marker date="1480417442276" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1480417442276" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -504,16 +452,6 @@
         <state vertical-scroll-proportion="0.23579203">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.07255139">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
-          <folding>
-            <element signature="n#section#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -703,29 +641,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.666667">
-          <caret line="248" column="49" selection-start-line="248" selection-start-column="49" selection-end-line="248" selection-end-column="49" />
-          <folding>
-            <marker date="1480434687065" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
-            <marker date="1480434687065" expanded="true" signature="-1:-1" placeholder="select meta_..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/index-nl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.25">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -770,14 +689,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16363636">
-          <caret line="9" column="16" selection-start-line="0" selection-start-column="0" selection-end-line="368" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its-nl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.96363634">
@@ -786,26 +697,88 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-38.666668">
+          <caret line="191" column="38" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21818182">
-          <caret line="21" column="26" selection-start-line="0" selection-start-column="0" selection-end-line="347" selection-end-column="38" />
+        <state vertical-scroll-proportion="-1.25">
+          <caret line="32" column="73" selection-start-line="32" selection-start-column="73" selection-end-line="32" selection-end-column="73" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main-color.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.037406486">
+          <caret line="1" column="70" selection-start-line="1" selection-start-column="70" selection-end-line="1" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.625">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-36.625">
+          <caret line="248" column="49" selection-start-line="248" selection-start-column="49" selection-end-line="248" selection-end-column="49" />
+          <folding>
+            <marker date="1480434687065" expanded="true" signature="320:435" placeholder="SELECT ID FR..." />
+            <marker date="1480434687065" expanded="true" signature="4546:4786" placeholder="select meta_..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.375">
-          <caret line="21" column="39" selection-start-line="0" selection-start-column="0" selection-end-line="191" selection-end-column="38" />
+        <state vertical-scroll-proportion="-30.625">
+          <caret line="132" column="9" selection-start-line="132" selection-start-column="0" selection-end-line="132" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.96363634">
-          <caret line="191" column="38" selection-start-line="191" selection-start-column="38" selection-end-line="191" selection-end-column="38" />
+        <state vertical-scroll-proportion="-29.375">
+          <caret line="328" column="39" selection-start-line="328" selection-start-column="39" selection-end-line="328" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/abv_options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.1111112">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <marker date="1480485690102" expanded="true" signature="4878:5237" placeholder="..." />
+            <marker date="1480485690102" expanded="true" signature="4958:5229" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="18" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6181818">
+          <caret line="34" column="94" selection-start-line="34" selection-start-column="94" selection-end-line="34" selection-end-column="94" />
           <folding />
         </state>
       </provider>
