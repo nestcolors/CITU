@@ -309,5 +309,5 @@
         </div>
     </div>
 </section><!-- about-us section end-->
-<?php include ('citu-contact-form'); ?>
+<?php include ('citu-contact-form.php'); ?>
 

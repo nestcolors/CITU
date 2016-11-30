@@ -1,4 +1,6 @@
 <section class="contact-us">
+    <div id="map"></div>
+    <!-- <div class="gradient"></div> -->
     <div class="container">
         <div class="row">
             <div class="col-xs-12">
