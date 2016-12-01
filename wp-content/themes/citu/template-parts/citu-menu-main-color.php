@@ -11,14 +11,14 @@
         <a href="<?php echo AbvFunctions::set_pll_link('/about') ?>">about us</a>
         <ul class="lang-switcher">
             <?php pll_the_languages(array('show_flags'=>0,
-                    'show_names'=>1,
-                    'dropdown'=>0,
-                    'display_names_as'=>'slug'
-                ));?>
+                'show_names'=>1,
+                'dropdown'=>0,
+                'display_names_as'=>'slug'
+            ));?>
         </ul>
         <a href="#getintouch">get in touch</a>
     </ul>
-    <div class="mobile-menu-icon hide-pc">
+    <div class="mobile-menu-icon hide-pc mobile-menu-toggle">
         <ul class="black">
             <li></li>
             <li></li>

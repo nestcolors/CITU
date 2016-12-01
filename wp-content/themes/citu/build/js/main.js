@@ -121,7 +121,6 @@ $('document').ready(function(){
     });
   }
 
-
   $('#mobile-services-slider').slick({
     dots: true,
     infinite: false,
@@ -143,9 +142,16 @@ $('document').ready(function(){
     });
   }
 
+  $('.mobile-menu-toggle').click(function(){
+    $('.mobile-overlay').fadeIn('slow', 'swing', function(){
+      console.log('done');
+    });
+  });
+  $('.close-mobile-overlay').click(function(){
+    $('.mobile-overlay').fadeOut();
+  });
 
   var showHideNavbar = function(){
-
   }
 
 });

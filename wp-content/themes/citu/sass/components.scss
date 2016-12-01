@@ -22,6 +22,9 @@ body{
 p{
   font-family: $opensans-font;
 }
+.show-element{
+  display: block;
+}
 .clear{clear: both;}
 .center{text-align: center;}
 .right-align{text-align: right;}
@@ -128,7 +131,6 @@ p{
 }
 .nav-bar{
   height: 64px;
-  width: 100vw;
   // background-color: $half-white;
   position: relative;
   z-index: 10;
@@ -214,6 +216,7 @@ p{
   z-index: 9999;
 }
 .nav-bar.color{
+  width: 100vw;
   a{
     color: $light-navy;
   }
@@ -267,6 +270,24 @@ p{
     li{
       background-color: #186287;
     }
+  }
+}
+.mobile-overlay{
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(255,255,255,0.98);
+  z-index: 99999;
+  .close-mobile-overlay{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background-color: $light-navy;
   }
 }
 .subscribe-block{
