@@ -28,12 +28,18 @@
         </div>
     </div>
 </div><!-- sticky header end-->
-<div class="filter">
-
-</div>
 <section class="magazine">
     <div class="container">
         <div class="row filter-block">
+            <ul>
+                <?php ABVCituWidgets::show_category() ?>
+            </ul>
+            <ul>
+                <li><a href="\?orderby=name&order=DESC">Sort by name DESC</a></li>
+                <li><a href="\?orderby=name&order=ASC">Sort by name AESC</a></li>
+                <li><a href="\?orderby=date&order=DESC">Sort by date DESC</a></li>
+                <li><a href="\?orderby=date&order=ASC">Sort by date ASC</a></li>
+            </ul>
         </div>
 
         <div class="blog-items-list-container row">
