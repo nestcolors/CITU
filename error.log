@@ -387,3 +387,122 @@
 [Thu Dec 01 09:37:07.048111 2016] [:error] [pid 22794] [client 127.0.0.1:46812] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php:32
 [Thu Dec 01 09:37:07.048120 2016] [:error] [pid 22794] [client 127.0.0.1:46812] PHP   8. ABVCituWidgets::get_short_content($id = *uninitialized*, $count = *uninitialized*) /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-slider-item.php:7
 [Thu Dec 01 09:37:07.048794 2016] [:error] [pid 22794] [client 127.0.0.1:46812] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php:40\nStack trace:\n#0 /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-slider-item.php(7): ABVCituWidgets::get_short_content(70, 88)\n#1 /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php(32): include('/home/alex/site...')\n#2 /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-single.php(94): ABVCituWidgets::show_slider()\n#3 /home/alex/sites/citu/wp-content/themes/citu/single.php(15): include('/home/alex/site...')\n#4 /home/alex/sites/citu/wp-includes/template-loader.php(75): include('/home/alex/site...')\n#5 /home/alex/sites/citu/wp-blog-header.php(19): require_once('/home/alex/site...')\n#6 /home/alex/sites/citu/index.php(17): require('/home/alex/site...')\n#7 {main}\n  thrown in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 40
+[Thu Dec 01 11:34:00.024813 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-about.php on line 216, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024846 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP Stack trace:, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024877 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024883 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024888 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024892 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024896 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/about.php:12, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024948 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-about.php on line 216, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024955 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP Stack trace:, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024966 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024971 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024975 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024979 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024983 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/about.php:12, referer: http://citu/its/
+[Thu Dec 01 11:36:11.474669 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474715 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474764 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474771 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474776 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474781 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474785 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:12, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474838 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474851 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474856 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474861 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474865 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474870 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474874 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:12, referer: http://citu/about/
+[Thu Dec 01 11:48:07.675378 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/
+[Thu Dec 01 11:48:07.675409 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP Stack trace:, referer: http://citu/
+[Thu Dec 01 11:48:07.675419 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Thu Dec 01 11:48:07.675429 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Thu Dec 01 11:48:07.675433 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Thu Dec 01 11:48:07.675437 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Thu Dec 01 11:48:07.675441 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Thu Dec 01 11:48:07.675493 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/
+[Thu Dec 01 11:48:07.675499 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP Stack trace:, referer: http://citu/
+[Thu Dec 01 11:48:07.675504 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Thu Dec 01 11:48:07.675508 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Thu Dec 01 11:48:07.675512 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Thu Dec 01 11:48:07.675516 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Thu Dec 01 11:48:07.675520 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Thu Dec 01 11:51:02.997254 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/
+[Thu Dec 01 11:51:02.997283 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP Stack trace:, referer: http://citu/
+[Thu Dec 01 11:51:02.997292 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Thu Dec 01 11:51:02.997297 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Thu Dec 01 11:51:02.997302 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Thu Dec 01 11:51:02.997306 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Thu Dec 01 11:51:02.997311 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Thu Dec 01 11:51:02.997360 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/
+[Thu Dec 01 11:51:02.997368 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP Stack trace:, referer: http://citu/
+[Thu Dec 01 11:51:02.997374 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Thu Dec 01 11:51:02.997378 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Thu Dec 01 11:51:02.997383 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Thu Dec 01 11:51:02.997393 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Thu Dec 01 11:51:02.997397 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Thu Dec 01 13:53:32.562547 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP Error:  Cannot use object of type WP_Post as array in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 55, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562614 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562626 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562633 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562639 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562645 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562651 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 13:53:32.563225 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:55\nStack trace:\n#0 /home/alex/sites/citu/wp-content/themes/citu/index.php(14): include()\n#1 /home/alex/sites/citu/wp-includes/template-loader.php(75): include('/home/alex/site...')\n#2 /home/alex/sites/citu/wp-blog-header.php(19): require_once('/home/alex/site...')\n#3 /home/alex/sites/citu/index.php(17): require('/home/alex/site...')\n#4 {main}\n  thrown in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 55, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753455 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Undefined offset: 5 in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 67, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753502 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753548 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753555 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753559 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753564 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753568 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754401 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 2, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754413 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754419 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754431 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754435 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754439 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754443 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754447 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755686 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 3, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755699 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755721 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755726 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755731 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755735 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755739 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755743 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758090 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 5, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758106 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758134 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758139 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758144 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758148 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758152 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758156 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758653 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 6, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758664 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758684 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758689 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758693 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758697 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758701 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758705 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759645 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 7, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759651 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759672 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759676 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759680 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759684 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759688 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759692 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761145 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 8, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761151 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761171 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761176 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761180 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761184 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761188 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761192 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/

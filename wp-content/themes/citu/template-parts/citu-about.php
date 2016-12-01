@@ -213,5 +213,5 @@
 
     </div>
 </section><!-- magazine section end-->
-<?php include ('citu-contact-form'); ?>
+<?php include ('citu-contact-form.php'); ?>
 

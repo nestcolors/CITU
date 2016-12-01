@@ -7,10 +7,11 @@ Template Name: Main-nl
 
 			<?php
 			if ( have_posts() ) :
-				/* Start the Loop */
-				while ( have_posts() ) : the_post();
-					include('template-parts'.DIRECTORY_SEPARATOR.'citu-index.php');
-				endwhile;
+				if ($wp_query->post_count === 1){
+					include('template-parts'.DIRECTORY_SEPARATOR.'citu-index-nl.php');
+				} else {
+					include('template-parts'.DIRECTORY_SEPARATOR.'citu-magazine-nl.php');
+				}
 			endif;
 			?>
 

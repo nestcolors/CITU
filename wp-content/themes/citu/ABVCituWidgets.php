@@ -23,7 +23,7 @@ class ABVCituWidgets
         $args['post_type'] = 'post';
         $args['posts_per_page'] = $count;
         $args['orderby'] = 'date';
-        $args['order'] = 'ASC';
+        $args['order'] = 'DESC';
 
         $query = new WP_Query( $args );
         if ($query->found_posts){
@@ -42,5 +42,9 @@ class ABVCituWidgets
             return $short;
         }
         return $post->post_content;
+    }
+
+    static function get_post(){
+
     }
 }
