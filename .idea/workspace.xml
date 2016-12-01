@@ -2,15 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7776d84a-2c3b-48a7-aa51-a00744f40929" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dictionaries/alex.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/temp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/abv_options.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/abv_options.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access.log" afterPath="$PROJECT_DIR$/access.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about-nl.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about-nl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds-nl.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds-nl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index-nl.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index-nl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its-nl.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its-nl.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main-color.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main-color.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/citu.iml" afterPath="$PROJECT_DIR$/.idea/citu.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/footer.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/footer.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
@@ -36,16 +45,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="citu-contact-form.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form.php">
+      <file leaf-file-name="content.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20048603">
-              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="citu-magazine.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.5272727">
+              <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -53,6 +69,24 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/temp" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index-nl.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/abv_options.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about-nl.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds-nl.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its-nl.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" />
   <component name="JsGulpfileManager">
@@ -202,6 +236,28 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+  </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
     <configuration />
@@ -266,15 +322,167 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/temp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="311" selection-start-line="0" selection-start-column="311" selection-end-line="0" selection-end-column="311" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/access.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7090909">
+          <caret line="245" column="48" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="48" />
+          <folding>
+            <marker date="1480434687065" expanded="true" signature="-1:-1" placeholder="SELECT ID FR..." />
+            <marker date="1480434687065" expanded="true" signature="-1:-1" placeholder="select meta_..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.125">
+          <caret line="277" column="35" selection-start-line="0" selection-start-column="0" selection-end-line="313" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-index-nl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-139.04167">
+          <caret line="280" column="30" selection-start-line="280" selection-start-column="30" selection-end-line="280" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/abv_options.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7357576">
+          <caret line="94" column="54" selection-start-line="94" selection-start-column="54" selection-end-line="94" selection-end-column="54" />
+          <folding>
+            <element signature="n#abv_theme_soc_f_cb1#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_cook_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_img_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_soc_inst_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_soc_vk_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_soc_f_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_slogan_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_subtitle_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_address_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_email_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_phone_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_textAction_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_textAbout_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_robot_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_workweekDays_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_weekendDays_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_workweekTimes_cb#0;n#!!top" expanded="false" />
+            <element signature="n#abv_theme_weekendTimes_cb#0;n#!!top" expanded="false" />
+            <marker date="1480516269125" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1480516269125" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-contact-form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20048603">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state vertical-scroll-proportion="-20.0">
+          <caret line="32" column="99" selection-start-line="32" selection-start-column="99" selection-end-line="32" selection-end-column="99" />
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43636364">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="87" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about-nl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.509091">
+          <caret line="193" column="39" selection-start-line="193" selection-start-column="39" selection-end-line="193" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-about.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2">
+          <caret line="155" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="193" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds-nl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96363634">
+          <caret line="183" column="43" selection-start-line="183" selection-start-column="43" selection-end-line="183" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-bds.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29090908">
+          <caret line="16" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="183" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.875">
+          <caret line="256" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-its-nl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-183.75">
+          <caret line="294" column="0" selection-start-line="294" selection-start-column="0" selection-end-line="294" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.96363634">
+          <caret line="132" column="39" selection-start-line="132" selection-start-column="39" selection-end-line="132" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/content.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.5272727">
+          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

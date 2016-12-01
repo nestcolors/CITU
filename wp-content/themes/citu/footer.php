@@ -6,7 +6,7 @@
 				<div class="social-links show-sm-tablet">
 					<span>
 						<a href="<?php echo get_option('abv_options_theme')['soc_f'] ?>" class="subs-icon fb"></a>
-						<a href="<?php echo get_option('abv_options_theme')['soc_vk'] ?>" class="subs-icon in"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_ln'] ?>" class="subs-icon in"></a>
 						<a href="<?php echo get_option('abv_options_theme')['soc_inst'] ?>" class="subs-icon insta"></a>
 					</span>
 				</div>
@@ -23,7 +23,7 @@
 				<div class="social-links hide-sm-tablet">
 					<span>
 						<a href="<?php echo get_option('abv_options_theme')['soc_f'] ?>" class="subs-icon fb"></a>
-						<a href="<?php echo get_option('abv_options_theme')['soc_vk'] ?>" class="subs-icon in"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_ln'] ?>" class="subs-icon in"></a>
 						<a href="<?php echo get_option('abv_options_theme')['soc_inst'] ?>" class="subs-icon insta"></a>
 					</span>
 				</div>

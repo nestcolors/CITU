@@ -291,42 +291,4 @@
 
     </div>
 </section>
-<section class="contact-us">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="contact-us-container">
-                    <h2>Contact Us</h2>
-                    <div class="contact-data">
-                        <div class="info-block">
-                            <h4>Email</h4>
-                            <div class="header-line"></div>
-                            <a href="mail-to: info@connectitukraine.nl" >info@connectitukraine.nl</a>
-                        </div>
-                        <div class="info-block">
-                            <h4>Phone #</h4>
-                            <div class="header-line"></div>
-                            <p>+31 (0) 62 605 75 77</p>
-                            <p>Mn-Fr/9am - 6pm</p>
-                        </div>
-                        <div class="info-block">
-                            <h4>Address</h4>
-                            <div class="header-line"></div>
-                            <p>Netherland, OSS<p>
-                            <p>SomeStreet str 22/11</p>
-                        </div>
-                    </div>
-                    <div class="form-block box-hover">
-                        <h3>We would be happy to discuss your project or answer any questions.</h3>
-                        <form action="">
-                            <textarea placeholder="your text here.."></textarea>
-                            <input type="text" placeholder="your name" class="margin-right input-border-bottom">
-                            <input type="text" placeholder="your email" class="input-border-bottom">
-                            <input type="button" class="pull-right button button-orange button-orange-inverse" value="send mail">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!-- contacts section end-->
+<?php include ('citu-contact-form.php'); ?>

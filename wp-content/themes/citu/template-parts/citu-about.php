@@ -130,7 +130,7 @@
                 </div>
                 <div class="row about-founder">
                     <div class="col-sm-3 col-sm-offset-0 col-xs-8 col-xs-offset-2">
-                        <img src="images/founder-photo.jpg"  placeholder="Tanya Syrovatka" class="founder-photo"/>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/founder-photo.jpg"  placeholder="Tanya Syrovatka" class="founder-photo"/>
                     </div>
                     <div class="col-sm-9 col-xs-12">
                         <p>Originally from Lviv, Ukraine, I live in the Netherlands since 2011.</p>
@@ -147,7 +147,10 @@
                             <p class="founder-title text-right">founder, CEO</p>
                         </div>
                         <div class="social-links">
-                            <span>personal social profiles: <a href="" class="subs-icon fb"></a><a href="" class="subs-icon in"></a></span>
+                            <span>personal social profiles:
+                                <a href="<?php echo get_option('abv_options_theme')['soc_f1'] ?>" class="subs-icon fb"></a>
+                                <a href="<?php echo get_option('abv_options_theme')['soc_vk'] ?>" class="subs-icon in"></a>
+                            </span>
                         </div>
                     </div>
                 </div>
@@ -188,42 +191,4 @@
 
     </div>
 </section><!-- magazine section end-->
-<section class="contact-us">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="contact-us-container">
-                    <h2>Contact Us</h2>
-                    <div class="contact-data">
-                        <div class="info-block">
-                            <h4>Email</h4>
-                            <div class="header-line"></div>
-                            <a href="mail-to: info@connectitukraine.nl" >info@connectitukraine.nl</a>
-                        </div>
-                        <div class="info-block">
-                            <h4>Phone #</h4>
-                            <div class="header-line"></div>
-                            <p>+31 (0) 62 605 75 77</p>
-                            <p>Mn-Fr/9am - 6pm</p>
-                        </div>
-                        <div class="info-block">
-                            <h4>Address</h4>
-                            <div class="header-line"></div>
-                            <p>Netherland, OSS<p>
-                            <p>SomeStreet str 22/11</p>
-                        </div>
-                    </div>
-                    <div class="form-block box-hover">
-                        <h3>We would be happy to discuss your project or answer any questions.</h3>
-                        <form action="">
-                            <textarea placeholder="your text here.."></textarea>
-                            <input type="text" placeholder="your name" class="margin-right input-border-bottom">
-                            <input type="text" placeholder="your email" class="input-border-bottom">
-                            <input type="button" class="pull-right button button-orange button-orange-inverse" value="send mail">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!-- contacts section end-->
+<?php include ('citu-contact-form'); ?>

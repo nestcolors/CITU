@@ -26,28 +26,7 @@
     <div class="container">
         <div class="row">
             <div class="nav-bar color">
-                <div class="pull-left">
-                    <a href="index.html" class="nav-logo logo-color"></a>
-                    <div class="main-links hide-mobile">
-                        <a href="its.html" class="itc"><span>Internet Communication<br> & Technolory</span> <span class="nav-arrow color-arrow"></span></a>
-                        <a href="bds.html" class="bds"><span>Business Development<br> & Support</span> <span class="nav-arrow color-arrow"></span></a>
-                    </div>
-                </div>
-                <div class="pull-right no-padding ">
-                    <ul class="menu hide-tablet">
-                        <li><a href="magazine.html">magazine</a></li>
-                        <li><a href="about-us.html">about us</a></li>
-                        <li><a href="">eng *</a></li>
-                        <li><a href="">get in touch</a></li>
-                    </ul>
-                    <div class="mobile-menu-icon hide-pc">
-                        <ul class="black">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
+                <?php include ('citu-menu-main-color.php'); ?>
             </div>
         </div>
     </div>
@@ -112,7 +91,7 @@
                             <li>4) European culture</li>
                         </ul>
                     </div>
-                    <a href="magazine.html" class="read-more">read more <span class="arrow arrow-blue"></span></a>
+                    <a href="<a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="read-more">read more <span class="arrow arrow-blue"></span></a>
                 </div>
             </div>
         </div>
@@ -137,7 +116,7 @@
                     <div class="service-icon itc"></div>
                     <h4>Internet Communications and Technologies</h4>
                     <p>We help European ICT companies with outsourcing of their work to Ukraine. We develop full-range ICT solutions at a competitive price for companies in Europe.</p>
-                    <a href="its.html" class="button button-blue">learn more</a>
+                    <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="button button-blue">learn more</a>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6">
@@ -145,7 +124,7 @@
                     <div class="service-icon bds"></div>
                     <h4 class="orange-text">Business development and <br> support</h4>
                     <p>We assist companies willing to do business in Ukraine with market research, legal and organizational advice, matchmaking, administrative support and project management.</p>
-                    <a href="bds.html" class="button button-orange">learn more</a>
+                    <a href="<?php echo AbvFunctions::set_pll_link('/bds') ?>" class="button button-orange">learn more</a>
                 </div>
             </div>
         </div><!-- EOF services for ps&table view -->
@@ -157,7 +136,7 @@
                     <div class="service-icon itc"></div>
                     <h4>Internet Communications and Technologies</h4>
                     <p>We help European ICT companies with outsourcing of their work to Ukraine. We develop full-range ICT solutions at a competitive price for companies in Europe.</p>
-                    <a href="its.html" class="button button-blue">learn more</a>
+                    <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="button button-blue">learn more</a>
                 </div>
             </div>
             <div class="col-xs-10">
@@ -165,7 +144,7 @@
                     <div class="service-icon bds"></div>
                     <h4 class="orange-text">Business development and <br> support</h4>
                     <p>We assist companies willing to do business in Ukraine with market research, legal & organizational advice, matchmaking, administrative support & project management.</p>
-                    <a href="bds.html" class="button button-orange">learn more</a>
+                    <a href="<?php echo AbvFunctions::set_pll_link('/bds') ?>" class="button button-orange">learn more</a>
                 </div>
             </div>
         </div><!-- EOF services for mobile view -->
@@ -228,7 +207,7 @@
                 </div>
             </a>
         </div><!-- blog slider section end-->
-        <a href="magazine.html" class="button button-white">Read magazine</a>
+        <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="button button-white">Read magazine</a>
 
         <div class="row">
             <h3 class="center show-mobile">Subscribe for newsletters</h3>
@@ -239,7 +218,11 @@
                     <input type="button" class="subscribe">
                 </div>
                 <div class="social-links">
-                    <span>social profiles: <a href="" class="subs-icon fb"></a><a href="" class="subs-icon in"></a><a href="" class="subs-icon insta"></a></span>
+                    <span>social profiles:
+						<a href="<?php echo get_option('abv_options_theme')['soc_f'] ?>" class="subs-icon fb"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_vk'] ?>" class="subs-icon in"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_inst'] ?>" class="subs-icon insta"></a>
+                    </span>
                 </div>
             </div>
         </div>
@@ -319,50 +302,12 @@
                             <p>Based in the Netherlands, Connect it! Ukraine work together with the partners in Ukraine specialized in various expertises.</p>
                             <p>This allows us to provide broad range of services using tailored approach based on the needs of the client or certain project.</p>
                         </div>
-                        <a href="about-us.html" class="read-more">read more <span class="arrow arrow-blue"></span></a>
+                        <a href="<?php echo AbvFunctions::set_pll_link('/about') ?>" class="read-more">read more <span class="arrow arrow-blue"></span></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </section><!-- about-us section end-->
-<section class="contact-us">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="contact-us-container">
-                    <h2>Contact Us</h2>
-                    <div class="contact-data">
-                        <div class="info-block">
-                            <h4>Email</h4>
-                            <div class="header-line"></div>
-                            <a href="mail-to: info@connectitukraine.nl" >info@connectitukraine.nl</a>
-                        </div>
-                        <div class="info-block">
-                            <h4>Phone #</h4>
-                            <div class="header-line"></div>
-                            <p>+31 (0) 62 605 75 77</p>
-                            <p>Mn-Fr/9am - 6pm</p>
-                        </div>
-                        <div class="info-block">
-                            <h4>Address</h4>
-                            <div class="header-line"></div>
-                            <p>Netherland, OSS<p>
-                            <p>SomeStreet str 22/11</p>
-                        </div>
-                    </div>
-                    <div class="form-block box-hover">
-                        <h3>We would be happy to discuss your project or answer any questions.</h3>
-                        <form action="">
-                            <textarea placeholder="your text here.."></textarea>
-                            <input type="text" placeholder="your name" class="margin-right input-border-bottom">
-                            <input type="text" placeholder="your email" class="input-border-bottom">
-                            <input type="button" class="pull-right button button-orange button-orange-inverse" value="send mail">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!-- contacts section end-->
+<?php include ('citu-contact-form.php'); ?>
 

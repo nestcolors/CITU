@@ -30,8 +30,8 @@ function abv_admin_settings(){
     add_settings_field('abv_setting_soc_f_id',  __('Facebook','citu'), 'abv_theme_soc_f_cb', __FILE__,
         'abv_section_id', array('label_for' => 'abv_setting_soc_f_id'));
 
-    add_settings_field('abv_setting_soc_vk_id',  __('Linkedin','citu'), 'abv_theme_soc_vk_cb', __FILE__,
-        'abv_section_id', array('label_for' => 'abv_setting_soc_vk_id'));
+    add_settings_field('abv_setting_soc_ln_id',  __('Linkedin','citu'), 'abv_theme_soc_ln_cb', __FILE__,
+        'abv_section_id', array('label_for' => 'abv_setting_soc_ln_id'));
 
     add_settings_field('abv_setting_soc_inst_id',  __('Instagram','citu'), 'abv_theme_soc_inst_cb', __FILE__,
         'abv_section_id', array('label_for' => 'abv_setting_soc_inst_id'));
@@ -39,7 +39,11 @@ function abv_admin_settings(){
     add_settings_field('abv_setting_address_id',  __('Address','citu'), 'abv_theme_address_cb', __FILE__,
         'abv_section_id', array('label_for' => 'abv_setting_address_id'));
 
+    add_settings_field('abv_setting_soc_f_id1',  __('Facebook private','citu'), 'abv_theme_soc_f_cb1', __FILE__,
+        'abv_section_id', array('label_for' => 'abv_setting_soc_f_id1'));
 
+    add_settings_field('abv_setting_soc_vk_id',  __('Linkedin private','citu'), 'abv_theme_soc_vk_cb', __FILE__,
+        'abv_section_id', array('label_for' => 'abv_setting_soc_vk_id'));
 
     ///////////////////////////////
 
@@ -81,6 +85,30 @@ function abv_admin_settings(){
 }
 
 //////////////////////вивод інрпутів/////////////////////////////
+function abv_theme_soc_ln_cb()
+{
+    $options = get_option('abv_options_theme');
+    if (!$options['soc_ln']) $options['soc_ln'] = maybe_serialize('soc_ln');
+    ?>
+
+    <input type="text" name="abv_options_theme[soc_ln]" id="abv_setting_soc_ln_id"
+           value="<?php echo esc_attr($options['soc_ln']); ?>" class="regular-text">
+
+    <?php
+}
+
+function abv_theme_soc_f_cb1()
+{
+    $options = get_option('abv_options_theme');
+    if (!$options['soc_f1']) $options['soc_f1'] = maybe_serialize('soc_f1');
+    ?>
+
+    <input type="text" name="abv_options_theme[soc_f1]" id="abv_setting_soc_f_id1"
+           value="<?php echo esc_attr($options['soc_f1']); ?>" class="regular-text">
+
+    <?php
+}
+
 
 function abv_theme_cook_cb()
 {

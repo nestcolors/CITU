@@ -1,0 +1,1 @@
+[textarea your-message placeholder "your text here.."][text* your-name class:margin-right class:input-border-bottom placeholder "your name" ][email* your-email class:input-border-bottom placeholder "your email" ][submit class:pull-right class:button class:button-orange class:button-orange-inverse "send mail" ]
