@@ -112,7 +112,7 @@
                     <h2>In the form that You need</h2>
                     <div class="form-items">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 item">
                                 <h3>Developers</h3>
                                 <ul>
                                     <li>Project basis (fixed price)</li>
@@ -120,7 +120,7 @@
                                     <li>Fulltime (dedicated)</li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 item">
                                 <h3>Teams</h3>
                                 <ul>
                                     <li>Dedicated specialists according to your requirements</li>
@@ -129,7 +129,7 @@
                                     <li>Project management</li>
                                 </ul>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 item">
                                 <h3>Solutions</h3>
                                 <ul>
                                     <li>Project management in the Netherlands</li>

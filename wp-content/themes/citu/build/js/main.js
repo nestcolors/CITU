@@ -19,7 +19,7 @@ $('document').ready(function(){
         slidesToShow: 1.85
       }
     },{
-      breakpoint: 376,
+      breakpoint: 415,
       settings: {
         slidesToShow: 1.1
       }
@@ -44,7 +44,7 @@ $('document').ready(function(){
         slidesToShow: 1.15
       }
     },{
-      breakpoint: 376,
+      breakpoint: 415,
       settings: {
         slidesToShow: 1.1
       }
@@ -69,7 +69,7 @@ $('document').ready(function(){
         slidesToShow: 2
       }
     },{
-      breakpoint: 376,
+      breakpoint: 415,
       settings: {
         slidesToShow: 2
       }
@@ -96,7 +96,7 @@ $('document').ready(function(){
           slidesToShow: 2.1
         }
       },{
-        breakpoint: 376,
+        breakpoint: 415,
         settings: {
           slidesToShow: 1.1
         }
@@ -104,7 +104,7 @@ $('document').ready(function(){
     });
   }
 
-  if($( window ).width() < 376){
+  if($( window ).width() < 415){
     $('#its-services, #bds-services').slick({
       dots: true,
       infinite: false,
@@ -113,7 +113,7 @@ $('document').ready(function(){
       speed: 300,
       adaptiveHeight: true,
       responsive: [{
-        breakpoint: 376,
+        breakpoint: 415,
         settings: {
           slidesToShow: 1.3
         }

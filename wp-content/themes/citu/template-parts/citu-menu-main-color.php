@@ -19,7 +19,7 @@
         <a href="#getintouch">get in touch</a>
     </ul>
     <div class="mobile-menu-icon hide-pc">
-        <ul class="white">
+        <ul class="black">
             <li></li>
             <li></li>
             <li></li>

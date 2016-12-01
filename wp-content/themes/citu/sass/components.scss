@@ -107,6 +107,7 @@ p{
   color: $mango-orange;
 }
 .top-bar{
+  display: none;
   background-color: $top-bar-bg;
   height: 4vh;
   opacity: 0.8;
@@ -127,6 +128,7 @@ p{
 }
 .nav-bar{
   height: 64px;
+  width: 100vw;
   // background-color: $half-white;
   position: relative;
   z-index: 10;
@@ -208,7 +210,7 @@ p{
   display: none;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 100vw;
   z-index: 9999;
 }
 .nav-bar.color{
@@ -545,6 +547,7 @@ section.contact-us{
   }
   .contact-us-container{
     background-color: $light-navy;
+    background-color: rgba(25, 80, 117, 0.9);
     padding: 6rem 7rem 3rem;
     position: relative;
     border-radius: 2px;
@@ -717,20 +720,32 @@ section.cellar{
   section.contact-us{
     background-color: $light-navy;
     padding: 9rem 0 0rem;
+    #map{display: none;}
     .container{
       width: 100%;
       .contact-us-container{
+        background-color: $light-navy;
         padding: 2rem 3rem 3rem 7rem;
         .form-block{
           width: 58rem;
-          padding: 4rem 3rem;
-          input[type=text]{
+          padding: 4rem 3rem 2rem 3rem;
+          h3{padding-bottom: 1rem; margin-bottom: 1rem;}
+          input[type=text], input[type=email]{
             width: 24rem;
-            margin: 4rem 0;
+            margin: 1rem 0 0;
           }
           input[type=text].margin-right {
             margin-right: 3rem;
           }
+          textarea{
+            width: 50rem;
+            height: 5rem;
+            margin-top: 1rem;
+          }
+        }
+        .form-block form p:nth-child(6) {
+          display: block;
+          text-align: center;
         }
       }
     }
@@ -763,6 +778,10 @@ section.cellar{
             width: 17rem;
             margin: 0.5rem 1rem 1rem 0;
           }
+          textarea{
+            width: 100% !important;
+            height: 5rem;
+          }
         }
       }
     }
@@ -784,7 +803,7 @@ section.cellar{
     }
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   .hide-mobile{display: none !important;}
   .show-mobile{display: block !important;}
   .nav-bar{
@@ -807,7 +826,7 @@ section.cellar{
 
   section.contact-us{
     padding-top: 4rem;
-    padding-bottom: 63rem;
+    padding-bottom: 58rem;
     h2{font-size: 3.1rem;}
     .container{
       .contact-us-container{
