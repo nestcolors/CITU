@@ -28,10 +28,23 @@
         </div>
     </div>
 </div><!-- sticky header end-->
-
 <section class="magazine">
     <div class="container">
         <div class="row filter-block">
+            <ul>
+                <?php ABVCituWidgets::show_category() ?>
+            </ul>
+            <ul>
+                <?php
+                global $wp;
+                $current_url = home_url(add_query_arg(array(),$wp->request));
+                ?>
+                <li><a href="<?php echo $current_url ?>\?orderby=name&order=DESC">Sort by name DESC</a></li>
+                <li><a href="<?php echo $current_url ?>\?orderby=name&order=ASC">Sort by name AESC</a></li>
+                <li><a href="<?php echo $current_url ?>\?orderby=date&order=DESC">Sort by date DESC</a></li>
+                <li><a href="<?php echo $current_url ?>\?orderby=date&order=ASC">Sort by date ASC</a></li>
+            </ul>
+            <?php get_search_form(); ?>
         </div>
 
         <div class="blog-items-list-container row">
@@ -49,9 +62,13 @@
                 <div class="row"><!-- blog-items-list -->
                     <div class="blog-items-list">
                         <?php
-                        for($n = 1; $n<=4; $n++){
-                            $item = $posts[$n];
-                            include ('citu-post-small.php');
+                        $count = $wp_query->post_count;
+                        if ( $count > 1 ) {
+                            if ($count >= 5) $count = 5;
+                            for ($n = 1; $n <= $count-1; $n++) {
+                                $item = $posts[$n];
+                                include('citu-post-small.php');
+                            }
                         }
                         ?>
                         <div class="clear"></div>

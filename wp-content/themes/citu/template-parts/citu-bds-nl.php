@@ -40,11 +40,15 @@
         <div class="row"><!-- intro-block -->
             <div class="col-md-8 col-md-offset-2">
                 <div class="intro-block ">
-                    <div class="col-sm-6">
-                        <div class="itc-icon icon"></div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <div class="itc-icon icon"></div>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        <h3>We work with a network of partners in Ukraine who make our full-range services possible.</h3>
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1">
+                            <h3>We work with a network of partners in Ukraine who make our full-range services possible.</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -104,42 +108,35 @@
                 </div>
             </div>
         </div><!-- EOF form-block -->
-    </div>
-</section><!-- about-service end-->
-
-<section class="form-we-work"><!-- form-we-work -->
-    <div class="container">
         <div class="form-items-container"> <!-- form-items-container -->
             <div class="row">
-                <div class="col-md-12 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                     <h2>How do we work?</h2>
 
-                    <div class="box-normal">
-                        <div class="row">
-                            <div class="col-sm-4 col-xs-12 project-type">
-                                <h3>Any type of project:</h3>
-                                <ul>
-                                    <li>Project based</li>
-                                    <li>Interim projects</li>
-                                    <li>Ongoind support</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-4 col-xs-12 project-type">
-                                <h3>What do we offer:</h3>
-                                <ul>
-                                    <li>Presence in the Netherlands</li>
-                                    <li>On-site support in Ukraine</li>
-                                    <li>Long-term partnership</li>
-                                </ul>
-                            </div>
-                            <div class="col-sm-4 col-xs-12 project-type">
-                                <h3>We can help you to:</h3>
-                                <ul>
-                                    <li>Determine the opportunities</li>
-                                    <li>Develop your business</li>
-                                    <li>Provide you with local support</li>
-                                </ul>
-                            </div>
+                    <div class="row form-items">
+                        <div class="col-sm-4 col-xs-12 item">
+                            <h3>Any type of project:</h3>
+                            <ul>
+                                <li>Project based</li>
+                                <li>Interim projects</li>
+                                <li>Ongoind support</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 item">
+                            <h3>What do we offer:</h3>
+                            <ul>
+                                <li>Presence in the Netherlands</li>
+                                <li>On-site support in Ukraine</li>
+                                <li>Long-term partnership</li>
+                            </ul>
+                        </div>
+                        <div class="col-sm-4 col-xs-12 item">
+                            <h3>We can help you to:</h3>
+                            <ul>
+                                <li>Determine the opportunities</li>
+                                <li>Develop your business</li>
+                                <li>Provide you with local support</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -147,7 +144,7 @@
             </div>
         </div> <!-- EOF form-items-container -->
     </div>
-</section><!-- EOF form-we-work -->
+</section><!-- about-service end-->
 
 <section class="our-clients">
     <div class="container">
