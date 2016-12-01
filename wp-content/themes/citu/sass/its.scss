@@ -250,8 +250,8 @@ section.magazine{
   }
 }
 
-@media (max-width: 375px){
-  .service-page{
+@media (max-width: 414px){
+  // .service-page{
     section.intro{
       .tagline-container{
         margin-top: 26vh;
@@ -291,10 +291,20 @@ section.magazine{
         }
       }
       .form-items-container{
-        margin-top: -15rem;
+        margin-top: 3rem;
         padding-bottom: 19rem;
         h2{
           margin-bottom: 0;
+        }
+        .form-items{
+          .item{
+            margin-bottom: 3rem;
+            padding-bottom: 1rem;
+            border-bottom: 1px solid $pale-grey;
+            h3 {
+              font-family: RobotoSlab,serif;
+            }
+          }
         }
       }
     }
@@ -327,10 +337,10 @@ section.magazine{
         padding: 1.5rem 3rem;
       }
     }
-  }
+  // }
 }
-@media (max-width: 375px){
-  .service-page{
+@media (max-width: 414px){
+  // .service-page{
     section.intro{
       .intro-block{
         padding: 0;
@@ -340,5 +350,5 @@ section.magazine{
         }
       }
     }
-  }
+  // }
 }

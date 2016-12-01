@@ -1,7 +1,7 @@
 @import 'variables';
 .bds-service-page{
   section.about-service{
-    padding-bottom: 13rem;
+    padding-bottom: 3rem;
     .intro-block{
       .itc-icon{
         background-image: url(../../images/icons/bds.svg)
@@ -38,19 +38,40 @@
     }
   }
 }
-@media (max-width: 375px){
-  section.form-we-work{
-    .form-items-container{
-      .box-normal{
-        .row{
-          div{
-            margin: 1.5rem 0;
-          }
+@media (max-width: 768px){
+  .bds-service-page{
+    section.about-service{
+      .form-items-container{
+        padding-bottom: 0;
+        .form-items{
+          padding: 3rem 0 2rem !important;
         }
       }
     }
-    .project-type{
-      border-bottom: 1px solid $pale-grey;
+  }
+}
+@media (max-width: 414px){
+  .bds-service-page{
+    section.form-we-work{
+      .form-items-container{
+        padding-bottom: 0;
+        .box-normal{
+          .row{
+            div{
+              margin: 1.5rem 0;
+            }
+          }
+        }
+      }
+      .project-type{
+        border-bottom: 1px solid $pale-grey;
+      }
+    }
+    section.about-service{
+      padding-bottom: 0 ;
+      .form-items-container{
+        padding-bottom: 0;
+      }
     }
   }
 }
