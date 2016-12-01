@@ -161,51 +161,7 @@
             <h3>News from Ukraine</h3>
         </div>
         <div class="blog-slider-container" id="blog-slider">
-            <a href="single-blog.html" class="slide box-normal box-hover">
-                <div class="post-image pull-left"></div>
-                <div class="post-text pull-right">
-                    <h4>Should You Hire Developers Without a Degree?</h4>
-                    <p class="small-text date">12/08/2016</p>
-                    <p class="small-text category">Business Developmnent&Support</p>
-                    <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                </div>
-            </a>
-            <a href="single-blog.html" class="slide box-normal box-hover">
-                <div class="post-image pull-left"></div>
-                <div class="post-text pull-right">
-                    <h4>Should You Hire Developers Without a Degree?</h4>
-                    <p class="small-text date">12/08/2016</p>
-                    <p class="small-text category">Business Developmnent&Support</p>
-                    <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                </div>
-            </a>
-            <a href="single-blog.html" class="slide box-normal box-hover">
-                <div class="post-image pull-left"></div>
-                <div class="post-text pull-right">
-                    <h4>Should You Hire Developers Without a Degree?</h4>
-                    <p class="small-text date">12/08/2016</p>
-                    <p class="small-text category">Business Developmnent&Support</p>
-                    <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                </div>
-            </a>
-            <a href="single-blog.html" class="slide box-normal box-hover">
-                <div class="post-image pull-left"></div>
-                <div class="post-text pull-right">
-                    <h4>Should You Hire Developers Without a Degree?</h4>
-                    <p class="small-text date">12/08/2016</p>
-                    <p class="small-text category">Business Developmnent&Support</p>
-                    <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                </div>
-            </a>
-            <a href="single-blog.html" class="slide box-normal box-hover">
-                <div class="post-image pull-left"></div>
-                <div class="post-text pull-right">
-                    <h4>Should You Hire Developers Without a Degree?</h4>
-                    <p class="small-text date">12/08/2016</p>
-                    <p class="small-text category">Business Developmnent&Support</p>
-                    <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                </div>
-            </a>
+            <?php ABVCituWidgets::show_slider() ?>
         </div><!-- blog slider section end-->
         <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="button button-white">Read magazine</a>
 

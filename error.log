@@ -387,3 +387,494 @@
 [Thu Dec 01 09:37:07.048111 2016] [:error] [pid 22794] [client 127.0.0.1:46812] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php:32
 [Thu Dec 01 09:37:07.048120 2016] [:error] [pid 22794] [client 127.0.0.1:46812] PHP   8. ABVCituWidgets::get_short_content($id = *uninitialized*, $count = *uninitialized*) /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-slider-item.php:7
 [Thu Dec 01 09:37:07.048794 2016] [:error] [pid 22794] [client 127.0.0.1:46812] PHP Fatal error:  Uncaught Error: Function name must be a string in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php:40\nStack trace:\n#0 /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-slider-item.php(7): ABVCituWidgets::get_short_content(70, 88)\n#1 /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php(32): include('/home/alex/site...')\n#2 /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-single.php(94): ABVCituWidgets::show_slider()\n#3 /home/alex/sites/citu/wp-content/themes/citu/single.php(15): include('/home/alex/site...')\n#4 /home/alex/sites/citu/wp-includes/template-loader.php(75): include('/home/alex/site...')\n#5 /home/alex/sites/citu/wp-blog-header.php(19): require_once('/home/alex/site...')\n#6 /home/alex/sites/citu/index.php(17): require('/home/alex/site...')\n#7 {main}\n  thrown in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 40
+[Thu Dec 01 11:34:00.024813 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-about.php on line 216, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024846 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP Stack trace:, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024877 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024883 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024888 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024892 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024896 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/about.php:12, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024948 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-about.php on line 216, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024955 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP Stack trace:, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024966 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024971 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024975 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024979 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/its/
+[Thu Dec 01 11:34:00.024983 2016] [:error] [pid 23389] [client 127.0.0.1:50314] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/about.php:12, referer: http://citu/its/
+[Thu Dec 01 11:36:11.474669 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474715 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474764 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474771 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474776 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474781 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474785 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:12, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474838 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474851 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474856 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474861 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474865 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474870 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 11:36:11.474874 2016] [:error] [pid 22794] [client 127.0.0.1:50384] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:12, referer: http://citu/about/
+[Thu Dec 01 11:48:07.675378 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/
+[Thu Dec 01 11:48:07.675409 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP Stack trace:, referer: http://citu/
+[Thu Dec 01 11:48:07.675419 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Thu Dec 01 11:48:07.675429 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Thu Dec 01 11:48:07.675433 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Thu Dec 01 11:48:07.675437 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Thu Dec 01 11:48:07.675441 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Thu Dec 01 11:48:07.675493 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/
+[Thu Dec 01 11:48:07.675499 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP Stack trace:, referer: http://citu/
+[Thu Dec 01 11:48:07.675504 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Thu Dec 01 11:48:07.675508 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Thu Dec 01 11:48:07.675512 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Thu Dec 01 11:48:07.675516 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Thu Dec 01 11:48:07.675520 2016] [:error] [pid 28678] [client 127.0.0.1:50632] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Thu Dec 01 11:51:02.997254 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP Warning:  include(citu-contact-form): failed to open stream: No such file or directory in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/
+[Thu Dec 01 11:51:02.997283 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP Stack trace:, referer: http://citu/
+[Thu Dec 01 11:51:02.997292 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Thu Dec 01 11:51:02.997297 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Thu Dec 01 11:51:02.997302 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Thu Dec 01 11:51:02.997306 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Thu Dec 01 11:51:02.997311 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Thu Dec 01 11:51:02.997360 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP Warning:  include(): Failed opening 'citu-contact-form' for inclusion (include_path='.:/usr/share/php') in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 133, referer: http://citu/
+[Thu Dec 01 11:51:02.997368 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP Stack trace:, referer: http://citu/
+[Thu Dec 01 11:51:02.997374 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Thu Dec 01 11:51:02.997378 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Thu Dec 01 11:51:02.997383 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Thu Dec 01 11:51:02.997393 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Thu Dec 01 11:51:02.997397 2016] [:error] [pid 23750] [client 127.0.0.1:50698] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Thu Dec 01 13:53:32.562547 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP Error:  Cannot use object of type WP_Post as array in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 55, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562614 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562626 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562633 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562639 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562645 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 13:53:32.562651 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 13:53:32.563225 2016] [:error] [pid 29990] [client 127.0.0.1:54474] PHP Fatal error:  Uncaught Error: Cannot use object of type WP_Post as array in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:55\nStack trace:\n#0 /home/alex/sites/citu/wp-content/themes/citu/index.php(14): include()\n#1 /home/alex/sites/citu/wp-includes/template-loader.php(75): include('/home/alex/site...')\n#2 /home/alex/sites/citu/wp-blog-header.php(19): require_once('/home/alex/site...')\n#3 /home/alex/sites/citu/index.php(17): require('/home/alex/site...')\n#4 {main}\n  thrown in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 55, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753455 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Undefined offset: 5 in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 67, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753502 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753548 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753555 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753559 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753564 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.753568 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754401 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 2, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754413 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754419 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754431 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754435 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754439 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754443 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.754447 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755686 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 3, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755699 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755721 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755726 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755731 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755735 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755739 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.755743 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758090 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 5, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758106 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758134 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758139 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758144 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758148 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758152 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758156 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758653 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 6, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758664 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758684 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758689 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758693 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758697 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758701 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.758705 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759645 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 7, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759651 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759672 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759676 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759680 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759684 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759688 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.759692 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761145 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 8, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761151 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP Stack trace:, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761171 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761176 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761180 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761184 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761188 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/about/
+[Thu Dec 01 14:02:34.761192 2016] [:error] [pid 29990] [client 127.0.0.1:54634] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:68, referer: http://citu/about/
+[Thu Dec 01 16:42:06.030652 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Undefined offset: 1 in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 62, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.030731 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.030767 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.030774 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.030779 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.030783 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.030788 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.030792 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.031301 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.031310 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.031316 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.031321 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.031325 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.031330 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.031334 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.031338 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.031343 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.032559 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 3, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.032566 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.032585 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.032590 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.032599 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.032603 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.032607 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.032611 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.032615 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.034466 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 5, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.034477 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.034499 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.034505 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.034509 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.034513 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.034517 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.034521 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.034525 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035007 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 6, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035013 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035032 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035036 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035040 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035044 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035048 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035057 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035061 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035991 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 7, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.035998 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036017 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036022 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036026 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036030 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036034 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036038 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036042 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036915 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036921 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036938 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036943 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036947 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036951 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036955 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036959 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.036963 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037089 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Undefined offset: 2 in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 62, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037094 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037103 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037107 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037111 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037115 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037119 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037123 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037362 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037369 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037375 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037379 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037383 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037387 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037391 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037395 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.037399 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.038565 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 3, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.038572 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.038589 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.038594 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.038602 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.038606 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.038610 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.038614 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.038618 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040448 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 5, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040457 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040478 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040483 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040487 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040491 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040495 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040499 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040504 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040984 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 6, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.040990 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.041007 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.041012 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.041016 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.041020 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.041024 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.041032 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.041037 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.042082 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 7, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.042090 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.042108 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.042112 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.042116 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.042120 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.042125 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.042128 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.042132 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043002 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043008 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043025 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043030 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043034 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043038 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043042 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043046 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043050 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043173 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Undefined offset: 3 in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 62, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043178 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043186 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043191 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043195 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043199 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043202 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043206 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043426 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043433 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043439 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043443 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043447 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043451 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043455 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043459 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.043463 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.044615 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 3, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.044622 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.044638 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.044643 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.044651 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.044655 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.044659 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.044663 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.044667 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046474 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 5, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046481 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046500 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046505 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046509 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046513 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046517 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046521 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046525 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046991 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 6, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.046997 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.047013 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.047018 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.047022 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.047026 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.047030 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.047037 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.047042 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048026 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 7, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048032 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048049 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048054 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048058 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048062 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048066 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048070 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048074 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048930 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048936 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048951 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048956 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048960 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048964 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048968 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048972 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.048976 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049097 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 62, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049102 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049111 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049115 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049119 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049123 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049127 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049131 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049349 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049356 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049361 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049366 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049370 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049374 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049378 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049382 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.049386 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.050540 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 3, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.050547 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.050563 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.050567 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.050576 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.050580 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.050584 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.050588 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.050592 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052380 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 5, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052387 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052405 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052410 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052414 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052418 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052422 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052426 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052429 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052890 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 6, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052895 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052911 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052916 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052920 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052924 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052928 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052937 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.052941 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.053937 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 7, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.053944 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.053960 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.053965 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.053969 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.053973 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.053977 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.053981 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.053985 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.054845 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.054851 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP Stack trace:, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.054866 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.054871 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.054875 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.054879 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.054883 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.054887 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?category_name=support
+[Thu Dec 01 16:42:06.054890 2016] [:error] [pid 14556] [client 127.0.0.1:59392] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:63, referer: http://citu/?category_name=support
+[Thu Dec 01 17:01:21.613970 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Notice:  Undefined offset: 2 in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 66, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.613997 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.614045 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.614052 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.614056 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.614061 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.614065 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.614069 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.615625 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.615638 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.615644 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.615649 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.615654 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.615658 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.615663 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.615667 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.615671 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.616906 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 3, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.616913 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.616934 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.616940 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.616944 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.616953 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.616958 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.616962 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.616966 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.618808 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 5, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.618816 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.618837 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.618842 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.618846 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.618850 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.618854 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.618858 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.618862 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.619333 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 6, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.619339 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.619358 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.619363 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.619367 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.619371 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.619374 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.619378 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.619382 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.620482 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 7, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.620489 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.620509 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.620514 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.620518 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.620522 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.620526 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.620529 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.620533 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.621400 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.621406 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.621426 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.621430 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.621434 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.621438 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.621442 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.621446 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:01:21.621450 2016] [:error] [pid 14556] [client 127.0.0.1:59764] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.578352 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Notice:  Undefined offset: 2 in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php on line 66, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.578393 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.578461 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.578469 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.578480 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.578486 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.578491 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.578497 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.580374 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.580447 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.580458 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.580465 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.580470 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.580476 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.580481 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.580486 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.580491 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.583090 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 3, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.583104 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.583137 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.583143 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.583148 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.583154 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.583159 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.583164 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.583260 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.585874 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 5, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.585888 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.585922 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.585929 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.585934 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.585939 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.585944 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.585950 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.585955 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.586554 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 6, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.586561 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.586590 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.586596 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.586601 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.586606 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.586611 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.586616 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.586621 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.587995 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 7, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.588003 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.588033 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.588039 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.588049 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.588054 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.588059 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.588064 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.588069 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.589133 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Notice:  Trying to get property of non-object in /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-post-small.php on line 8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.589140 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP Stack trace:, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.589166 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.589172 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.589177 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.589182 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.589187 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.589191 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
+[Thu Dec 01 17:03:20.589196 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould

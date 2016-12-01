@@ -8,9 +8,12 @@ Template Name: Main
 			<?php
 			if ( have_posts() ) :
 				/* Start the Loop */
-				while ( have_posts() ) : the_post();
+				if ($wp_query->post_count === 1){
 					include('template-parts'.DIRECTORY_SEPARATOR.'citu-index.php');
-				endwhile;
+				} else {
+					include('template-parts'.DIRECTORY_SEPARATOR.'citu-magazine.php');
+				}
+
 			endif;
 			?>
 
