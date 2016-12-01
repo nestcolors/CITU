@@ -20,9 +20,7 @@
             </div>
         </div>
     </div>
-    <div class="mobile-overlay">
-        <div class="close-mobile-overlay"></div>
-    </div>
+    <?php include ('citu-menu-overlay.php'); ?>
 </section><!-- intro section end-->
 
 <div class="nav-bar-full-width box-normal">
