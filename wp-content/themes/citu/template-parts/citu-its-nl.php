@@ -29,28 +29,7 @@
     <div class="container">
         <div class="row">
             <div class="nav-bar color">
-                <div class="pull-left">
-                    <a href="index.html" class="nav-logo logo-color"></a>
-                    <div class="main-links hide-mobile">
-                        <a href="its.html" class="itc"><span>Internet Communication<br> & Technolory</span> <span class="nav-arrow color-arrow"></span></a>
-                        <a href="bds.html" class="bds"><span>Business Development<br> & Support</span> <span class="nav-arrow color-arrow"></span></a>
-                    </div>
-                </div>
-                <div class="pull-right no-padding ">
-                    <ul class="menu hide-tablet">
-                        <li><a href="magazine.html">magazine</a></li>
-                        <li><a href="about-us.html">about us</a></li>
-                        <li><a href="">eng *</a></li>
-                        <li><a href="">get in touch</a></li>
-                    </ul>
-                    <div class="mobile-menu-icon hide-pc">
-                        <ul class="black">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                </div>
+                <?php include ('citu-menu-main-color.php'); ?>
             </div>
         </div>
     </div>
@@ -61,11 +40,15 @@
         <div class="row"><!-- intro-block -->
             <div class="col-md-8 col-md-offset-2">
                 <div class="intro-block ">
-                    <div class="col-sm-6">
-                        <div class="itc-icon icon"></div>
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <div class="itc-icon icon"></div>
+                        </div>
                     </div>
-                    <div class="col-sm-6">
-                        <h3>We work with a network of partners in Ukraine who make our full-range services possible.</h3>
+                    <div class="row">
+                        <div class="col-sm-10 col-sm-offset-1">
+                            <h3>We work with a network of partners in Ukraine who make our full-range services possible.</h3>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -122,47 +105,48 @@
                 </div>
             </div>
         </div><!-- EOF form-block -->
+
+        <div class="form-items-container"> <!-- form-items-container -->
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                    <h2>In the form that You need</h2>
+                    <div class="form-items">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <h3>Developers</h3>
+                                <ul>
+                                    <li>Project basis (fixed price)</li>
+                                    <li>Part-time (time & material)</li>
+                                    <li>Fulltime (dedicated)</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Teams</h3>
+                                <ul>
+                                    <li>Dedicated specialists according to your requirements</li>
+                                    <li>Legal and administrative assistance</li>
+                                    <li>Back-office support</li>
+                                    <li>Project management</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-4">
+                                <h3>Solutions</h3>
+                                <ul>
+                                    <li>Project management in the Netherlands</li>
+                                    <li>Dedicated team in Ukraine including project managers</li>
+                                    <li>business analysts, testers</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- EOF form-items-container -->
     </div>
 </section>
 
 <section class="form-we-work"><!-- form-we-work -->
     <div class="container">
-        <div class="form-items-container"> <!-- form-items-container -->
-            <div class="row">
-                <div class="col-md-6 col-md-offset-3 col-sm-10 col-sm-offset-1">
-                    <h2>In the form that You need</h2>
-
-                    <div class="box-normal">
-                        <h3>IT specialists on a different basis:</h3>
-                        <ul>
-                            <li>Project basis (fixed price)</li>
-                            <li>Part-time (time & material)</li>
-                            <li>Fulltime (dedicated)</li>
-                        </ul>
-                    </div>
-
-                    <div class="box-normal">
-                        <h3>Set up your own team in Ukraine:</h3>
-                        <ul>
-                            <li>Dedicated specialists according to your requirements</li>
-                            <li>Legal and administrative assistance</li>
-                            <li>Back-office support</li>
-                            <li>Project management</li>
-                        </ul>
-                    </div>
-
-                    <div class="box-normal">
-                        <h3>We can develop a completed solution for you:</h3>
-                        <ul>
-                            <li>Project management in the Netherlands</li>
-                            <li>Dedicated team in Ukraine including project managers</li>
-                            <li>business analysts, testers</li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-        </div> <!-- EOF form-items-container -->
 
         <div class="how-it-works"> <!-- how-it-works-container -->
             <h2>How it works?</h2>
@@ -174,7 +158,7 @@
                     <div class="col-md-2 col-sm-3">
                         <div class="box-normal step-item">
                             &nbsp
-                            <h2>I</h2>
+                            <h3>step 1</h3>
                             <div class="header-line"></div>
                             <p>Define a service package</p>
                         </div>
@@ -183,7 +167,7 @@
                     <div class="col-md-2 col-sm-3">
                         <div class="box-normal step-item">
                             &nbsp
-                            <h2>II</h2>
+                            <h3>step 2</h3>
                             <div class="header-line"></div>
                             <p>Create a roadmap </p>
                         </div>
@@ -192,7 +176,7 @@
                     <div class="col-md-2 col-sm-3">
                         <div class="box-normal step-item">
                             &nbsp
-                            <h2>III</h2>
+                            <h3>step 3</h3>
                             <div class="header-line"></div>
                             <p>Work it out!</p>
                         </div>
@@ -201,7 +185,7 @@
                     <div class="col-md-2 col-sm-3">
                         <div class="box-normal step-item">
                             &nbsp
-                            <h2>IV</h2>
+                            <h3>step 4</h3>
                             <div class="header-line"></div>
                             <p>Evaluate the results</p>
                         </div>
@@ -307,42 +291,4 @@
 
     </div>
 </section>
-<section class="contact-us">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12">
-                <div class="contact-us-container">
-                    <h2>Contact Us</h2>
-                    <div class="contact-data">
-                        <div class="info-block">
-                            <h4>Email</h4>
-                            <div class="header-line"></div>
-                            <a href="mail-to: info@connectitukraine.nl" >info@connectitukraine.nl</a>
-                        </div>
-                        <div class="info-block">
-                            <h4>Phone #</h4>
-                            <div class="header-line"></div>
-                            <p>+31 (0) 62 605 75 77</p>
-                            <p>Mn-Fr/9am - 6pm</p>
-                        </div>
-                        <div class="info-block">
-                            <h4>Address</h4>
-                            <div class="header-line"></div>
-                            <p>Netherland, OSS<p>
-                            <p>SomeStreet str 22/11</p>
-                        </div>
-                    </div>
-                    <div class="form-block box-hover">
-                        <h3>We would be happy to discuss your project or answer any questions.</h3>
-                        <form action="">
-                            <textarea placeholder="your text here.."></textarea>
-                            <input type="text" placeholder="your name" class="margin-right input-border-bottom">
-                            <input type="text" placeholder="your email" class="input-border-bottom">
-                            <input type="button" class="pull-right button button-orange button-orange-inverse" value="send mail">
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section><!-- contacts section end-->
+<?php include ('citu-contact-form.php'); ?>

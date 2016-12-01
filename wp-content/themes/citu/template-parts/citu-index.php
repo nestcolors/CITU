@@ -91,7 +91,7 @@
                             <li>4) European culture</li>
                         </ul>
                     </div>
-                    <a href="magazine.html" class="read-more">read more <span class="arrow arrow-blue"></span></a>
+                    <a href="<a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="read-more">read more <span class="arrow arrow-blue"></span></a>
                 </div>
             </div>
         </div>
@@ -116,7 +116,7 @@
                     <div class="service-icon itc"></div>
                     <h4>Internet Communications and Technologies</h4>
                     <p>We help European ICT companies with outsourcing of their work to Ukraine. We develop full-range ICT solutions at a competitive price for companies in Europe.</p>
-                    <a href="its.html" class="button button-blue">learn more</a>
+                    <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="button button-blue">learn more</a>
                 </div>
             </div>
             <div class="col-md-4 col-xs-6">
@@ -124,7 +124,7 @@
                     <div class="service-icon bds"></div>
                     <h4 class="orange-text">Business development and <br> support</h4>
                     <p>We assist companies willing to do business in Ukraine with market research, legal and organizational advice, matchmaking, administrative support and project management.</p>
-                    <a href="bds.html" class="button button-orange">learn more</a>
+                    <a href="<?php echo AbvFunctions::set_pll_link('/bds') ?>" class="button button-orange">learn more</a>
                 </div>
             </div>
         </div><!-- EOF services for ps&table view -->
@@ -136,7 +136,7 @@
                     <div class="service-icon itc"></div>
                     <h4>Internet Communications and Technologies</h4>
                     <p>We help European ICT companies with outsourcing of their work to Ukraine. We develop full-range ICT solutions at a competitive price for companies in Europe.</p>
-                    <a href="its.html" class="button button-blue">learn more</a>
+                    <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="button button-blue">learn more</a>
                 </div>
             </div>
             <div class="col-xs-10">
@@ -144,7 +144,7 @@
                     <div class="service-icon bds"></div>
                     <h4 class="orange-text">Business development and <br> support</h4>
                     <p>We assist companies willing to do business in Ukraine with market research, legal & organizational advice, matchmaking, administrative support & project management.</p>
-                    <a href="bds.html" class="button button-orange">learn more</a>
+                    <a href="<?php echo AbvFunctions::set_pll_link('/bds') ?>" class="button button-orange">learn more</a>
                 </div>
             </div>
         </div><!-- EOF services for mobile view -->
@@ -207,7 +207,7 @@
                 </div>
             </a>
         </div><!-- blog slider section end-->
-        <a href="magazine.html" class="button button-white">Read magazine</a>
+        <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="button button-white">Read magazine</a>
 
         <div class="row">
             <h3 class="center show-mobile">Subscribe for newsletters</h3>
@@ -218,7 +218,11 @@
                     <input type="button" class="subscribe">
                 </div>
                 <div class="social-links">
-                    <span>social profiles: <a href="" class="subs-icon fb"></a><a href="" class="subs-icon in"></a><a href="" class="subs-icon insta"></a></span>
+                    <span>social profiles:
+						<a href="<?php echo get_option('abv_options_theme')['soc_f'] ?>" class="subs-icon fb"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_vk'] ?>" class="subs-icon in"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_inst'] ?>" class="subs-icon insta"></a>
+                    </span>
                 </div>
             </div>
         </div>
@@ -298,7 +302,7 @@
                             <p>Based in the Netherlands, Connect it! Ukraine work together with the partners in Ukraine specialized in various expertises.</p>
                             <p>This allows us to provide broad range of services using tailored approach based on the needs of the client or certain project.</p>
                         </div>
-                        <a href="about-us.html" class="read-more">read more <span class="arrow arrow-blue"></span></a>
+                        <a href="<?php echo AbvFunctions::set_pll_link('/about') ?>" class="read-more">read more <span class="arrow arrow-blue"></span></a>
                     </div>
                 </div>
             </div>

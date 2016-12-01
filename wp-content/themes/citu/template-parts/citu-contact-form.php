@@ -28,13 +28,14 @@
                     </div>
                     <div class="form-block box-hover">
                         <h3><?php _e('We would be happy to discuss your project or answer any questions.','citu') ?></h3>
-<!--                        <form action="">
-                            <textarea placeholder="your text here.."></textarea>
-                            <input type="text" placeholder="your name" class="margin-right input-border-bottom">
-                            <input type="text" placeholder="your email" class="input-border-bottom">
-                            <input type="button" class="pull-right button button-orange button-orange-inverse" value="send mail">
-                        </form>-->
-                        <?php echo do_shortcode('[contact-form-7 id="4" title="Contact form en"]') ?>
+                        <?php
+                            if (pll_current_language('slug') === 'nl'){
+                                echo do_shortcode('[contact-form-7 id="42" title="Contact form nl"]');
+                            } else {
+                                echo do_shortcode('[contact-form-7 id="4" title="Contact form en"]');
+                            }
+
+                        ?>
                     </div>
                 </div>
             </div>
