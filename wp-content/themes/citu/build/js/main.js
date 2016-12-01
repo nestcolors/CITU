@@ -51,6 +51,31 @@ $('document').ready(function(){
     }]
   });
 
+  $('.clients-container').slick({
+    dots: true,
+    infinite: false,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    speed: 300,
+    responsive: [
+    {
+      breakpoint: 1025,
+      settings: {
+        slidesToShow: 3
+      }
+    },{
+      breakpoint: 769,
+      settings: {
+        slidesToShow: 2
+      }
+    },{
+      breakpoint: 376,
+      settings: {
+        slidesToShow: 2
+      }
+    }]
+  });
+
   if($( window ).width() < 1025){
     $('#its-project-type').slick({
       dots: true,

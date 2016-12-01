@@ -511,6 +511,15 @@ section.our-clients{
       margin: 15px auto;
       width: 21rem;
     }
+    .clients-container{
+      .client{
+        img{
+          width: 100px;
+          height: auto;
+          margin: 0 auto;
+        }
+      }
+    }
   }
 }
 section.contact-us{
