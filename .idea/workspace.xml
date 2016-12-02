@@ -4,11 +4,7 @@
     <list default="true" id="7776d84a-2c3b-48a7-aa51-a00744f40929" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/ABVCitu.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/ABVCitu.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access.log" afterPath="$PROJECT_DIR$/access.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/error.log" afterPath="$PROJECT_DIR$/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/functions.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/functions.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/js/wp-main.js" afterPath="$PROJECT_DIR$/wp-content/themes/citu/js/wp-main.js" />
     </list>
@@ -35,8 +31,8 @@
       <file leaf-file-name="citu-magazine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.625">
-              <caret line="84" column="76" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="76" />
+            <state vertical-scroll-proportion="-10.625">
+              <caret line="89" column="76" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -46,7 +42,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/js/wp-main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
+              <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -65,18 +61,18 @@
       <file leaf-file-name="ABVCitu.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/ABVCitu.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.40384614">
-              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.75">
+              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AbvFunctions.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AbvFunctions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.73741794">
-              <caret line="260" column="20" selection-start-line="260" selection-start-column="20" selection-end-line="260" selection-end-column="20" />
+            <state vertical-scroll-proportion="-4.6666665">
+              <caret line="245" column="20" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="49" />
               <folding>
                 <marker date="1480684829717" expanded="true" signature="320:435" placeholder="SELECT ID FR..." />
                 <marker date="1480684829717" expanded="true" signature="4546:4786" placeholder="select meta_..." />
@@ -85,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ABVCituWidgets.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ABVCituWidgets.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.291667">
-              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.487965">
+              <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -145,10 +141,10 @@
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/citu/ABVCitu.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/citu/js/wp-main.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/citu/ABVCitu.php" />
       </list>
     </option>
   </component>
@@ -433,7 +429,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <option name="time" value="34" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="index.php">
@@ -836,30 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-25.625">
-          <caret line="84" column="76" selection-start-line="84" selection-start-column="67" selection-end-line="84" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/js/wp-main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="56" selection-start-line="51" selection-start-column="56" selection-end-line="51" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.291667">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.826923">
@@ -868,22 +840,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/ABVCitu.php">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40384614">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="-10.625">
+          <caret line="89" column="76" selection-start-line="89" selection-start-column="67" selection-end-line="89" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/js/wp-main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="52" column="47" selection-start-line="52" selection-start-column="47" selection-end-line="52" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/AbvFunctions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.73741794">
-          <caret line="260" column="20" selection-start-line="260" selection-start-column="20" selection-end-line="260" selection-end-column="20" />
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="245" column="20" selection-start-line="245" selection-start-column="20" selection-end-line="245" selection-end-column="49" />
           <folding>
             <marker date="1480684829717" expanded="true" signature="320:435" placeholder="SELECT ID FR..." />
             <marker date="1480684829717" expanded="true" signature="4546:4786" placeholder="select meta_..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/ABVCitu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.75">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.487965">
+          <caret line="87" column="0" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

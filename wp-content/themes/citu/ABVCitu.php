@@ -28,7 +28,7 @@ class ABVCitu
 
         $status = ABVCituWidgets::get_post( $post_offset, $query_string);
 
-        if($status < get_option('posts_per_page')) {
+        if($status) {
             echo "_aexe5oel_end_of_content_aexe5oel_";
         }
         wp_die();

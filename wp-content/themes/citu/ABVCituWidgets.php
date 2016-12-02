@@ -77,6 +77,7 @@ class ABVCituWidgets
         $args['post_type'] = 'post';
         $args['posts_per_page'] = 10;
         $args['offset'] = $offset;
+        $args['lang'] = pll_current_language();
 
         foreach($query_arr as $key => $val){
             $args[$key] = $val;
@@ -90,6 +91,9 @@ class ABVCituWidgets
             }
         }
         wp_reset_postdata();
-        return $query->found_posts;
+        if ($query->post_count < 10 or $offset + $query->post_count == $query->found_posts ){
+            return true;
+        }
+        return false;
     }
 }

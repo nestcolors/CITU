@@ -44,12 +44,13 @@ jQuery(document).ready(function($) {
                         str.replace("_aexe5oel_end_of_content_aexe5oel_","");
                         // віставляем переменную блокировки новіх запросов
                         end_of_content = true;
-
+                        // убираем надпись лоад мо
+                        $('#load_more').fadeOut();
                     }
                     // строку закидіваем в дом итемс
                     var items = $(str);
                     //start
-                    $('.blog-items-list').append(items);
+                    $('#append').before(items);
                     //end
                     // маркер получение окончено
                     post_send = false;
