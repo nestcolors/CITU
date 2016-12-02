@@ -42,6 +42,9 @@ body.about-us-page{
     h3{
       color: $light-navy;
     }
+    .filter-block{
+      label{font-size: 1.6rem;}
+    }
     .blog-items-list-container{
       .init-blog-item{
         height: 30rem;

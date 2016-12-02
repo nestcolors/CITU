@@ -2,8 +2,8 @@
     <div class="mobile-overlay">
         <div class="close-mobile-overlay"></div>
         <div class="main-links">
-            <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="itc"><span>Internet Communication<br> & Technolory</span> <span class="nav-arrow white-arrow"></span></a>
-            <a href="<?php echo AbvFunctions::set_pll_link('/bds') ?>" class="bds"><span>Business Development<br> & Support</span> <span class="nav-arrow white-arrow"></span></a>
+            <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="itc"><span>Internet Communication & Technolory</span> <span class="nav-arrow white-arrow"></span></a>
+            <a href="<?php echo AbvFunctions::set_pll_link('/bds') ?>" class="bds"><span>Business Development & Support</span> <span class="nav-arrow white-arrow"></span></a>
         </div>
         <div class="page-links">
             <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>">magazine</a>
