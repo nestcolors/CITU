@@ -31,20 +31,28 @@
 <section class="magazine">
     <div class="container">
         <div class="row filter-block">
-            <ul>
-                <?php ABVCituWidgets::show_category() ?>
-            </ul>
-            <ul>
-                <?php
-                global $wp;
-                $current_url = home_url(add_query_arg(array(),$wp->request));
-                ?>
-                <li><a href="<?php echo $current_url ?>\?orderby=name&order=DESC">Sort by name DESC</a></li>
-                <li><a href="<?php echo $current_url ?>\?orderby=name&order=ASC">Sort by name AESC</a></li>
-                <li><a href="<?php echo $current_url ?>\?orderby=date&order=DESC">Sort by date DESC</a></li>
-                <li><a href="<?php echo $current_url ?>\?orderby=date&order=ASC">Sort by date ASC</a></li>
-            </ul>
-            <?php get_search_form(); ?>
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <div class="row">
+                    <div class="col-sm-8 search-form">
+                        <?php get_search_form(); ?>
+                    </div>
+                    <div class="col-sm-4">
+                        <p id="show-sorting"><span class="icon sort-icon"></span><span class="icon filter-icon"></span></p>
+                        <div class="sorting-container box-normal box-hover">
+                            <ul class="order-list filtering">
+                                <span class="pull-right">filter by:</span><br><?php ABVCituWidgets::show_category() ?></ul>
+                            <?php global $wp; $current_url = home_url(add_query_arg(array(),$wp->request));?>
+                            <ul class="order-list sorting">
+                                <span class="pull-right">sort by:</span><br>
+                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=DESC">name desc</a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=ASC">name asc</a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=DESC">date desc</a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=ASC">date asc</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <div class="blog-items-list-container row">
@@ -71,7 +79,7 @@
                             }
                         }
                         ?>
-                        <div class="clear"></div>
+                        <div class="clear" id="append"></div>
                     </div>
                 </div><!-- EOF blog-items-list -->
 
@@ -79,9 +87,9 @@
         </div>
         <!-- </div> -->
     </div>
-    <a href="" class="button button-blue button-blue-inverse">load more</a>
+    <a href="#" class="button button-blue button-blue-inverse" id="load_more">load more</a>
 </section>
-<section class="magazine-blog">
+<section class="magazine-blog" id="magazine-blog">
 
     <div class="container">
 
