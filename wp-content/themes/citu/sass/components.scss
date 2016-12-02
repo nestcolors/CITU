@@ -212,11 +212,11 @@ p{
   display: none;
   position: fixed;
   top: 0;
-  width: 100vw;
+  left: 0;
+  right: 0;
   z-index: 9999;
 }
 .nav-bar.color{
-  width: 100vw;
   a{
     color: $light-navy;
   }
@@ -925,4 +925,9 @@ section.cellar{
       right: 0;
     }
   }
+}
+
+@keyframes showFilterBlock{
+  0%{transform: translateY(-100%); opacity: 0; display: none;}
+  100%{transform: translateY(0%); opacity: 1; display: block !important;}
 }

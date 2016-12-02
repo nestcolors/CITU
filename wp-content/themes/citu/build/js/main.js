@@ -154,4 +154,8 @@ $('document').ready(function(){
   var showHideNavbar = function(){
   }
 
+  $('#show-sorting').click(function(){
+    $('.sorting-container').slideToggle();
+  });
+
 });
