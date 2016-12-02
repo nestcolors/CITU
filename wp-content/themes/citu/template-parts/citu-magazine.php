@@ -31,20 +31,23 @@
 <section class="magazine">
     <div class="container">
         <div class="row filter-block">
-            <ul>
-                <?php ABVCituWidgets::show_category() ?>
-            </ul>
-            <ul>
-                <?php
-                    global $wp;
-                    $current_url = home_url(add_query_arg(array(),$wp->request));
-                ?>
-                <li><a href="<?php echo $current_url ?>\?orderby=name&order=DESC">Sort by name DESC</a></li>
-                <li><a href="<?php echo $current_url ?>\?orderby=name&order=ASC">Sort by name AESC</a></li>
-                <li><a href="<?php echo $current_url ?>\?orderby=date&order=DESC">Sort by date DESC</a></li>
-                <li><a href="<?php echo $current_url ?>\?orderby=date&order=ASC">Sort by date ASC</a></li>
-            </ul>
-            <?php get_search_form(); ?>
+            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
+                <select class="selectpicker">
+                      <optgroup label="filter by">
+                        <option>
+                            <span><?php ABVCituWidgets::show_category() ?></span>
+                            </option>
+                      </optgroup>
+                      <optgroup label="sort by:">
+                        <?php global $wp; $current_url = home_url(add_query_arg(array(),$wp->request));?>
+                        <option><a href="<?php echo $current_url ?>\?orderby=name&order=DESC">Sort by name DESC</a></option>
+                        <option><a href="<?php echo $current_url ?>\?orderby=name&order=ASC">Sort by name AESC</a></option>
+                        <option><a href="<?php echo $current_url ?>\?orderby=date&order=DESC">Sort by date DESC</a></option>
+                        <option><a href="<?php echo $current_url ?>\?orderby=date&order=ASC">Sort by date ASC</a></option>
+                      </optgroup>
+                </select>
+                <?php get_search_form(); ?>
+            </div>
         </div>
 
         <div class="blog-items-list-container row">

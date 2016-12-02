@@ -740,7 +740,19 @@ section.cellar{
   .show-mobile{display: none;}
   .hide-mobile{display: block;}
   .hide-sm-tablet{display: block;}
-
+  .mobile-overlay{
+    padding: 19rem 34rem 0;
+    .close-mobile-overlay{
+    }
+    .main-links, .page-links{
+    }
+    ul.lang-switcher{
+      li{
+        a{
+        }
+      }
+    }
+  }
   .subscribe-block{
     padding: 1.5rem 8rem;
   }
@@ -797,6 +809,19 @@ section.cellar{
 @media (max-width: 768px) {
   .show-sm-tablet{display: block;}
   .hide-sm-tablet{display: none;}
+  .mobile-overlay{
+    padding: 27rem 21rem 0;
+    .close-mobile-overlay{
+    }
+    .main-links, .page-links{
+    }
+    ul.lang-switcher{
+      li{
+        a{
+        }
+      }
+    }
+  }
   .subscribe-block{
     padding: 1.5rem 4rem;
   }
@@ -814,7 +839,7 @@ section.cellar{
         padding: 2rem 3rem 3rem;
         .form-block{
           width: 42rem;
-          right: 2rem;
+          right: 0rem;
           padding: 4rem 1rem 1rem 3rem;
           h3{padding-bottom: 2rem;}
           input[type=text], input[type=email]{
