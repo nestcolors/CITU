@@ -32,21 +32,26 @@
     <div class="container">
         <div class="row filter-block">
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                <select class="selectpicker">
-                      <optgroup label="filter by">
-                        <option>
-                            <span><?php ABVCituWidgets::show_category() ?></span>
-                            </option>
-                      </optgroup>
-                      <optgroup label="sort by:">
-                        <?php global $wp; $current_url = home_url(add_query_arg(array(),$wp->request));?>
-                        <option><a href="<?php echo $current_url ?>\?orderby=name&order=DESC">Sort by name DESC</a></option>
-                        <option><a href="<?php echo $current_url ?>\?orderby=name&order=ASC">Sort by name AESC</a></option>
-                        <option><a href="<?php echo $current_url ?>\?orderby=date&order=DESC">Sort by date DESC</a></option>
-                        <option><a href="<?php echo $current_url ?>\?orderby=date&order=ASC">Sort by date ASC</a></option>
-                      </optgroup>
-                </select>
-                <?php get_search_form(); ?>
+                <div class="row">
+                    <div class="col-sm-8 search-form">
+                        <?php get_search_form(); ?>
+                    </div>
+                    <div class="col-sm-4">
+                        <p id="show-sorting"><span class="icon sort-icon"></span><span class="icon filter-icon"></span></p>
+                        <div class="sorting-container box-normal box-hover">
+                            <ul class="order-list filtering">
+                            <span class="pull-right">filter by:</span><br><?php ABVCituWidgets::show_category() ?></ul>
+                            <?php global $wp; $current_url = home_url(add_query_arg(array(),$wp->request));?>
+                            <ul class="order-list sorting">
+                            <span class="pull-right">sort by:</span><br>
+                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=DESC">name desc</a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=ASC">name asc</a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=DESC">date desc</a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=ASC">date asc</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 

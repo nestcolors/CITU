@@ -43,7 +43,97 @@ body.about-us-page{
       color: $light-navy;
     }
     .filter-block{
-      label{font-size: 1.6rem;}
+      padding: 2rem 0;
+      .search-form{
+        form{
+          label{
+            span{
+              display: none;
+            }
+            input{
+              margin: 0 1.5rem 0 1rem;
+              border: 1px solid transparent;
+              border-bottom: 1px solid $bluish-grey;
+              background-color: transparent;
+              font-style: italic;
+              color: $mango-orange;
+            }
+          }
+          input.search-submit{
+            border-radius: 2px;
+            color: $bluish-grey;
+            border: 1px solid transparent;
+            background-color: transparent;
+            padding: 4px 2rem 4px 2.4rem;
+            background-image: url(../../images/icons/search-icon.svg);
+            background-position: center left;
+            background-size: 18%;
+          }
+          input.search-submit:hover{
+            color: $mango-orange;
+            fill: $mango-orange;
+          }
+        }
+      }
+      p{
+        text-align: right; cursor: pointer;
+        .icon{
+          height: 16px;
+          width: 21px;
+          background-size: contain;
+          display: inline-block;
+        }
+        .sort-icon{
+          background-image: url(../../images/icons/sort-by.png);
+        }
+        .filter-icon{
+          background-image: url(../../images/icons/filter.png);
+        }
+      }
+      .sorting-container{
+        display: none;
+        padding: 2rem 2rem;
+        position: absolute;
+        top: -1.4rem;
+        right: 7.4rem;
+        z-index: 999;
+        .hide-sorting:hover{background-color: $mango-orange;}
+        .hide-sorting{
+          cursor: pointer;
+          position: absolute;
+          top: 2rem;
+          right: 2rem;
+          width: 3rem;
+          height: 3rem;
+          background-color: $light-navy;
+        }
+        .filtering{
+          margin-bottom: 1rem;
+          padding: 1rem 0;
+          border-bottom: 1px solid $pale-grey;
+        }
+        ul{
+          padding-left: 1rem;
+          list-style-type: none;
+          span{font-size: 1.3rem;color: $light-navy;}
+          li{
+            margin: 1rem 0;
+            a{
+              color: $bluish-grey;
+            }
+            a:hover{
+              color: $mango-orange;
+            }
+          }
+        }
+        .show-filter-block{
+          display: block;
+          animation: showFilterBlock;
+          animation-delay: .1s;
+          animation-duration: 0.5s;
+          animation-fill-mode: forwards;
+        }
+      }
     }
     .blog-items-list-container{
       .init-blog-item{
