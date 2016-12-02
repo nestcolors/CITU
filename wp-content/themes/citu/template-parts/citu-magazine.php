@@ -81,7 +81,7 @@
     </div>
     <a href="" class="button button-blue button-blue-inverse">load more</a>
 </section>
-<section class="magazine-blog">
+<section class="magazine-blog" id="magazine-blog">
 
     <div class="container">
 
