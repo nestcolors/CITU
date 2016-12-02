@@ -878,3 +878,18 @@
 [Thu Dec 01 17:03:20.589187 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/search.php:2, referer: http://citu/?s=bShould
 [Thu Dec 01 17:03:20.589191 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   6. include() /home/alex/sites/citu/wp-content/themes/citu/magazine.php:8, referer: http://citu/?s=bShould
 [Thu Dec 01 17:03:20.589196 2016] [:error] [pid 9048] [client 127.0.0.1:59774] PHP   7. include() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:67, referer: http://citu/?s=bShould
+[Fri Dec 02 13:39:34.915733 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP ParseError:  syntax error, unexpected '=>' (T_DOUBLE_ARROW), expecting ';' in xdebug://debug-eval on line 1, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915783 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP Stack trace:, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915795 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915802 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915808 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915815 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915822 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP   5. get_header($name = *uninitialized*) /home/alex/sites/citu/wp-content/themes/citu/index.php:5, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915830 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP   6. locate_template($template_names = *uninitialized*, $load = *uninitialized*, $require_once = *uninitialized*) /home/alex/sites/citu/wp-includes/general-template.php:45, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915848 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP   7. load_template($_template_file = *uninitialized*, $require_once = *uninitialized*) /home/alex/sites/citu/wp-includes/template.php:531, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915855 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP   8. require_once() /home/alex/sites/citu/wp-includes/template.php:572, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915861 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP   9. wp_head() /home/alex/sites/citu/wp-content/themes/citu/header.php:21, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915868 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP  10. do_action($tag = *uninitialized*, $arg = *uninitialized*) /home/alex/sites/citu/wp-includes/general-template.php:2555, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915875 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP  11. wp_enqueue_scripts(*uninitialized*) /home/alex/sites/citu/wp-includes/plugin.php:524, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915882 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP  12. do_action($tag = *uninitialized*, $arg = *uninitialized*) /home/alex/sites/citu/wp-includes/script-loader.php:1197, referer: http://citu/?s=
+[Fri Dec 02 13:39:34.915889 2016] [:error] [pid 15377] [client 127.0.0.1:44868] PHP  13. ABVCitu->abv_load_style_script(*uninitialized*) /home/alex/sites/citu/wp-includes/plugin.php:524, referer: http://citu/?s=

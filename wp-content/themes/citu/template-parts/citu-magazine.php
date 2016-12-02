@@ -74,7 +74,7 @@
                                 }
                             }
                         ?>
-                        <div class="clear"></div>
+                        <div class="clear" id="append"></div>
                     </div>
                 </div><!-- EOF blog-items-list -->
 
@@ -82,7 +82,7 @@
         </div>
         <!-- </div> -->
     </div>
-    <a href="" class="button button-blue button-blue-inverse">load more</a>
+    <a href="#" class="button button-blue button-blue-inverse" id="load_more">load more</a>
 </section>
 <section class="magazine-blog" id="magazine-blog">
 

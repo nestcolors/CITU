@@ -251,5 +251,14 @@ class AbvFunctions
             return $link;
         }
     }
+
+    static function parse_query_string($str){
+        $res = [];
+        $arr = explode('&', $str);
+        foreach($arr as $item){
+            $res[explode('=',$item)[0]] = explode('=',$item)[1];
+        }
+        return $res;
+    }
 }
 
