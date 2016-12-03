@@ -12,7 +12,7 @@
         <ul class="lang-switcher">
             <?php AbvFunctions::lang_switcher() ?>
         </ul>
-        <a href="#getintouch">get in touch</a>
+        <a href="#map">get in touch</a>
     </ul>
     <div class="mobile-menu-icon hide-pc mobile-menu-toggle">
         <ul class="white">

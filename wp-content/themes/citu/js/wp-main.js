@@ -58,4 +58,10 @@ jQuery(document).ready(function($) {
             });
         }
     }
+
+    $(this).on('click', 'a[href^="#"]', function () {
+        $('html, body').animate({ scrollTop:  $('a[name="'+this.hash.slice(1)+'"]').offset().top }, 1500 );
+        return false;
+    });
+
 });

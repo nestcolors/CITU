@@ -20,12 +20,13 @@
             </div>
         </div>
     </div>
+    <?php include ('citu-menu-overlay.php'); ?>
 </section><!-- intro section end-->
 
 <div class="nav-bar-full-width box-normal">
-    <div class="container">
-        <div class="row">
-            <div class="nav-bar color">
+    <div class="nav-bar color">
+        <div class="container">
+            <div class="row">
                 <?php include ('citu-menu-main-color.php'); ?>
             </div>
         </div>

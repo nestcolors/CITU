@@ -1,5 +1,6 @@
 <section class="contact-us">
     <div id="map"></div>
+    <a name="map"></a>
     <!-- <div class="gradient"></div> -->
     <div class="container">
         <div class="row">
