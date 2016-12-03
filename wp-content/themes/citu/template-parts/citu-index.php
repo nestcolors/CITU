@@ -167,21 +167,7 @@
         <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="button button-white">Read magazine</a>
 
         <div class="row">
-            <h3 class="center show-mobile">Subscribe for newsletters</h3>
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="subscribe-block box-normal box-hover">
-                    <h3 class="hide-mobile">Subscribe for newsletters</h3>
-                    <input type="text" class="mail" placeholder="yourmail@mail.com">
-                    <input type="button" class="subscribe">
-                </div>
-                <div class="social-links">
-                    <span>social profiles:
-						<a href="<?php echo get_option('abv_options_theme')['soc_f'] ?>" class="subs-icon fb"></a>
-						<a href="<?php echo get_option('abv_options_theme')['soc_vk'] ?>" class="subs-icon in"></a>
-						<a href="<?php echo get_option('abv_options_theme')['soc_inst'] ?>" class="subs-icon insta"></a>
-                    </span>
-                </div>
-            </div>
+            <?php include('citu-mailchimp.php') ?>
         </div>
 
     </div>

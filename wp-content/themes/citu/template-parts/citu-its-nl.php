@@ -276,17 +276,7 @@
     <div class="container">
 
         <div class="row">
-            <h3 class="center show-mobile">Subscribe for newsletters</h3>
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="subscribe-block box-normal box-hover">
-                    <h3 class="hide-mobile">Subscribe for newsletters</h3>
-                    <input type="text" class="mail" placeholder="yourmail@mail.com">
-                    <input type="button" class="subscribe">
-                </div>
-                <div class="social-links">
-                    <span>social profiles: <a href="" class="subs-icon fb"></a><a href="" class="subs-icon in"></a><a href="" class="subs-icon insta"></a></span>
-                </div>
-            </div>
+            <?php include('citu-mailchimp.php') ?>
         </div>
 
     </div>
