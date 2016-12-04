@@ -266,13 +266,12 @@ class AbvFunctions
             $raw = pll_the_languages(array('raw'=>1));
             foreach($raw as $item){
                 $full_name = $item['name'];
-                if ($full_name === 'Nederlands') $full_name = 'dutch';
-                if ($full_name === 'English') $full_name = 'english';
+                if ($full_name === 'Nederlands') $full_name = 'nl';
+                if ($full_name === 'English') $full_name = 'en';
                 ?>
                     <ul><a href="<?php echo $item['url'] ?>" style="<?php if($item['current_lang']) echo 'active'; ?>"><?php echo $full_name ?></a></ul>
                 <?php
             }
-            //return $raw;
         }
     }
 
@@ -281,5 +280,7 @@ class AbvFunctions
         $url =  home_url(add_query_arg(array(),$wp->request));
         if (strpos($url, $str)!== false) return "active";
     }
+
+
 }
 
