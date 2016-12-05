@@ -73,6 +73,10 @@ body.about-us-page{
             color: $mango-orange;
             fill: $mango-orange;
           }
+          input.search-field::placeholder{
+            content: 'some topic';
+            color: $bluish-grey;
+          }
         }
       }
       p{

@@ -324,6 +324,9 @@ p{
     margin-right: 4rem;
     line-height: 2.5;
   }
+  form{
+    display: inline;
+  }
   input.mail{
     display: inline-block;
     border: 1px solid $transparent;

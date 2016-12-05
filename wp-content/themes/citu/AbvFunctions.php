@@ -267,7 +267,7 @@ class AbvFunctions
             foreach($raw as $item){
                 $full_name = $item['name'];
                 if ($full_name === 'Nederlands') $full_name = 'dutch';
-                if ($full_name === 'English') $full_name = 'english';
+                if ($full_name === 'English') $full_name = 'eng';
                 ?>
                     <ul><a href="<?php echo $item['url'] ?>" style="<?php if($item['current_lang']) echo 'active'; ?>"><?php echo $full_name ?></a></ul>
                 <?php
