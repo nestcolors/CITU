@@ -266,13 +266,13 @@ class AbvFunctions
             $raw = pll_the_languages(array('raw'=>1));
             foreach($raw as $item){
                 $full_name = $item['name'];
-                if ($full_name === 'Nederlands') $full_name = 'dutch';
-                if ($full_name === 'English') $full_name = 'eng';
+
+                if ($full_name === 'Nederlands') $full_name = 'nl';
+                if ($full_name === 'English') $full_name = 'en';
                 ?>
                     <ul><a href="<?php echo $item['url'] ?>" style="<?php if($item['current_lang']) echo 'active'; ?>"><?php echo $full_name ?></a></ul>
                 <?php
             }
-            //return $raw;
         }
     }
 
@@ -280,6 +280,30 @@ class AbvFunctions
         global $wp;
         $url =  home_url(add_query_arg(array(),$wp->request));
         if (strpos($url, $str)!== false) return "active";
+    }
+
+    // отдать картинки и текст в єбаут
+    static function get_all_post_type($post_type, $post_meta, $template, $posts_per_page=-1){
+        $args = array(
+            'post_type'  => $post_type,
+            'posts_per_page' => $posts_per_page,
+        );
+        $args['meta_query'] = array(
+            array(
+                'key' => $post_meta,
+            )
+        );
+        $args['meta_key'] = $post_meta;
+        $args['orderby'] = 'meta_value_num';
+        $args['order'] = 'ASC';
+
+        $query = new WP_Query( $args );
+        if ($query->found_posts){
+            wp_reset_postdata();
+            foreach($query->posts as $item){
+                include('template-parts'.DIRECTORY_SEPARATOR.$template);
+            }
+        }
     }
 }
 

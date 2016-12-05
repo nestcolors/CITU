@@ -1,4 +1,4 @@
-<body <?php body_class("home-page full-navbar-page"); ?>>
+<body <?php body_class("home-page full-navbar-page ". pll_current_language('slug')) ?>>
 <div class="top-bar">
 
 </div>

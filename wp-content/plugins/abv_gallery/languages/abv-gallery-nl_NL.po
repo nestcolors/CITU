@@ -1,0 +1,119 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-12-04 12:24+0200\n"
+"PO-Revision-Date: 2016-12-04 12:24+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: abv_gallery.php\n"
+"X-Poedit-SearchPath-1: ABVGallery.php\n"
+"X-Poedit-SearchPath-2: ABVGalleryWidgets.php\n"
+"X-Poedit-SearchPath-3: tpl/gallery_load_image.php\n"
+"X-Poedit-SearchPath-4: tpl/gallery_metabox.php\n"
+"X-Poedit-SearchPath-5: tpl/gallery_shortcode.php\n"
+
+#: ABVGallery.php:84 ABVGallery.php:85 ABVGallery.php:96 ABVGallery.php:112
+msgid "Client"
+msgstr "Cliënt"
+
+#: ABVGallery.php:86
+msgid "Add Client"
+msgstr "Client toevoegen"
+
+#: ABVGallery.php:87
+msgid "Add new Client"
+msgstr "Voeg een nieuwe klant"
+
+#: ABVGallery.php:88
+msgid "Edit"
+msgstr "Bewerk"
+
+#: ABVGallery.php:89
+msgid "Edit Client"
+msgstr "Client bewerken"
+
+#: ABVGallery.php:90
+msgid "New Client"
+msgstr "Nieuwe klant"
+
+#: ABVGallery.php:91
+msgid "View"
+msgstr "Uitzicht"
+
+#: ABVGallery.php:92
+msgid "View Client"
+msgstr "View client"
+
+#: ABVGallery.php:93
+msgid "Search Client"
+msgstr "Zoeken client"
+
+#: ABVGallery.php:94
+msgid "Client not found"
+msgstr "Client niet gevonden"
+
+#: ABVGallery.php:95
+msgid "Client not found in trash"
+msgstr "Client niet gevonden in vuilnisbak"
+
+#: ABVGallery.php:166
+msgid "ID"
+msgstr ""
+
+#: ABVGallery.php:167 tpl/gallery_metabox.php:5
+msgid "Shortcode"
+msgstr "Korte code"
+
+#: ABVGallery.php:191
+msgid "Connect owl slider"
+msgstr "Sluit uil slider"
+
+#: ABVGallery.php:192
+msgid "Connect slick slider"
+msgstr "Sluit gelikte slider"
+
+#: tpl/gallery_metabox.php:12
+msgid "Post"
+msgstr ""
+
+#: tpl/gallery_metabox.php:18
+msgid "Position"
+msgstr "Positie"
+
+#: tpl/gallery_metabox.php:25
+msgid "Images clients (can be assorted)"
+msgstr "Afbeeldingen clients (kunnen diverse)"
+
+#: tpl/gallery_metabox.php:37
+msgid "Download image"
+msgstr "Download afbeelding"
+
+#~ msgid "Contact Us"
+#~ msgstr "Neem contact met ons op"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Phone #"
+#~ msgstr "Telefoon #"
+
+#~ msgid "Address"
+#~ msgstr "Adres"
+
+#~ msgid "We would be happy to discuss your project or answer any questions."
+#~ msgstr "Wij willen graag uw project te bespreken of vragen te beantwoorden."
+
+#~ msgid "Subscribe for newsletters"
+#~ msgstr "Aanmelden voor nieuwsbrieven"

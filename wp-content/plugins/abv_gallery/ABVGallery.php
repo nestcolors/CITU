@@ -81,19 +81,19 @@ class ABVGallery
         register_post_type('gallery',
             array(
                 'labels' => array(
-                    'name' => __('Gallery','abv-gallery'),
-                    'singular_name' => __('Gallery','abv-gallery'),
-                    'add_new' => __('Add gallery','abv-gallery'),
-                    'add_new_item' => __('Add new gallery','abv-gallery'),
+                    'name' => __('Client','abv-gallery'),
+                    'singular_name' => __('Client','abv-gallery'),
+                    'add_new' => __('Add Client','abv-gallery'),
+                    'add_new_item' => __('Add new Client','abv-gallery'),
                     'edit' => __('Edit','abv-gallery'),
-                    'edit_item' => __('Edit gallery','abv-gallery'),
-                    'new_item' => __('New Gallery','abv-gallery'),
+                    'edit_item' => __('Edit Client','abv-gallery'),
+                    'new_item' => __('New Client','abv-gallery'),
                     'view' => __('View','abv-gallery'),
-                    'view_item' => __('View gallery','abv-gallery'),
-                    'search_items' => __('Search gallery','abv-gallery'),
-                    'not_found' => __('Gallery not found','abv-gallery'),
-                    'not_found_in_trash' => __('Gallery not found in trash','abv-gallery'),
-                    'parent' => __('Parent Gallery','abv-gallery')
+                    'view_item' => __('View Client','abv-gallery'),
+                    'search_items' => __('Search Client','abv-gallery'),
+                    'not_found' => __('Client not found','abv-gallery'),
+                    'not_found_in_trash' => __('Client not found in trash','abv-gallery'),
+                    'parent' => __('Client','abv-gallery')
                 ),
                 'public' => true,
                 'publicly_queryable' => false,
@@ -109,7 +109,7 @@ class ABVGallery
 
 // создаем метабокс админки
     function abv_gallery_add_meta_boxes(){
-        add_meta_box( 'abv_gallery_id', 'Gallery', [(new ABVGalleryWidgets()), 'abv_gallery_meta_callback'], 'gallery' );
+        add_meta_box( 'abv_gallery_id', __('Client','abv-gallery'), [(new ABVGalleryWidgets()), 'abv_gallery_meta_callback'], 'gallery' );
     }
 
 
@@ -163,8 +163,8 @@ class ABVGallery
         if(!isset($_GET['post_type'])) return $defaults;
         if($_GET['post_type'] == 'gallery'){
             unset($defaults['date']);
-            $defaults['abv_post_id'] = __('ID');
-            $defaults['abv_gallery_shortcode'] = __('Шорткод');
+            $defaults['abv_post_id'] = __('ID','abv-gallery');
+            $defaults['abv_gallery_shortcode'] = __('Shortcode','abv-gallery');
             return $defaults;
         }
         return $defaults;

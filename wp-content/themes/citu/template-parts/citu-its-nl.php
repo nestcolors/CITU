@@ -1,4 +1,4 @@
-<body class="service-page its-service-page full-navbar-page">
+<body class="service-page its-service-page full-navbar-page  <?php echo pll_current_language('slug') ?>">
 <div class="top-bar">
 
 </div>
