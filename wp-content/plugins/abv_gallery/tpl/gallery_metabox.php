@@ -22,7 +22,7 @@
     </tr>
     <tr>
         <td colspan="2">
-            <?php echo __("Images gallery (can be assorted)","abv-gallery") ?>
+            <?php echo __("Images clients (can be assorted)","abv-gallery") ?>
         </td>
     </tr>
     <tr>

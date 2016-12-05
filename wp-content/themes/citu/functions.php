@@ -143,6 +143,6 @@ require get_template_directory() . '/inc/jetpack.php';
 include 'abv_autoload.php';
 include 'abv_options.php';
 
-global $citu;
+global $abv_citu;
 
-$citu = new ABVCitu();
+$abv_citu = new ABVCitu();

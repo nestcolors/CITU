@@ -1,4 +1,4 @@
-<body class="about-us-page">
+<body class="about-us-page <?php echo pll_current_language('slug') ?>">
 <div class="nav-bar-full-width box-normal fixed">
     <div class="container">
         <div class="row">
@@ -167,26 +167,7 @@
                     <h3>Our clients:</h3>
                     <div class="header-line"></div>
                     <div class="clients-container">
-                        <div class="client">
-                            <img src="<?php echo bloginfo('template_directory') ?>/images/logos/logo-1.png" alt="">
-                            <p>client 1</p>
-                        </div>
-                        <div class="client">
-                            <img src="<?php echo bloginfo('template_directory') ?>/images/logos/logo-2.png" alt="">
-                            <p>client 2</p>
-                        </div>
-                        <div class="client">
-                            <img src="<?php echo bloginfo('template_directory') ?>/images/logos/logo-3.png" alt="">
-                            <p>client 3</p>
-                        </div>
-                        <div class="client">
-                            <img src="<?php echo bloginfo('template_directory') ?>/images/logos/logo-4.png" alt="">
-                            <p>client 4</p>
-                        </div>
-                        <div class="client">
-                            <img src="<?php echo bloginfo('template_directory') ?>/images/logos/logo-5.png" alt="">
-                            <p>client 5</p>
-                        </div>
+                        <?php AbvFunctions::get_all_post_type('clients','abv_clients_position_meta_value_key','citu-slider-clients.php', 6) ?>
                     </div>
                 </div>
             </div>
@@ -204,4 +185,3 @@
     </div>
 </section><!-- magazine section end-->
 <?php include ('citu-contact-form.php'); ?>
-

@@ -1,4 +1,4 @@
-<body class="magazine-page full-navbar-page">
+<body class="magazine-page full-navbar-page <?php echo pll_current_language('slug') ?>">
 <section class="intro">
     <div class="color-overlay"></div>
     <div class="container">
@@ -33,6 +33,7 @@
         <div class="row filter-block">
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
                 <div class="row">
+                    <?php echo ABVCituWidgets::filter_indicator() ?>
                     <div class="col-sm-8 search-form">
                         <?php get_search_form(); ?>
                     </div>

@@ -281,6 +281,28 @@ class AbvFunctions
         if (strpos($url, $str)!== false) return "active";
     }
 
+    // отдать картинки и текст в єбаут
+    static function get_all_post_type($post_type, $post_meta, $template, $posts_per_page=-1){
+        $args = array(
+            'post_type'  => $post_type,
+            'posts_per_page' => $posts_per_page,
+        );
+        $args['meta_query'] = array(
+            array(
+                'key' => $post_meta,
+            )
+        );
+        $args['meta_key'] = $post_meta;
+        $args['orderby'] = 'meta_value_num';
+        $args['order'] = 'ASC';
 
+        $query = new WP_Query( $args );
+        if ($query->found_posts){
+            wp_reset_postdata();
+            foreach($query->posts as $item){
+                include('template-parts'.DIRECTORY_SEPARATOR.$template);
+            }
+        }
+    }
 }
 

@@ -1,7 +1,7 @@
 <?php
 if (!defined('ABSPATH')) exit;
 /*
-Plugin Name: ABV галерея
+Plugin Name: ABV gallery
 Plugin URI: http://alexbro.siteprosto.ks.ua/
 Description: Plugin ABV gallery with the object-oriented approach
 Version: 1.1
