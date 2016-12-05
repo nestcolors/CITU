@@ -266,6 +266,7 @@ class AbvFunctions
             $raw = pll_the_languages(array('raw'=>1));
             foreach($raw as $item){
                 $full_name = $item['name'];
+
                 if ($full_name === 'Nederlands') $full_name = 'nl';
                 if ($full_name === 'English') $full_name = 'en';
                 ?>
