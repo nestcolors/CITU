@@ -13,7 +13,7 @@ class ABVCitu
         $this->themeDir = dirname(__FILE__);
         $this->themeUrl = get_stylesheet_directory_uri();
 
-        add_action('wp_enqueue_scripts', [$this, 'abv_load_style_script']);
+        add_action('wp_enqueue_scripts', [$this, 'load_style_script']);
         add_action('wp_ajax_abv_ajax', [$this, 'abv_action_ajax_callback']);
         add_action('wp_ajax_nopriv_abv_ajax', [$this, 'abv_action_ajax_callback']);
         add_action('add_meta_boxes', [$this, 'portfolio_add_meta_boxes']);

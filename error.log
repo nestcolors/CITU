@@ -1851,3 +1851,259 @@
 [Mon Dec 05 08:19:13.123998 2016] [:error] [pid 32215] [client 127.0.0.1:52238] PHP  10. do_action($tag = *uninitialized*, $arg = *uninitialized*) /home/alex/sites/citu/wp-includes/general-template.php:2555, referer: http://citu/magazine/?category_name=uncategorized
 [Mon Dec 05 08:19:13.124003 2016] [:error] [pid 32215] [client 127.0.0.1:52238] PHP  11. wp_enqueue_scripts(*uninitialized*) /home/alex/sites/citu/wp-includes/plugin.php:524, referer: http://citu/magazine/?category_name=uncategorized
 [Mon Dec 05 08:19:13.124008 2016] [:error] [pid 32215] [client 127.0.0.1:52238] PHP  12. do_action($tag = *uninitialized*, $arg = *uninitialized*) /home/alex/sites/citu/wp-includes/script-loader.php:1197, referer: http://citu/magazine/?category_name=uncategorized
+[Mon Dec 05 18:54:16.093843 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ABVCitu' does not have a method 'abv_load_style_script' in /home/alex/sites/citu/wp-includes/plugin.php on line 524
+[Mon Dec 05 18:54:16.119926 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP Stack trace:
+[Mon Dec 05 18:54:16.120053 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   1. {main}() /home/alex/sites/citu/index.php:0
+[Mon Dec 05 18:54:16.120061 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   2. require() /home/alex/sites/citu/index.php:17
+[Mon Dec 05 18:54:16.120065 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19
+[Mon Dec 05 18:54:16.120070 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75
+[Mon Dec 05 18:54:16.120074 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   5. get_header() /home/alex/sites/citu/wp-content/themes/citu/index.php:5
+[Mon Dec 05 18:54:16.120079 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   6. locate_template() /home/alex/sites/citu/wp-includes/general-template.php:45
+[Mon Dec 05 18:54:16.120084 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   7. load_template() /home/alex/sites/citu/wp-includes/template.php:531
+[Mon Dec 05 18:54:16.120088 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   8. require_once() /home/alex/sites/citu/wp-includes/template.php:572
+[Mon Dec 05 18:54:16.120092 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   9. wp_head() /home/alex/sites/citu/wp-content/themes/citu/header.php:21
+[Mon Dec 05 18:54:16.120096 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP  10. do_action() /home/alex/sites/citu/wp-includes/general-template.php:2555
+[Mon Dec 05 18:54:16.120114 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP  11. wp_enqueue_scripts() /home/alex/sites/citu/wp-includes/plugin.php:524
+[Mon Dec 05 18:54:16.120119 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP  12. do_action() /home/alex/sites/citu/wp-includes/script-loader.php:1197
+[Mon Dec 05 18:54:17.513525 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ABVCitu' does not have a method 'abv_load_style_script' in /home/alex/sites/citu/wp-includes/plugin.php on line 524, referer: http://citu/
+[Mon Dec 05 18:54:17.513537 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 18:54:17.513651 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 18:54:17.513657 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 18:54:17.513661 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 18:54:17.513665 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 18:54:17.513669 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   5. get_header() /home/alex/sites/citu/wp-content/themes/citu/index.php:5, referer: http://citu/
+[Mon Dec 05 18:54:17.513673 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   6. locate_template() /home/alex/sites/citu/wp-includes/general-template.php:45, referer: http://citu/
+[Mon Dec 05 18:54:17.513677 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   7. load_template() /home/alex/sites/citu/wp-includes/template.php:531, referer: http://citu/
+[Mon Dec 05 18:54:17.513680 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   8. require_once() /home/alex/sites/citu/wp-includes/template.php:572, referer: http://citu/
+[Mon Dec 05 18:54:17.513684 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   9. wp_head() /home/alex/sites/citu/wp-content/themes/citu/header.php:21, referer: http://citu/
+[Mon Dec 05 18:54:17.513688 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP  10. do_action() /home/alex/sites/citu/wp-includes/general-template.php:2555, referer: http://citu/
+[Mon Dec 05 18:54:17.513692 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP  11. wp_enqueue_scripts() /home/alex/sites/citu/wp-includes/plugin.php:524, referer: http://citu/
+[Mon Dec 05 18:54:17.513696 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP  12. do_action() /home/alex/sites/citu/wp-includes/script-loader.php:1197, referer: http://citu/
+[Mon Dec 05 18:54:19.838117 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ABVCitu' does not have a method 'abv_load_style_script' in /home/alex/sites/citu/wp-includes/plugin.php on line 524, referer: http://citu/
+[Mon Dec 05 18:54:19.838131 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 18:54:19.838290 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 18:54:19.838296 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 18:54:19.838300 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 18:54:19.838304 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 18:54:19.838308 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   5. get_header() /home/alex/sites/citu/wp-content/themes/citu/index.php:5, referer: http://citu/
+[Mon Dec 05 18:54:19.838317 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   6. locate_template() /home/alex/sites/citu/wp-includes/general-template.php:45, referer: http://citu/
+[Mon Dec 05 18:54:19.838322 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   7. load_template() /home/alex/sites/citu/wp-includes/template.php:531, referer: http://citu/
+[Mon Dec 05 18:54:19.838326 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   8. require_once() /home/alex/sites/citu/wp-includes/template.php:572, referer: http://citu/
+[Mon Dec 05 18:54:19.838330 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP   9. wp_head() /home/alex/sites/citu/wp-content/themes/citu/header.php:21, referer: http://citu/
+[Mon Dec 05 18:54:19.838334 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP  10. do_action() /home/alex/sites/citu/wp-includes/general-template.php:2555, referer: http://citu/
+[Mon Dec 05 18:54:19.838338 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP  11. wp_enqueue_scripts() /home/alex/sites/citu/wp-includes/plugin.php:524, referer: http://citu/
+[Mon Dec 05 18:54:19.838342 2016] [:error] [pid 28383] [client 127.0.0.1:33446] PHP  12. do_action() /home/alex/sites/citu/wp-includes/script-loader.php:1197, referer: http://citu/
+[Mon Dec 05 18:54:20.893476 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ABVCitu' does not have a method 'abv_load_style_script' in /home/alex/sites/citu/wp-includes/plugin.php on line 524, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893495 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893639 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893645 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893650 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893654 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893658 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   5. get_header() /home/alex/sites/citu/wp-content/themes/citu/index.php:5, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893662 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   6. locate_template() /home/alex/sites/citu/wp-includes/general-template.php:45, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893666 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   7. load_template() /home/alex/sites/citu/wp-includes/template.php:531, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893669 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   8. require_once() /home/alex/sites/citu/wp-includes/template.php:572, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893673 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP   9. wp_head() /home/alex/sites/citu/wp-content/themes/citu/header.php:21, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893677 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP  10. do_action() /home/alex/sites/citu/wp-includes/general-template.php:2555, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893681 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP  11. wp_enqueue_scripts() /home/alex/sites/citu/wp-includes/plugin.php:524, referer: http://citu/magazine/
+[Mon Dec 05 18:54:20.893685 2016] [:error] [pid 28382] [client 127.0.0.1:33414] PHP  12. do_action() /home/alex/sites/citu/wp-includes/script-loader.php:1197, referer: http://citu/magazine/
+[Mon Dec 05 18:54:31.813188 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ABVCitu' does not have a method 'abv_load_style_script' in /home/alex/sites/citu/wp-includes/plugin.php on line 524
+[Mon Dec 05 18:54:31.813211 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP Stack trace:
+[Mon Dec 05 18:54:31.813294 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP   1. {main}() /home/alex/sites/citu/index.php:0
+[Mon Dec 05 18:54:31.813300 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP   2. require() /home/alex/sites/citu/index.php:17
+[Mon Dec 05 18:54:31.813304 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19
+[Mon Dec 05 18:54:31.813308 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75
+[Mon Dec 05 18:54:31.813312 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP   5. get_header() /home/alex/sites/citu/wp-content/themes/citu/404.php:10
+[Mon Dec 05 18:54:31.813316 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP   6. locate_template() /home/alex/sites/citu/wp-includes/general-template.php:45
+[Mon Dec 05 18:54:31.813320 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP   7. load_template() /home/alex/sites/citu/wp-includes/template.php:531
+[Mon Dec 05 18:54:31.813323 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP   8. require_once() /home/alex/sites/citu/wp-includes/template.php:572
+[Mon Dec 05 18:54:31.813327 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP   9. wp_head() /home/alex/sites/citu/wp-content/themes/citu/header.php:21
+[Mon Dec 05 18:54:31.813331 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP  10. do_action() /home/alex/sites/citu/wp-includes/general-template.php:2555
+[Mon Dec 05 18:54:31.813335 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP  11. wp_enqueue_scripts() /home/alex/sites/citu/wp-includes/plugin.php:524
+[Mon Dec 05 18:54:31.813339 2016] [:error] [pid 28386] [client 127.0.0.1:33472] PHP  12. do_action() /home/alex/sites/citu/wp-includes/script-loader.php:1197
+[Mon Dec 05 19:00:26.712073 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ABVCitu' does not have a method 'abv_load_style_script' in /home/alex/sites/citu/wp-includes/plugin.php on line 524, referer: http://citu/
+[Mon Dec 05 19:00:26.712109 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:00:26.712190 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:00:26.712197 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:00:26.712203 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:00:26.712207 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:00:26.712212 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   5. get_header() /home/alex/sites/citu/wp-content/themes/citu/index.php:5, referer: http://citu/
+[Mon Dec 05 19:00:26.712217 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   6. locate_template() /home/alex/sites/citu/wp-includes/general-template.php:45, referer: http://citu/
+[Mon Dec 05 19:00:26.712222 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   7. load_template() /home/alex/sites/citu/wp-includes/template.php:531, referer: http://citu/
+[Mon Dec 05 19:00:26.712226 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   8. require_once() /home/alex/sites/citu/wp-includes/template.php:572, referer: http://citu/
+[Mon Dec 05 19:00:26.712231 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   9. wp_head() /home/alex/sites/citu/wp-content/themes/citu/header.php:21, referer: http://citu/
+[Mon Dec 05 19:00:26.712244 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP  10. do_action() /home/alex/sites/citu/wp-includes/general-template.php:2555, referer: http://citu/
+[Mon Dec 05 19:00:26.712248 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP  11. wp_enqueue_scripts() /home/alex/sites/citu/wp-includes/plugin.php:524, referer: http://citu/
+[Mon Dec 05 19:00:26.712253 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP  12. do_action() /home/alex/sites/citu/wp-includes/script-loader.php:1197, referer: http://citu/
+[Mon Dec 05 19:00:26.765733 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP Notice:  Undefined index: REDIRECT_QUERY_STRING in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 141, referer: http://citu/
+[Mon Dec 05 19:00:26.765754 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:00:26.765813 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:00:26.765819 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:00:26.765823 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:00:26.765827 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:00:26.765832 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Mon Dec 05 19:00:26.765837 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/
+[Mon Dec 05 19:00:26.766286 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 146, referer: http://citu/
+[Mon Dec 05 19:00:26.766291 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:00:26.766297 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:00:26.766301 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:00:26.766305 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:00:26.766309 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:00:26.766313 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Mon Dec 05 19:00:26.766318 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/
+[Mon Dec 05 19:00:26.766395 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 147, referer: http://citu/
+[Mon Dec 05 19:00:26.766400 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:00:26.766406 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:00:26.766411 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:00:26.766421 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:00:26.766426 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:00:26.766430 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Mon Dec 05 19:00:26.766435 2016] [:error] [pid 29676] [client 127.0.0.1:33536] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/
+[Mon Dec 05 19:00:28.041130 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ABVCitu' does not have a method 'abv_load_style_script' in /home/alex/sites/citu/wp-includes/plugin.php on line 524
+[Mon Dec 05 19:00:28.043493 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP Stack trace:
+[Mon Dec 05 19:00:28.043594 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP   1. {main}() /home/alex/sites/citu/index.php:0
+[Mon Dec 05 19:00:28.043603 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP   2. require() /home/alex/sites/citu/index.php:17
+[Mon Dec 05 19:00:28.043607 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19
+[Mon Dec 05 19:00:28.043612 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75
+[Mon Dec 05 19:00:28.043616 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP   5. get_header() /home/alex/sites/citu/wp-content/themes/citu/404.php:10
+[Mon Dec 05 19:00:28.043620 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP   6. locate_template() /home/alex/sites/citu/wp-includes/general-template.php:45
+[Mon Dec 05 19:00:28.043625 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP   7. load_template() /home/alex/sites/citu/wp-includes/template.php:531
+[Mon Dec 05 19:00:28.043629 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP   8. require_once() /home/alex/sites/citu/wp-includes/template.php:572
+[Mon Dec 05 19:00:28.043633 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP   9. wp_head() /home/alex/sites/citu/wp-content/themes/citu/header.php:21
+[Mon Dec 05 19:00:28.043637 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP  10. do_action() /home/alex/sites/citu/wp-includes/general-template.php:2555
+[Mon Dec 05 19:00:28.043642 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP  11. wp_enqueue_scripts() /home/alex/sites/citu/wp-includes/plugin.php:524
+[Mon Dec 05 19:00:28.043646 2016] [:error] [pid 28384] [client 127.0.0.1:33546] PHP  12. do_action() /home/alex/sites/citu/wp-includes/script-loader.php:1197
+[Mon Dec 05 19:00:28.080620 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, class 'ABVCitu' does not have a method 'abv_load_style_script' in /home/alex/sites/citu/wp-includes/plugin.php on line 524, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080642 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080726 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080733 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080738 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080742 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080752 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   5. get_header() /home/alex/sites/citu/wp-content/themes/citu/index.php:5, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080757 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   6. locate_template() /home/alex/sites/citu/wp-includes/general-template.php:45, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080761 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   7. load_template() /home/alex/sites/citu/wp-includes/template.php:531, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080766 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   8. require_once() /home/alex/sites/citu/wp-includes/template.php:572, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080770 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   9. wp_head() /home/alex/sites/citu/wp-content/themes/citu/header.php:21, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080774 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP  10. do_action() /home/alex/sites/citu/wp-includes/general-template.php:2555, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080779 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP  11. wp_enqueue_scripts() /home/alex/sites/citu/wp-includes/plugin.php:524, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.080783 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP  12. do_action() /home/alex/sites/citu/wp-includes/script-loader.php:1197, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.189426 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP Notice:  Undefined index: REDIRECT_QUERY_STRING in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 141, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.189453 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.189516 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.189522 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.189527 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.189531 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.189535 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.189540 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190005 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 146, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190011 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190017 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190021 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190025 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190029 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190040 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190046 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190127 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 147, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190132 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190138 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190143 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190147 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190151 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190155 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/magazine/
+[Mon Dec 05 19:00:28.190160 2016] [:error] [pid 28443] [client 127.0.0.1:33540] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.021898 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP Notice:  Undefined index: REDIRECT_QUERY_STRING in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 141, referer: http://citu/
+[Mon Dec 05 19:03:41.021943 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:03:41.022087 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:03:41.022095 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:03:41.022100 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:03:41.022104 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:03:41.022109 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Mon Dec 05 19:03:41.022114 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/
+[Mon Dec 05 19:03:41.022655 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 146, referer: http://citu/
+[Mon Dec 05 19:03:41.022666 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:03:41.022672 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:03:41.022676 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:03:41.022681 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:03:41.022694 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:03:41.022698 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Mon Dec 05 19:03:41.022704 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/
+[Mon Dec 05 19:03:41.022803 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 147, referer: http://citu/
+[Mon Dec 05 19:03:41.022809 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:03:41.022815 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:03:41.022819 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:03:41.022823 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:03:41.022827 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:03:41.022831 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Mon Dec 05 19:03:41.022837 2016] [:error] [pid 28382] [client 127.0.0.1:33554] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/
+[Mon Dec 05 19:03:41.956943 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP Notice:  Undefined index: REDIRECT_QUERY_STRING in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 141, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.956983 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957087 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957098 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957103 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957107 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957111 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957116 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957495 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 146, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957501 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957506 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957517 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957522 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957526 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957530 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957535 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957615 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 147, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957620 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957626 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957630 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957634 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957638 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957642 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/magazine/
+[Mon Dec 05 19:03:41.957647 2016] [:error] [pid 28822] [client 127.0.0.1:33558] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/magazine/
+[Mon Dec 05 19:06:57.164747 2016] [:error] [pid 28433] [client 127.0.0.1:33584] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 151, referer: http://citu/
+[Mon Dec 05 19:06:57.164777 2016] [:error] [pid 28433] [client 127.0.0.1:33584] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:06:57.164837 2016] [:error] [pid 28433] [client 127.0.0.1:33584] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:06:57.164844 2016] [:error] [pid 28433] [client 127.0.0.1:33584] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:06:57.164849 2016] [:error] [pid 28433] [client 127.0.0.1:33584] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:06:57.164853 2016] [:error] [pid 28433] [client 127.0.0.1:33584] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:06:57.164858 2016] [:error] [pid 28433] [client 127.0.0.1:33584] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Mon Dec 05 19:06:57.164863 2016] [:error] [pid 28433] [client 127.0.0.1:33584] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/
+[Mon Dec 05 19:06:58.067272 2016] [:error] [pid 30022] [client 127.0.0.1:33594] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 151, referer: http://citu/magazine/
+[Mon Dec 05 19:06:58.067320 2016] [:error] [pid 30022] [client 127.0.0.1:33594] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:06:58.067338 2016] [:error] [pid 30022] [client 127.0.0.1:33594] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:06:58.067344 2016] [:error] [pid 30022] [client 127.0.0.1:33594] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:06:58.067348 2016] [:error] [pid 30022] [client 127.0.0.1:33594] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:06:58.067353 2016] [:error] [pid 30022] [client 127.0.0.1:33594] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:06:58.067357 2016] [:error] [pid 30022] [client 127.0.0.1:33594] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/magazine/
+[Mon Dec 05 19:06:58.067362 2016] [:error] [pid 30022] [client 127.0.0.1:33594] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/magazine/
+[Mon Dec 05 19:07:40.197874 2016] [:error] [pid 28382] [client 127.0.0.1:33598] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 151, referer: http://citu/
+[Mon Dec 05 19:07:40.197898 2016] [:error] [pid 28382] [client 127.0.0.1:33598] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:07:40.198036 2016] [:error] [pid 28382] [client 127.0.0.1:33598] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:07:40.198046 2016] [:error] [pid 28382] [client 127.0.0.1:33598] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:07:40.198052 2016] [:error] [pid 28382] [client 127.0.0.1:33598] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:07:40.198057 2016] [:error] [pid 28382] [client 127.0.0.1:33598] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:07:40.198061 2016] [:error] [pid 28382] [client 127.0.0.1:33598] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Mon Dec 05 19:07:40.198067 2016] [:error] [pid 28382] [client 127.0.0.1:33598] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/
+[Mon Dec 05 19:07:41.157732 2016] [:error] [pid 29676] [client 127.0.0.1:33600] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 151, referer: http://citu/magazine/
+[Mon Dec 05 19:07:41.157761 2016] [:error] [pid 29676] [client 127.0.0.1:33600] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:07:41.157769 2016] [:error] [pid 29676] [client 127.0.0.1:33600] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:07:41.157775 2016] [:error] [pid 29676] [client 127.0.0.1:33600] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:07:41.157780 2016] [:error] [pid 29676] [client 127.0.0.1:33600] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:07:41.157785 2016] [:error] [pid 29676] [client 127.0.0.1:33600] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:07:41.157789 2016] [:error] [pid 29676] [client 127.0.0.1:33600] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/magazine/
+[Mon Dec 05 19:07:41.157795 2016] [:error] [pid 29676] [client 127.0.0.1:33600] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/magazine/
+[Mon Dec 05 19:08:46.348146 2016] [:error] [pid 28384] [client 127.0.0.1:33614] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 152, referer: http://citu/
+[Mon Dec 05 19:08:46.348176 2016] [:error] [pid 28384] [client 127.0.0.1:33614] PHP Stack trace:, referer: http://citu/
+[Mon Dec 05 19:08:46.348268 2016] [:error] [pid 28384] [client 127.0.0.1:33614] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/
+[Mon Dec 05 19:08:46.348278 2016] [:error] [pid 28384] [client 127.0.0.1:33614] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/
+[Mon Dec 05 19:08:46.348283 2016] [:error] [pid 28384] [client 127.0.0.1:33614] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/
+[Mon Dec 05 19:08:46.348288 2016] [:error] [pid 28384] [client 127.0.0.1:33614] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/
+[Mon Dec 05 19:08:46.348292 2016] [:error] [pid 28384] [client 127.0.0.1:33614] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/
+[Mon Dec 05 19:08:46.348298 2016] [:error] [pid 28384] [client 127.0.0.1:33614] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/
+[Mon Dec 05 19:08:47.284456 2016] [:error] [pid 30206] [client 127.0.0.1:33616] PHP Notice:  Undefined offset: 4 in /home/alex/sites/citu/wp-content/themes/citu/ABVCituWidgets.php on line 152, referer: http://citu/magazine/
+[Mon Dec 05 19:08:47.284482 2016] [:error] [pid 30206] [client 127.0.0.1:33616] PHP Stack trace:, referer: http://citu/magazine/
+[Mon Dec 05 19:08:47.284490 2016] [:error] [pid 30206] [client 127.0.0.1:33616] PHP   1. {main}() /home/alex/sites/citu/index.php:0, referer: http://citu/magazine/
+[Mon Dec 05 19:08:47.284495 2016] [:error] [pid 30206] [client 127.0.0.1:33616] PHP   2. require() /home/alex/sites/citu/index.php:17, referer: http://citu/magazine/
+[Mon Dec 05 19:08:47.284500 2016] [:error] [pid 30206] [client 127.0.0.1:33616] PHP   3. require_once() /home/alex/sites/citu/wp-blog-header.php:19, referer: http://citu/magazine/
+[Mon Dec 05 19:08:47.284505 2016] [:error] [pid 30206] [client 127.0.0.1:33616] PHP   4. include() /home/alex/sites/citu/wp-includes/template-loader.php:75, referer: http://citu/magazine/
+[Mon Dec 05 19:08:47.284509 2016] [:error] [pid 30206] [client 127.0.0.1:33616] PHP   5. include() /home/alex/sites/citu/wp-content/themes/citu/index.php:14, referer: http://citu/magazine/
+[Mon Dec 05 19:08:47.284515 2016] [:error] [pid 30206] [client 127.0.0.1:33616] PHP   6. ABVCituWidgets::filter_indicator() /home/alex/sites/citu/wp-content/themes/citu/template-parts/citu-magazine.php:36, referer: http://citu/magazine/

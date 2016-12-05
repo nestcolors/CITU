@@ -138,11 +138,16 @@ class ABVCituWidgets
      * @return mixed
      */
     static function filter_indicator(){
-        $get = $_SERVER['REDIRECT_QUERY_STRING'];
+        if(isset($_SERVER['REDIRECT_QUERY_STRING'])){
+            $get = $_SERVER['REDIRECT_QUERY_STRING'];
+        } else {
+            $get = 'kj4hc23k4hkl3j4y2ui4h23lk4';
+        }
+
 
         $arr_string = array('orderby=name&order=DESC','orderby=name&order=ASC','orderby=date&order=DESC','orderby=date&order=ASC');
         $arr_name = array('name desc','name asc','date desc','date asc');
-        for($n=0; $n<=count($arr_string); $n++){
+        for($n=0; $n<=count($arr_string)-1; $n++){
             if ($get === $arr_string[$n]){
                 return $arr_name[$n];
             }
