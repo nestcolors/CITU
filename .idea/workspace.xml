@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7776d84a-2c3b-48a7-aa51-a00744f40929" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/languages/nl_NL.mo" afterPath="$PROJECT_DIR$/wp-content/themes/citu/languages/nl_NL.mo" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/access.log" afterPath="$PROJECT_DIR$/access.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine-nl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-single.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-single.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-slider-item.php" afterPath="$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-slider-item.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/citu/languages/nl_NL.po" afterPath="$PROJECT_DIR$/wp-content/themes/citu/languages/nl_NL.po" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="citu.iws" />
@@ -32,10 +25,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="citu-magazine.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ABVCituWidgets.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.5555556">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding>
+                <marker date="1481019562393" expanded="true" signature="4528:4537" placeholder="..." />
+                <marker date="1481019562393" expanded="true" signature="5365:5374" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="citu-magazine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.08423586">
+            <state vertical-scroll-proportion="-2.9166667">
               <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
               <folding />
             </state>
@@ -326,8 +332,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="-1" width="1286" height="1004" extended-state="7" />
-    <editor active="true" />
+    <frame x="-3" y="-1" width="1286" height="1004" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29159936" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -337,7 +343,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32993197" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41836736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -721,17 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="3.2081828">
-          <caret line="182" column="85" selection-start-line="182" selection-start-column="85" selection-end-line="182" selection-end-column="85" />
-          <folding>
-            <marker date="1481017919388" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1481017919388" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-menu-main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16245487">
@@ -742,9 +737,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/template-parts/citu-magazine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08423586">
+        <state vertical-scroll-proportion="-2.9166667">
           <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/citu/ABVCituWidgets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5555556">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <marker date="1481019562393" expanded="true" signature="4528:4537" placeholder="..." />
+            <marker date="1481019562393" expanded="true" signature="5365:5374" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -22,17 +22,18 @@ class ABVCituWidgets
      *
      * @param int $count
      */
-    static function show_slider($count = 5, $post){
+    static function show_slider($count = 5, $post=false){
         $cat = array();
-        foreach(get_the_category( $post->ID ) as $item){
-            $cat[] = $item->term_id;;
+        $args = array();
+        if($post){
+            foreach(get_the_category( $post->ID ) as $item){
+                $cat[] = $item->term_id;;
+            }
+            $args['category__in'] = $cat;
+            $args['post__not_in'] = array($post->ID);
         }
 
-        $args = array();
-
         $args['post_type'] = 'post';
-        $args['category__in'] = $cat;
-        $args['post__not_in'] = array($post->ID);
         $args['posts_per_page'] = $count;
         $args['orderby'] = 'date';
         $args['order'] = 'DESC';
