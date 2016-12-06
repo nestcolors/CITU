@@ -34,7 +34,7 @@
         <div class="row filter-block">
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
             <div class="filter-name">
-                <h3>sort by/show only <i><?php echo ABVCituWidgets::filter_indicator() ?></i></h3>
+                <?php echo ABVCituWidgets::filter_indicator() ?>
                 <hr>
             </div>
                 <div class="row">
@@ -49,10 +49,10 @@
                             <?php global $wp; $current_url = home_url(add_query_arg(array(),$wp->request));?>
                             <ul class="order-list sorting">
                             <span class="pull-right">sort by:</span><br>
-                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=DESC">name A-Z</a></li>
-                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=ASC">name Z-A</a></li>
-                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=DESC">date new first</a></li>
-                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=ASC">date old first</a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=DESC"><?php _e('name A-Z','citu') ?></a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=ASC"><?php _e('name Z-A','citu') ?></a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=DESC"><?php _e('date new first','citu') ?></a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=ASC"><?php _e('date old first','citu') ?></a></li>
                             </ul>
                         </div>
                     </div>

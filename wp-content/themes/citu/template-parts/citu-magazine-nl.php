@@ -33,12 +33,15 @@
     <div class="container">
         <div class="row filter-block">
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
-                <div class="row">
+                <div class="filter-name">
                     <?php echo ABVCituWidgets::filter_indicator() ?>
-                    <div class="col-sm-8 search-form">
+                    <hr>
+                </div>
+                <div class="row">
+                    <div class="col-sm-8 col-xs-12 search-form hide-mobile">
                         <?php get_search_form(); ?>
                     </div>
-                    <div class="col-sm-4">
+                    <div class="col-sm-4 col-xs-12">
                         <p id="show-sorting"><span class="icon sort-icon"></span><span class="icon filter-icon"></span></p>
                         <div class="sorting-container box-normal box-hover">
                             <ul class="order-list filtering">
@@ -46,10 +49,11 @@
                             <?php global $wp; $current_url = home_url(add_query_arg(array(),$wp->request));?>
                             <ul class="order-list sorting">
                                 <span class="pull-right">sort by:</span><br>
-                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=DESC">name desc</a></li>
-                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=ASC">name asc</a></li>
-                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=DESC">date desc</a></li>
-                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=ASC">date asc</a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=DESC"><?php _e('name A-Z','citu') ?></a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=name&order=ASC"><?php _e('name Z-A','citu') ?></a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=DESC"><?php _e('date new first','citu') ?></a></li>
+                                <li><a href="<?php echo $current_url ?>\?orderby=date&order=ASC"><?php _e('date old first','citu') ?></a></li>
+
                             </ul>
                         </div>
                     </div>

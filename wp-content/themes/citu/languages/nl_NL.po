@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: _s 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
-"POT-Creation-Date: 2016-12-05 06:32+0200\n"
-"PO-Revision-Date: 2016-12-05 06:32+0200\n"
+"POT-Creation-Date: 2016-12-06 11:41+0200\n"
+"PO-Revision-Date: 2016-12-06 11:42+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl\n"
@@ -14,11 +14,39 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.8.7.1\n"
 "X-Poedit-Basepath: ..\n"
-"X-Poedit-KeywordsList: _e\n"
+"X-Poedit-KeywordsList: _e;__\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: .\n"
-"X-Poedit-SearchPath-1: template-parts\n"
+"X-Poedit-SearchPath-0: template-parts\n"
+"X-Poedit-SearchPath-1: ABVCituWidgets.php\n"
+
+#: ABVCituWidgets.php:156 template-parts/citu-magazine-nl.php:52
+#: template-parts/citu-magazine.php:52
+msgid "name A-Z"
+msgstr "naam A-Z"
+
+#: ABVCituWidgets.php:156 template-parts/citu-magazine-nl.php:53
+#: template-parts/citu-magazine.php:53
+msgid "name Z-A"
+msgstr "naam Z-A"
+
+#: ABVCituWidgets.php:156 template-parts/citu-magazine-nl.php:54
+#: template-parts/citu-magazine.php:54
+msgid "date new first"
+msgstr "date nieuwe first"
+
+#: ABVCituWidgets.php:156 template-parts/citu-magazine-nl.php:55
+#: template-parts/citu-magazine.php:55
+msgid "date old first"
+msgstr "date oude eerste"
+
+#: ABVCituWidgets.php:159 ABVCituWidgets.php:180
+msgid "sort by/show only"
+msgstr "sorteren op / tonen"
+
+#: template-parts/citu-clients-metabox.php:4
+msgid "Position"
+msgstr "positie"
 
 #: template-parts/citu-contact-form.php:9
 msgid "Contact Us"
@@ -43,3 +71,22 @@ msgstr "Wij willen graag uw project te bespreken of vragen te beantwoorden."
 #: template-parts/citu-mailchimp.php:1 template-parts/citu-mailchimp.php:4
 msgid "Subscribe for newsletters"
 msgstr "Aanmelden voor nieuwsbrieven"
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content.php:33
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#~ msgid "Theme Options"
+#~ msgstr "thema opties"
+
+#~ msgid "Phone"
+#~ msgstr "Telefoon"
+
+#~ msgid "Working days a week."
+#~ msgstr "Werkdagen per week."

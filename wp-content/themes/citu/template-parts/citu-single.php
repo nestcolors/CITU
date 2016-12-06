@@ -46,52 +46,7 @@
                 <h4>related posts:</h4>
 
                 <div class="blog-slider-container" id="blogPage-slider">
-<!--                    <a href="" class="slide box-normal box-hover">
-                        <div class="post-image pull-left"></div>
-                        <div class="post-text pull-right">
-                            <h4>Should You Hire Developers Without a Degree?</h4>
-                            <p class="small-text date">12/08/2016</p>
-                            <p class="small-text category">Business Developmnent&Support</p>
-                            <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                        </div>
-                    </a>
-                    <a href="" class="slide box-normal box-hover">
-                        <div class="post-image pull-left"></div>
-                        <div class="post-text pull-right">
-                            <h4>Should You Hire Developers Without a Degree?</h4>
-                            <p class="small-text date">12/08/2016</p>
-                            <p class="small-text category">Business Developmnent&Support</p>
-                            <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                        </div>
-                    </a>
-                    <a href="" class="slide box-normal box-hover">
-                        <div class="post-image pull-left"></div>
-                        <div class="post-text pull-right">
-                            <h4>Should You Hire Developers Without a Degree?</h4>
-                            <p class="small-text date">12/08/2016</p>
-                            <p class="small-text category">Business Developmnent&Support</p>
-                            <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                        </div>
-                    </a>
-                    <a href="" class="slide box-normal box-hover">
-                        <div class="post-image pull-left"></div>
-                        <div class="post-text pull-right">
-                            <h4>Should You Hire Developers Without a Degree?</h4>
-                            <p class="small-text date">12/08/2016</p>
-                            <p class="small-text category">Business Developmnent&Support</p>
-                            <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                        </div>
-                    </a>
-                    <a href="" class="slide box-normal box-hover">
-                        <div class="post-image pull-left"></div>
-                        <div class="post-text pull-right">
-                            <h4>Should You Hire Developers Without a Degree?</h4>
-                            <p class="small-text date">12/08/2016</p>
-                            <p class="small-text category">Business Developmnent&Support</p>
-                            <p class="excerpt">Sign up for hands-on Apple Store workshops to learn the basics. Or take your iPad skills...</p>
-                        </div>
-                    </a>-->
-                    <?php ABVCituWidgets::show_slider() ?>
+                    <?php ABVCituWidgets::show_slider(5, $post) ?>
                 </div><!-- blog slider section end-->
             </div>
         </div>

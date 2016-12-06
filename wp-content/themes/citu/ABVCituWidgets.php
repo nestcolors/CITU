@@ -22,10 +22,17 @@ class ABVCituWidgets
      *
      * @param int $count
      */
-    static function show_slider($count = 5){
+    static function show_slider($count = 5, $post){
+        $cat = array();
+        foreach(get_the_category( $post->ID ) as $item){
+            $cat[] = $item->term_id;;
+        }
+
         $args = array();
 
         $args['post_type'] = 'post';
+        $args['category__in'] = $cat;
+        $args['post__not_in'] = array($post->ID);
         $args['posts_per_page'] = $count;
         $args['orderby'] = 'date';
         $args['order'] = 'DESC';
@@ -146,10 +153,12 @@ class ABVCituWidgets
 
 
         $arr_string = array('orderby=name&order=DESC','orderby=name&order=ASC','orderby=date&order=DESC','orderby=date&order=ASC');
-        $arr_name = array('name desc','name asc','date desc','date asc');
+        $arr_name = array(__('name A-Z','citu'),__('name Z-A','citu'),__('date new first','citu'),__('date old first','citu'));
         for($n=0; $n<=count($arr_string)-1; $n++){
             if ($get === $arr_string[$n]){
-                return $arr_name[$n];
+                return '<h3>'.__('sort by/show only','citu') .' <i>'.$arr_name[$n].'</i>'.
+                '<a style="color:red" href="'.AbvFunctions::set_pll_link('/magazine') .'">  X</a>'.
+                '</h3>';
             }
         }
 
@@ -170,7 +179,9 @@ class ABVCituWidgets
         $categories = get_categories( $args );
         foreach ($categories as $item){
             if(strpos($get, $item->slug)!==false){
-                return $item->name;
+                return '<h3>'.__('sort by/show only','citu') .' <i>'.$item->name.'</i>'.
+                '<a style="color:red" href="'.AbvFunctions::set_pll_link('/magazine') .'">  X</a>'.
+                '</h3>';
             }
         }
 
