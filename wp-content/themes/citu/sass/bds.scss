@@ -1,5 +1,8 @@
 @import 'variables';
 .bds-service-page{
+  section.intro{
+    background-image: url('../../images/bg/bds.jpg');
+  }
   section.about-service{
     padding-bottom: 3rem;
     .intro-block{

@@ -10,7 +10,11 @@
         <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class=" <?php echo AbvFunctions::add_class_active('magazine') ?>">magazine</a>
         <a href="<?php echo AbvFunctions::set_pll_link('/about') ?>" class="<?php echo AbvFunctions::add_class_active('about') ?>">about us</a>
         <ul class="lang-switcher">
-            <?php AbvFunctions::lang_switcher() ?>
+            <?php pll_the_languages(array('show_flags'=>0,
+                'show_names'=>1,
+                'dropdown'=>1,
+                'display_names_as'=>'slug'
+            ));?>
         </ul>
         <a href="#map">get in touch</a>
     </ul>

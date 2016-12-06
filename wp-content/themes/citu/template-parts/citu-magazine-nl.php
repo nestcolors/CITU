@@ -17,6 +17,7 @@
             </div>
         </div>
     </div>
+    <?php include ('citu-menu-overlay.php'); ?>
 </section><!-- intro section end-->
 
 <div class="nav-bar-full-width box-normal fixed">

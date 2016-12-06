@@ -12,6 +12,7 @@
 <section class="about-us-intro">
     <div class="logo tulips-general"></div>
     <h1>Why choosing us?</h1>
+    <?php include ('citu-menu-overlay.php'); ?>
 </section>
 
 <section class="we-have"><!-- we have section -->

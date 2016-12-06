@@ -3,8 +3,23 @@ body.about-us-page{
   background-color: $light-white;
 }
 .about-us-page{
+  .mobile-menu-icon ul.white li{
+    background-color: #186287 !important;
+  }
   .nav-bar-full-width{
     display: block;
+    .logo-white{
+      background-image: url(../../images/logo-color.png);
+    }
+    ul.menu{
+      width: 41rem !important;
+    }
+    select{
+      color: $light-navy !important;
+    }
+    select:hover{
+      color: $mango-orange;
+    }
   }
   .about-us-intro{
     margin-top: 6.3rem;
@@ -83,7 +98,7 @@ body.about-us-page{
       top: 0;
       width: 100vw;
       height: 100%;
-      background-color: rgba(0,0,0,0.4);
+      background-color: rgba(0,0,0,0.6);
     }
     .about-us-citu{
       margin: 3rem;

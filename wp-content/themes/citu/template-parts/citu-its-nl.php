@@ -23,6 +23,7 @@
             </div>
         </div>
     </div>
+    <?php include ('citu-menu-overlay.php'); ?>
 </section><!-- intro section end-->
 
 <div class="nav-bar-full-width box-normal">
@@ -266,6 +267,10 @@
                 <div class="section-intro">
                     <h3>Our clients:</h3>
                     <div class="header-line"></div>
+
+                    <div class="clients-container">
+                        <?php AbvFunctions::get_all_post_type('clients','abv_clients_position_meta_value_key','citu-slider-clients.php', 6) ?>
+                    </div>
                 </div>
             </div>
         </div>

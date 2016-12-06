@@ -1,5 +1,8 @@
 @import 'variables';
 .its-service-page{
+  section.intro{
+    background-image: url('../../images/bg/itc.jpg');
+  }
   section.about-service{
     .intro-block{
       .itc-icon{
@@ -254,7 +257,7 @@ section.magazine{
   // .service-page{
     section.intro{
       .tagline-container{
-        margin-top: 26vh;
+        margin-top: 26vh !important;
         padding: 0 2rem;
         .logo{
           width: 20rem;

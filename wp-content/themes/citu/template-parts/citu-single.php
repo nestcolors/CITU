@@ -29,13 +29,13 @@
                         <div class="blog-text-body">
                             <?php the_content() ?>
                         </div>
+                        <?php
+                        if ( comments_open() || get_comments_number() ) :
+                            comments_template();
+                        endif;
+                        ?>
                     </div>
                 </div>
-                <?php
-                if ( comments_open() || get_comments_number() ) :
-                    comments_template();
-                endif;
-                ?>
             </div>
         </div>
     </div>

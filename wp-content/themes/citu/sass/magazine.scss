@@ -37,8 +37,13 @@ body.about-us-page{
     }
   }
   section.magazine{
-    padding: 7rem 0;
+    padding: 5rem 0 7rem;
     background-image: $grey-gradient;
+    .filter-name{
+      h3{
+        text-align: right;
+      }
+    }
     h3{
       color: $light-navy;
     }
@@ -101,6 +106,7 @@ body.about-us-page{
         top: -1.4rem;
         right: 7.4rem;
         z-index: 999;
+        width: 42rem;
         .hide-sorting:hover{background-color: $mango-orange;}
         .hide-sorting{
           cursor: pointer;
@@ -246,6 +252,7 @@ body.about-us-page{
     section.intro{
       padding-bottom: 2rem;
       .tagline-container{
+        margin-top: 7rem !important;
         .logo{
           margin-top: 6rem;
           width: 20rem;
@@ -255,6 +262,27 @@ body.about-us-page{
     }
     .slick-arrow{display: none;}
     section.magazine{
+      padding-top: 0;
+      .filter-block{
+        p{
+          margin-top: 8px;
+          z-index: 99;
+          width: initial !important;
+        }
+        .sorting-container{width: initial;}
+        .search-form form{
+          input.search-submit{
+            color: transparent;
+            width: 10px;
+            background-size: 28px;
+          }
+          z-index: 999;
+        }
+        .sorting-container{
+          top: 0;
+          left: 1.5rem;
+        }
+      }
       .blog-items-list-container{
         .init-blog-item{
           overflow-y: hidden;

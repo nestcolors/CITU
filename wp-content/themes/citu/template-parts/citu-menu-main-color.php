@@ -9,9 +9,6 @@
     <ul class="menu hide-tablet">
         <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class=" <?php echo AbvFunctions::add_class_active('magazine') ?>">magazine</a>
         <a href="<?php echo AbvFunctions::set_pll_link('/about') ?>" class="<?php echo AbvFunctions::add_class_active('about') ?>">about us</a>
-        <ul class="lang-switcher">
-            <?php AbvFunctions::lang_switcher() ?>
-        </ul>
         <a href="#map">get in touch</a>
     </ul>
     <div class="mobile-menu-icon hide-pc mobile-menu-toggle">
