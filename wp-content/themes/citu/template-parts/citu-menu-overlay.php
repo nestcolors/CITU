@@ -1,5 +1,6 @@
 <div class="mobile-overlay">
     <div class="close-mobile-overlay"></div>
+    <img src="<?php bloginfo('template_url'); ?>/images/logo-color.png" alt="">
     <div class="main-links">
         <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="itc"><span>Internet Communication & Technolory</span> <span class="nav-arrow white-arrow"></span></a>
         <a href="<?php echo AbvFunctions::set_pll_link('/bds') ?>" class="bds"><span>Business Development & Support</span> <span class="nav-arrow white-arrow"></span></a>

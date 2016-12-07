@@ -27,10 +27,14 @@ p{
 }
 .clear{clear: both;}
 .center{text-align: center;}
+.static{position: static !important;}
 .right-align{text-align: right;}
 .left-align{text-align: left;}
 .box-hover:hover{
   box-shadow: 0 8px 20px 0 $light-black;
+}
+.transparent{
+  opacity: 0;
 }
 .service-box{
   padding: 3rem 0 2rem;
@@ -110,13 +114,25 @@ p{
   color: $mango-orange;
 }
 .top-bar{
-  display: none;
   background-color: $top-bar-bg;
-  height: 4vh;
-  opacity: 0.8;
+  height: 3vh;
+  color: #969696;
+  a, p{
+    margin: 6px 0 0 0;
+    font-size: 1.3rem;
+    display: inline-block;
+    margin-right: 1rem;
+    color: $bluish-grey;
+  }
+  a{
+    text-decoration: underline;
+  }
+
 }
 .top-bar:hover{
-  opacity: 1;
+  a, p{
+    color: $white-grey;
+  }
 }
 .header-line{
   width: 21.5rem;
@@ -234,6 +250,9 @@ section.intro{
   left: 0;
   right: 0;
   z-index: 9999;
+}
+.nav-bar-light{
+  // opacity: 0;
 }
 .nav-bar.color{
   a{
@@ -768,6 +787,12 @@ section.cellar{
   .hide-sm-tablet{display: block;}
   .mobile-overlay{
     padding: 19rem 34rem 0;
+    img{
+      width: 24rem;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 5rem;
+    }
     .close-mobile-overlay{
     }
     .main-links, .page-links{
@@ -836,7 +861,7 @@ section.cellar{
   .show-sm-tablet{display: block;}
   .hide-sm-tablet{display: none;}
   .mobile-overlay{
-    padding: 27rem 21rem 0;
+    padding: 23rem 21rem 0;
     .close-mobile-overlay{
     }
     .main-links, .page-links{
@@ -900,11 +925,23 @@ section.cellar{
 @media (max-width: 414px) {
   .hide-mobile{display: none !important;}
   .show-mobile{display: block !important;}
+  section.intro{
+     height: 100vh !important;
+    .gradient-overlay{
+      height: 100vh !important;
+    }
+  }
   .filter-block p{
     text-align: center;
   }
   .mobile-overlay{
-    padding: 15rem 8rem 0;
+    padding: 12rem 8rem 0;
+    img{
+      width: 18rem;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 3rem;
+    }
   }
   .nav-bar{
     padding: 0 0 0 1rem;
@@ -958,7 +995,11 @@ section.cellar{
     }
   }
 }
-
+@media (max-width: 375px) {
+  .mobile-overlay{
+    padding: 15rem 6rem 0;
+  }
+}
 @keyframes showFilterBlock{
   0%{transform: translateY(-100%); opacity: 0; display: none;}
   100%{transform: translateY(0%); opacity: 1; display: block !important;}

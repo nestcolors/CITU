@@ -251,6 +251,7 @@ body.about-us-page{
   .magazine-page{
     section.intro{
       padding-bottom: 2rem;
+      height: initial !important;
       .tagline-container{
         margin-top: 7rem !important;
         .logo{
@@ -269,6 +270,13 @@ body.about-us-page{
           z-index: 99;
           width: initial !important;
         }
+        h3 i{
+          font-family: $roboto-font;
+        }
+        h3 a{
+            padding-left: 1rem;
+            font-family: $opensans-font-bold;
+          }
         .sorting-container{width: initial;}
         .search-form form{
           input.search-submit{
@@ -284,11 +292,15 @@ body.about-us-page{
         }
       }
       .blog-items-list-container{
+        .blog-items-list{
+          margin: 2rem 0 4rem;
+        }
         .init-blog-item{
           overflow-y: hidden;
           height: 28rem;
           .post-image{
             width: 10rem;
+            background-position: center;
           }
           .post-text{
             width: 24rem;
@@ -301,6 +313,7 @@ body.about-us-page{
           .box-normal{
             .post-image{
               width: 6rem;
+              background-position: center;
             }
             .post-text{
               width: 28rem;

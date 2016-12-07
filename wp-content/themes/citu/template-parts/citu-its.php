@@ -1,7 +1,5 @@
 <body class="service-page its-service-page full-navbar-page  <?php echo pll_current_language('slug') ?>">
-<div class="top-bar">
-
-</div>
+<?php include ('citu-top-bar.php'); ?>
 <section class="intro">
     <div class="gradient-overlay"></div>
     <div class="container">
@@ -14,11 +12,11 @@
         </div>
 
         <div class="row">
-            <div class="tagline-container">
+            <div class="tagline-container show-from-bottom">
                 <div class="logo"></div>
                 <h1>Information Technology & Communication</h1>
                 <div class="header-line"></div>
-                <h2>Create a full-range IT&C solutions that fits
+                <h2>Create a full-range IC&T solutions that fits
                     <br/> your needs.</h2>
             </div>
         </div>
@@ -80,10 +78,10 @@
                                 <h3>Design</h3>
                                 <div class="header-line"></div>
                                 <ul>
+                                    <li>Logo & branding</li>
+                                    <li>Graphic design</li>
                                     <li>UI/UX design</li>
                                     <li>Web design</li>
-                                    <li>Content design</li>
-                                    <li>Graphic design</li>
                                 </ul>
                             </div>
                         </div>
@@ -91,13 +89,13 @@
                         <div class="col-sm-4">
                             <div class="box-normal form-item">
                                 <div class="icon ill-its"></div>
-                                <h3>Illustration</h3>
+                                <h3>Animation</h3>
                                 <div class="header-line"></div>
                                 <ul>
                                     <li>Animation video</li>
-                                    <li>Illustrations & infographics</li>
+                                    <li>Illustrations</li>
+                                    <li>Infographics</li>
                                     <li>Storyboard</li>
-                                    <li>Logo & branding</li>
                                 </ul>
                             </div>
                         </div>

@@ -79,8 +79,11 @@
       }
       .advantages{
         background-image: none;
+        padding-bottom: 2rem;
+        hr{margin-top: 5px;}
         h3{
           border-bottom: 1px solid $transparent;
+          padding-bottom: 0;
         }
       }
       .feature-item{

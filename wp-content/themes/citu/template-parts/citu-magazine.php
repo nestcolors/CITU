@@ -11,7 +11,7 @@
         </div>
 
         <div class="row">
-            <div class="tagline-container">
+            <div class="tagline-container show-from-bottom">
                 <div class="logo"></div>
                 <h1>Magazine</h1>
             </div>
@@ -35,7 +35,6 @@
             <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1">
             <div class="filter-name">
                 <?php echo ABVCituWidgets::filter_indicator() ?>
-                <hr>
             </div>
                 <div class="row">
                     <div class="col-sm-8 col-xs-12 search-form hide-mobile">

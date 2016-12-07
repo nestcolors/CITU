@@ -1,7 +1,5 @@
 <body class="service-page bds-service-page full-navbar-page  <?php echo pll_current_language('slug') ?>">
-<div class="top-bar">
-
-</div>
+<?php include ('citu-top-bar.php'); ?>
 <section class="intro">
     <div class="gradient-overlay"></div>
     <div class="container">
@@ -14,7 +12,7 @@
         </div>
 
         <div class="row">
-            <div class="tagline-container">
+            <div class="tagline-container show-from-bottom">
                 <div class="logo"></div>
                 <h1>Business Development & Support</h1>
                 <div class="header-line"></div>

@@ -182,7 +182,7 @@ class ABVCituWidgets
             if(strpos($get, $item->slug)!==false){
                 return '<h3>'.__('sort by/show only','citu') .' <i>'.$item->name.'</i>'.
                 '<a style="color:red" href="'.AbvFunctions::set_pll_link('/magazine') .'">  X</a>'.
-                '</h3>';
+                '</h3><hr>';
             }
         }
 

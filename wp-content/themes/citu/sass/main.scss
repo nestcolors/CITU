@@ -28,7 +28,7 @@ ul, ol{font-size: 1.6rem;}
 
 section.intro{
   position: relative;
-  height: 96vh;
+  height: 97vh;
   background-image: url('../../images/lviv-morning.jpg');
   // background-attachment: fixed;
   background-size: cover;
@@ -38,7 +38,7 @@ section.intro{
     top: 0;
     left: 0;
     right: 0;
-    height: 96vh;
+    height: 97vh;
     background: linear-gradient(113deg, #24c6dc, #514a9d);
     opacity: 0.4;
     z-index: 1;
@@ -199,6 +199,10 @@ section.intro{
   section.magazine{
     a.button-white{
       width: 17.7rem;
+    }
+    .slick-dots li button:before{
+      color: white;
+      border-color: white;
     }
   }
   section.about-us{

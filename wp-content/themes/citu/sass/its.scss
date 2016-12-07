@@ -254,7 +254,7 @@ section.magazine{
 }
 
 @media (max-width: 414px){
-  // .service-page{
+  .service-page{
     section.intro{
       .tagline-container{
         margin-top: 26vh !important;
@@ -340,11 +340,17 @@ section.magazine{
         padding: 1.5rem 3rem;
       }
     }
-  // }
+  }
 }
 @media (max-width: 414px){
-  // .service-page{
+  .service-page{
     section.intro{
+      .tagline-container{
+        .logo{
+          width: 21rem;
+          height: 10.5rem;
+        }
+      }
       .intro-block{
         padding: 0;
         line-height: 1.6;
@@ -353,5 +359,22 @@ section.magazine{
         }
       }
     }
-  // }
+    section.about-service{
+      .form-items-container{
+      }
+      .intro-block{
+        .itc-icon{
+          height: 22rem;
+        }
+      }
+    }
+  }
+  .bds-service-page{
+    section.about-service{
+      padding-bottom: 3rem;
+      .form-items-container{
+        padding-bottom: 0rem;
+      }
+    }
+  } 
 }

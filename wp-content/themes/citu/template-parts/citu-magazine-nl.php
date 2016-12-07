@@ -11,7 +11,7 @@
         </div>
 
         <div class="row">
-            <div class="tagline-container">
+            <div class="tagline-container show-from-bottom">
                 <div class="logo"></div>
                 <h1>Magazine</h1>
             </div>

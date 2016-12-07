@@ -24,7 +24,7 @@
                         <div class="info-block">
                             <h4><?php _e('Address','citu') ?></h4>
                             <div class="header-line"></div>
-                            <p><?php echo get_option('abv_options_theme')['address'] ?>
+                            <p><?php echo get_option('abv_options_theme')['address'] ?></p>
                         </div>
                     </div>
                     <div class="form-block box-hover">

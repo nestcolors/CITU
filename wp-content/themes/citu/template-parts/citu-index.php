@@ -1,7 +1,5 @@
 <body <?php body_class("home-page full-navbar-page ". pll_current_language('slug')) ?>>
-<div class="top-bar">
-
-</div>
+<?php include ('citu-top-bar.php'); ?>
 <section class="intro">
     <div class="gradient-overlay"></div>
     <div class="container">
@@ -12,11 +10,11 @@
         </div>
 
         <div class="row">
-            <div class="tagline-container">
+            <div class="tagline-container show-from-bottom">
                 <div class="logo"></div>
                 <h1>Connect it! Ukraine</h1>
                 <div class="header-line"></div>
-                <h2>discover possibilities of doing business in<br/> Ukraine.</h2>
+                <h2>Discover possibilities of doing business in<br/> Ukraine.</h2>
             </div>
         </div>
     </div>
@@ -91,8 +89,11 @@
                             <li>3) High literacy rate</li>
                             <li>4) European culture</li>
                         </ul>
+
                     </div>
-                    <a href="<a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="read-more">read more <span class="arrow arrow-blue"></span></a>
+                        <hr class="show-mobile"/>
+                        <a href="<a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="read-more static show-mobile center">read more <span class="arrow arrow-blue"></span></a>
+                    <a href="<a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="read-more hide-mobile">read more <span class="arrow arrow-blue"></span></a>
                 </div>
             </div>
         </div>
@@ -123,7 +124,7 @@
             <div class="col-md-4 col-xs-6">
                 <div class="box-normal service-box">
                     <div class="service-icon bds"></div>
-                    <h4 class="orange-text">Business development and <br> support</h4>
+                    <h4 class="orange-text">Business Development and <br> Support</h4>
                     <p>We assist companies willing to do business in Ukraine with market research, legal and organizational advice, matchmaking, administrative support and project management.</p>
                     <a href="<?php echo AbvFunctions::set_pll_link('/bds') ?>" class="button button-orange">learn more</a>
                 </div>
@@ -143,7 +144,7 @@
             <div class="col-xs-10">
                 <div class="box-normal service-box">
                     <div class="service-icon bds"></div>
-                    <h4 class="orange-text">Business development and <br> support</h4>
+                    <h4 class="orange-text">Business Development and <br> Support</h4>
                     <p>We assist companies willing to do business in Ukraine with market research, legal & organizational advice, matchmaking, administrative support & project management.</p>
                     <a href="<?php echo AbvFunctions::set_pll_link('/bds') ?>" class="button button-orange">learn more</a>
                 </div>
