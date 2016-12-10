@@ -11,6 +11,9 @@
     }
     .exp-we-provide{
       .exp-items-container{
+        #its-services{
+          opacity: 0;
+        }
         .form-item{
           .dev-its{background-image: url('../../images/icons/service/ITS-development.svg');}
           .des-its{background-image: url('../../images/icons/service/ITS-design.svg');}
@@ -26,6 +29,9 @@
           .icon-one{background-image: url('../../images/icons/service/ITS-one.svg');}
           .icon-team{background-image: url('../../images/icons/service/ITS-team.svg');}
           .icon-solution{background-image: url('../../images/icons/service/ITS-solution.svg'); background-size: 107%;}
+        }
+        #its-project-type{
+          opacity: 0;
         }
       }
     }
@@ -188,6 +194,7 @@ section.magazine{
         }
         #its-services{
           padding-left: 10rem;
+          opacity: 0;
           .slick-slide{
             margin-right: 3rem;
           }

@@ -121,7 +121,7 @@
                     <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="button button-blue">learn more</a>
                 </div>
             </div>
-            <div class="col-md-4 col-xs-6">
+            <div class="col-md-4 col-xs-6" id="move-service-item">
                 <div class="box-normal service-box">
                     <div class="service-icon bds"></div>
                     <h4 class="orange-text">Business Development and <br> Support</h4>

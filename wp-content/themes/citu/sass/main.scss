@@ -115,6 +115,9 @@ section.intro{
         }
       }
     }
+    #advantages{
+      opacity: 0;
+    }
     .advantages{
       position: relative;
       margin: 5rem 0 7rem;
@@ -164,6 +167,10 @@ section.intro{
       text-align: center;
       margin-top: 1rem;
       color: $mango-orange;
+    }
+    #move-service-item{
+      transform: translateX(-389px);
+      // opacity: 0;
     }
     .service-box{
       margin-top: 5rem;

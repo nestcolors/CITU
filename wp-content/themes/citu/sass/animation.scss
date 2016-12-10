@@ -17,6 +17,21 @@
   animation-fill-mode: forwards;
   animation-duration: 1s;
 }
+.move-mission{
+  // opacity: 0;
+  transform: translateY(-207px);
+  animation: moveMissionBottom;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-duration: 0.9s;
+}
+.move-service-item{
+  animation: showSeriveItem;
+  animation-delay: 0.4s;
+  animation-fill-mode: forwards;
+  animation-duration: 0.9s;
+
+}
 @keyframes fadeIn{
   0%{opacity: 0;}
   100%{opacity: 100%;}
@@ -29,7 +44,14 @@
   0%{transform: translateY(100px);opacity: 0;}
   100%{transform: translateY(0px);opacity: 1;}
 }
-
+@keyframes moveMissionBottom{
+  0%{transform: translateY(-207px);opacity: 1;}
+  100%{transform: translateY(0px);opacity: 1;}
+}
+@keyframes showSeriveItem{
+  0%{transform: translateX(-389px);opacity: 1;}
+  100%{transform: translateX(0px);opacity: 1;}
+}
 
 .tagline-container{
   opacity: 0;

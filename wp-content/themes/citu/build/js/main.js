@@ -134,7 +134,6 @@ $('document').ready(function(){
       var showNavbar = $(document).scrollTop() > $('.intro').height() - 40
       var el = $('.nav-bar-full-width');
       if(showNavbar){
-        console.log('show');
         el.fadeIn();
       }else{
         el.fadeOut();
@@ -158,4 +157,32 @@ $('document').ready(function(){
     $('.sorting-container').slideToggle();
   });
 
+  // ************************************** scroll animation section **************************************
+  var navbarPage = $('body').hasClass('service-page');
+  if(navbarPage){
+    $(document).scroll(function(){
+      var initAnimationServices = $(document).scrollTop() > 530;
+      var initAnimationTheWay = $(document).scrollTop() > 1760;
+      if(initAnimationServices){
+        $('#its-services, #bds-services').addClass('show-from-bottom');
+      }
+      if(initAnimationTheWay){
+        $('#its-project-type').addClass('show-from-bottom');
+      }
+    });
+  }
+  var homePage = $('body').hasClass('home');
+  if(homePage){
+    $(document).scroll(function(){
+      var initAdvantages = $(document).scrollTop() > 630;
+      if(initAdvantages){
+        $('#advantages').addClass('show-from-bottom');
+      }
+      var initSevices = $(document).scrollTop() > 1350;
+      if(initSevices){
+        console.log('show');
+        $('#move-service-item').addClass('move-service-item');
+      }
+    });
+  }
 });

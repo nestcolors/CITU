@@ -45,6 +45,9 @@ body.about-us-page{
         color: $mango-orange;
         text-align: center;
       }
+      .animation{
+        
+      }
       .row{
         margin: 4rem 0;
       }
@@ -67,6 +70,7 @@ body.about-us-page{
         margin: 0 auto;
         width: 64rem;
         .about-us-item-el{
+          z-index: 999;
           margin: 0 3rem;
         }
         .icon{

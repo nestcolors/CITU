@@ -10,7 +10,7 @@
 </div><!-- sticky header end-->
 
 <section class="about-us-intro">
-    <div class="logo tulips-general"></div>
+    <div class="logo tulips-general "></div>
     <h1>Why choosing us?</h1>
     <?php include ('citu-menu-overlay.php'); ?>
 </section>
@@ -32,7 +32,7 @@
                     </div>
                 </div>
             </div><!-- EOF vision block -->
-            <div class="row"><!-- mission block -->
+            <div class="row move-mission"><!-- mission block -->
                 <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1">
                     <div class="about-us-item">
                         <div class="about-us-item-el box-normal vision-box">
