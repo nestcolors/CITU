@@ -1,4 +1,18 @@
 @import 'variables';
+@media (max-width: 1366px) {
+  .top-bar{
+    height: 4vh;
+  }
+  section.intro{
+    height: 96vh;
+    .gradient-overlay{
+      height: 96vh;
+    }
+    .tagline-container{
+      margin-top: 30vh;
+    }
+  }
+}
 @media (max-width: 1024px) {
   .home-page{
     section.features{
