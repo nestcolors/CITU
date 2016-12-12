@@ -186,6 +186,9 @@ body.about-us-page{
     background-image: $orange-gradient;
   }
 }
+div#comments{
+  display: none;
+}
 @media (max-width: 1200px){
   .magazine-page{
     section.magazine{
@@ -336,6 +339,27 @@ body.about-us-page{
       }
       .subscribe-block {
         padding: 1.5rem 3rem;
+      }
+    }
+  }
+}
+@media (max-width: 360px){
+  .magazine-page{
+
+    section.magazine{
+      .blog-items-list-container{
+        .init-blog-item{
+          .post-image{
+            width: 9rem;
+          }
+        }
+        .blog-items-list{
+          .box-normal{
+            .post-image{
+              width: 5rem;
+            }
+          }
+        }
       }
     }
   }

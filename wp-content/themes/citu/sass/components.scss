@@ -338,6 +338,9 @@ section.intro{
     display: block;
     margin: 2rem 0 1rem;
   }
+  a.logo-link{
+    margin-top: 0;
+  }
   ul.lang-switcher{
     list-style-type: none;
     margin-top: 2rem;
@@ -878,7 +881,7 @@ section.cellar{
   }
   .citu-history{
     .logo-container{
-      margin-top: 2rem;
+      margin-top: 1rem;
       .logo{
         height: 5rem;
       }

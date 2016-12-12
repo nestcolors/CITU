@@ -29,7 +29,7 @@ body.about-us-page{
     background-repeat: repeat;
     height: 33rem;
     .logo{
-      background-image: url('../../images/tulip-logo.png');
+      background-image: url('../../images/tulip-logo-mini.png');
       background-size: 100%;
     }
     h1{
@@ -135,7 +135,7 @@ body.about-us-page{
     .section-intro{
       text-align: center;
       h2{
-        color: $bluish-grey;
+        color: $light-navy;
       }
       .header-line{
         border-bottom: 1px solid $bluish-grey;
@@ -215,6 +215,13 @@ body.about-us-page{
           bottom: -5rem;
         }
       }
+    }
+  }
+}
+@media (max-width: 768px){
+  .about-us-page{
+    section.history-features{
+      padding: 7rem 0 5rem;
     }
   }
 }

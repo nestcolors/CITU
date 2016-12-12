@@ -12,12 +12,13 @@
 <section class="about-us-intro">
     <div class="logo tulips-general"></div>
     <h1>Why choosing us?</h1>
+    <?php include ('citu-menu-overlay.php'); ?>
 </section>
 
 <section class="we-have"><!-- we have section -->
     <div class="container">
         <div class="we-have-container">
-            <h2>We have clear:</h2>
+            <h2>Our Values:</h2>
             <div class="row"><!-- vision block -->
                 <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1">
                     <div class="about-us-item">
@@ -37,7 +38,7 @@
                         <div class="about-us-item-el box-normal vision-box">
                             <h3>Mission:</h3>
                             <div class="header-line"></div>
-                            <p>Build globally, profit locally - strengthen your local business by using global expertise.</p>
+                            <p>To inspire you doing business in and with Ukraine.</p>
                         </div>
                         <div class="about-us-item-el icon mission-icon"></div>
                     </div>

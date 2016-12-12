@@ -18,7 +18,7 @@
 <section class="we-have"><!-- we have section -->
     <div class="container">
         <div class="we-have-container">
-            <h2>We have clear:</h2>
+            <h2>Our Values:</h2>
             <div class="row"><!-- vision block -->
                 <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-1">
                     <div class="about-us-item">
@@ -38,7 +38,7 @@
                         <div class="about-us-item-el box-normal vision-box">
                             <h3>Mission:</h3>
                             <div class="header-line"></div>
-                            <p>Build globally, profit locally - strengthen your local business by using global expertise.</p>
+                            <p>To inspire you doing business in and with Ukraine.</p>
                         </div>
                         <div class="about-us-item-el icon mission-icon"></div>
                     </div>
@@ -149,8 +149,8 @@
                         </div>
                         <div class="social-links">
                             <span>personal social profiles:
-                                <a href="<?php echo get_option('abv_options_theme')['soc_f1'] ?>" class="subs-icon fb"></a>
-                                <a href="<?php echo get_option('abv_options_theme')['soc_vk'] ?>" class="subs-icon in"></a>
+                                <a href="<?php echo get_option('abv_options_theme')['soc_f1'] ?>" target="_blank" class="subs-icon fb"></a>
+                                <a href="<?php echo get_option('abv_options_theme')['soc_vk'] ?>" target="_blank" class="subs-icon in"></a>
                             </span>
                         </div>
                     </div>

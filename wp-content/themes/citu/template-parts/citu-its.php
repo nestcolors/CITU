@@ -14,7 +14,7 @@
         <div class="row">
             <div class="tagline-container show-from-bottom">
                 <div class="logo"></div>
-                <h1>Information Technology & Communication</h1>
+                <h1>Information Communication & Technology</h1>
                 <div class="header-line"></div>
                 <h2>Create a full-range IC&T solutions that fits
                     <br/> your needs.</h2>

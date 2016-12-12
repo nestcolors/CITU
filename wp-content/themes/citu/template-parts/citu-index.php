@@ -236,7 +236,7 @@
             </div>
         </div>
         <div class="row citu-history">
-            <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-12">
+            <div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12">
                 <div class="box-normal">
                     <div class="row">
                         <div class="col-sm-3 col-xs-12 logo-container">

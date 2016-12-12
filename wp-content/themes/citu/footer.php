@@ -5,9 +5,9 @@
 				<div class="logo logo-white hide-sm-tablet"></div>
 				<div class="social-links show-sm-tablet">
 					<span>
-						<a href="<?php echo get_option('abv_options_theme')['soc_f'] ?>" class="subs-icon fb"></a>
-						<a href="<?php echo get_option('abv_options_theme')['soc_ln'] ?>" class="subs-icon in"></a>
-						<a href="<?php echo get_option('abv_options_theme')['soc_inst'] ?>" class="subs-icon insta"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_f'] ?>" target="_blank" class="subs-icon fb"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_ln'] ?>" target="_blank" class="subs-icon in"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_inst'] ?>" target="_blank" class="subs-icon insta"></a>
 					</span>
 				</div>
 			</div>
@@ -22,9 +22,9 @@
 			<div class="col-md-3">
 				<div class="social-links hide-sm-tablet">
 					<span>
-						<a href="<?php echo get_option('abv_options_theme')['soc_f'] ?>" class="subs-icon fb"></a>
-						<a href="<?php echo get_option('abv_options_theme')['soc_ln'] ?>" class="subs-icon in"></a>
-						<a href="<?php echo get_option('abv_options_theme')['soc_inst'] ?>" class="subs-icon insta"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_f'] ?>" target="_blank" class="subs-icon fb"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_ln'] ?>" target="_blank" class="subs-icon in"></a>
+						<a href="<?php echo get_option('abv_options_theme')['soc_inst'] ?>" target="_blank" class="subs-icon insta"></a>
 					</span>
 				</div>
 			</div>
@@ -40,7 +40,7 @@
 	var map;
 	function initMap() {
 	  map = new google.maps.Map(document.getElementById('map'), {
-	    center: {lat: -34.397, lng: 150.644},
+	    center: {lat: 51.40, lng: 6.30},
 	    zoom: 8,
 		  scrollwheel: false,
 		  navigationControl: false,
