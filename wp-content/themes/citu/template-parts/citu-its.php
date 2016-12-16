@@ -14,9 +14,9 @@
         <div class="row">
             <div class="tagline-container show-from-bottom">
                 <div class="logo"></div>
-                <h1>Information Communication & Technology</h1>
+                <h1>Information & Communication Technology</h1>
                 <div class="header-line"></div>
-                <h2>Create a full-range IC&T solutions that fits
+                <h2>Create a full-range I&CT solutions that fits
                     <br/> your needs.</h2>
             </div>
         </div>
@@ -109,7 +109,7 @@
             <div class="row">
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                     <h2>In the form that You need</h2>
-                    <div class="form-items">
+                    <div class="form-items box-normal">
                         <div class="row">
                             <div class="col-md-4 item">
                                 <h3>Developers</h3>
@@ -133,7 +133,7 @@
                                 <ul>
                                     <li>Project management in the Netherlands</li>
                                     <li>Dedicated team in Ukraine including project managers</li>
-                                    <li>business analysts, testers</li>
+                                    <li>Business analysts, testers</li>
                                 </ul>
                             </div>
                         </div>
@@ -149,7 +149,7 @@
 
         <div class="how-it-works"> <!-- how-it-works-container -->
             <h2>How it works?</h2>
-            <div class="steps-container hide-mobile">
+            <!-- <div class="steps-container hide-mobile">
                 <h3>Four basic steps that we follow:</h3>
                 <div class="row">
                     <div class="col-md-2 col-sm-0"></div>
@@ -191,7 +191,7 @@
                     </div>
 
                 </div>
-            </div>
+            </div> -->
 
             <div class="project-type-container">
                 <h3>The process depends on the type of the project:</h3>

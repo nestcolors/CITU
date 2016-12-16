@@ -170,7 +170,7 @@ section.intro{
   }
   .main-links{
     display: inline-block;
-    margin: 10px 0 0 20px;
+    margin: 10px 0 0 0px;
     a{
       display: inline-block;
       margin-right: 20px;
@@ -201,6 +201,7 @@ section.intro{
   ul.menu{
     list-style-type: none;
     width: 42rem;
+    width: 24rem;
     a{
       float: left;
       padding: 21px 11px 19px 11px;
@@ -276,6 +277,7 @@ section.intro{
   }
   ul.menu{
     width: 33rem;
+    width: 24rem;
     a:hover, a.active{
       border-bottom: 2px solid $light-navy;
     }
@@ -327,7 +329,9 @@ section.intro{
     right: 2rem;
     width: 3rem;
     height: 3rem;
-    background-color: $light-navy;
+    // background-color: $light-navy;
+    background-size: 100%;
+    background-image: url('../../images/icons/exit-icon.svg');
   }
   .main-links, .page-links{
     padding: 0 2rem 2rem;
@@ -615,6 +619,16 @@ section.our-clients{
     }
   }
 }
+.tulip{
+  position: absolute;
+  top: 22rem;
+  right: -10rem;
+  height: 60rem;
+  width: 30rem;
+  background-image: url('../../images/icons/tulip-bluish-grey.svg');
+  background-size: 100%;
+  opacity: 0.2;
+}
 section.contact-us{
   padding: 17rem 0 15rem;
   background-color: silver;
@@ -790,6 +804,7 @@ section.cellar{
   .hide-sm-tablet{display: block;}
   .mobile-overlay{
     padding: 19rem 34rem 0;
+    z-index: 99999999;
     img{
       width: 24rem;
       margin: 0 auto;
@@ -874,6 +889,14 @@ section.cellar{
         a{
         }
       }
+    }
+  }
+  .nav-bar{
+    .main-links{
+
+    }
+    .mobile-menu-icon ul{
+      padding-left: 0;
     }
   }
   .subscribe-block{
@@ -1000,7 +1023,7 @@ section.cellar{
 }
 @media (max-width: 375px) {
   .mobile-overlay{
-    padding: 15rem 6rem 0;
+    padding: 10rem 6rem 0;
   }
 }
 @keyframes showFilterBlock{

@@ -14,7 +14,7 @@
                 <div class="logo"></div>
                 <h1>Connect it! Ukraine</h1>
                 <div class="header-line"></div>
-                <h2>Discover possibilities of doing business in<br/> Ukraine.</h2>
+                <h2>Discover possibilities of doing business in<br/> Ukraine</h2>
             </div>
         </div>
     </div>
@@ -135,7 +135,7 @@
             <div class="col-xs-10">
                 <div class="box-normal service-box">
                     <div class="service-icon itc"></div>
-                    <h4>Internet Communications and Technologies</h4>
+                    <h4>Information & Communication Technology</h4>
                     <p>We help European ICT companies with outsourcing of their work to Ukraine. We develop full-range ICT solutions at a competitive price for companies in Europe.</p>
                     <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="button button-blue">learn more</a>
                 </div>

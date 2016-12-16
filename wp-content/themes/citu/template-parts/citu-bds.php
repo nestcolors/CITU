@@ -17,7 +17,7 @@
                 <h1>Business Development & Support</h1>
                 <div class="header-line"></div>
                 <h2>Discover the opportunities of extending your
-                    <br/> business in Ukraine.</h2>
+                    <br/> business in Ukraine</h2>
             </div>
         </div>
     </div>
@@ -112,9 +112,9 @@
                 <div class="col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1">
                     <h2>How do we work?</h2>
 
-                    <div class="row form-items">
+                    <div class="row form-items box-normal">
                         <div class="col-sm-4 col-xs-12 item">
-                            <h3>Any type of project:</h3>
+                            <h3>Type of projects:</h3>
                             <ul>
                                 <li>Project based</li>
                                 <li>Interim projects</li>

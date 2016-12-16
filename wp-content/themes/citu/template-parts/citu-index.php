@@ -14,7 +14,7 @@
                 <div class="logo"></div>
                 <h1>Connect it! Ukraine</h1>
                 <div class="header-line"></div>
-                <h2>Discover possibilities of doing business in<br/> Ukraine.</h2>
+                <h2>Discover possibilities of doing business in<br/> Ukraine</h2>
             </div>
         </div>
     </div>
@@ -32,6 +32,7 @@
 </div><!-- sticky header end-->
 
 <section class="features">
+    <div class="tulip"></div>
     <div class="container">
 
         <div class="row">
@@ -71,7 +72,7 @@
             <div class="col-md-2 col-sm-3 col-xs-6">
                 <div class="feature-item">
                     <div class="feature-icon cost-advances"></div>
-                    <h4>Cost Advances</h4>
+                    <h4>Cost Adavantages</h4>
                     <div class="header-line"></div>
                     <p>Cost competitive manufacturing platform</p>
                 </div>
@@ -116,7 +117,7 @@
             <div class="col-md-4 col-md-offset-2 col-xs-6">
                 <div class="box-normal service-box">
                     <div class="service-icon itc"></div>
-                    <h4>Internet Communications and Technologies</h4>
+                    <h4>Information & Communication Technology</h4>
                     <p>We help European ICT companies with outsourcing of their work to Ukraine. We develop full-range ICT solutions at a competitive price for companies in Europe.</p>
                     <a href="<?php echo AbvFunctions::set_pll_link('/its') ?>" class="button button-blue">learn more</a>
                 </div>
@@ -163,9 +164,15 @@
             <h3>News from Ukraine</h3>
         </div>
         <div class="blog-slider-container" id="blog-slider">
-            <?php ABVCituWidgets::show_slider() ?>
+            <!-- <?php ABVCituWidgets::show_slider() ?> -->
+            <a class="slide box-normal box-hover"><h3>Magazine posts <br/> comming soon..</h3></a>
+            <a class="slide box-normal box-hover"><h3>Magazine posts <br/> comming soon..</h3></a>
+            <a class="slide box-normal box-hover"><h3>Magazine posts <br/> comming soon..</h3></a>
+            <a class="slide box-normal box-hover"><h3>Magazine posts <br/> comming soon..</h3></a>
+            <a class="slide box-normal box-hover"><h3>Magazine posts <br/> comming soon..</h3></a>
         </div><!-- blog slider section end-->
-        <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="button button-white">Read magazine</a>
+        <!-- <a href="<?php echo AbvFunctions::set_pll_link('/magazine') ?>" class="button button-white">Read magazine</a> -->
+        <a class="button button-white">Read magazine</a>
 
         <div class="row">
             <?php include('citu-mailchimp.php') ?>
@@ -243,8 +250,8 @@
                             <div class="logo logo-color"></div>
                         </div>
                         <div class="col-sm-9 col-xs-12">
-                            <p>Based in the Netherlands, Connect it! Ukraine work together with the partners in Ukraine specialized in various expertises.</p>
-                            <p>This allows us to provide broad range of services using tailored approach based on the needs of the client or certain project.</p>
+                            <p>Based in the Netherlands, Connect it! Ukraine works together with the partners in Ukraine specialized in various expertises.</p>
+                            <p>This allows us to provide a broad range of services using tailored approach based on the needs of the client or certain project.</p>
                         </div>
                         <a href="<?php echo AbvFunctions::set_pll_link('/about') ?>" class="read-more">read more <span class="arrow arrow-blue"></span></a>
                     </div>

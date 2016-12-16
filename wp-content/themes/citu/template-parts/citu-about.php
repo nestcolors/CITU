@@ -61,8 +61,8 @@
                         <div class="logo logo-color"></div>
                     </div>
                     <div class="col-sm-9 col-xs-12">
-                        <p>Based in the Netherlands, Connect it! Ukraine work together with the partners in Ukraine specialized in various expertises.</p>
-                        <p>This allows us to provide broad range of services using tailored approach based on the needs of the client or certain project.</p>
+                        <p>Based in the Netherlands, Connect it! Ukraine works together with the partners in Ukraine specialized in various expertises.</p>
+                        <p>This allows us to provide a broad range of services using tailored approach based on the needs of the client or certain project.</p>
                     </div>
                 </div>
                 <div class="row about-us-citu">
@@ -135,7 +135,7 @@
                     </div>
                     <div class="col-sm-9 col-xs-12">
                         <p>Originally from Lviv, Ukraine, I live in the Netherlands since 2011.</p>
-                        <p>After 5 years of work in the corporate world in both - Ukraine and in the Netherlands, I decided to start my own business in the Netherlands. </p>
+                        <p>After 5 years of working in the corporate world in both - Ukraine and in the Netherlands, I decided to start my own business in the Netherlands. </p>
                         <p>A knowledge of cultural differences and languages helps me to match the expectations of the clients and the suppliers, which makes the process smooth and efficient</p>
                     </div>
                 </div>

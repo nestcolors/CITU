@@ -1,0 +1,25 @@
+@import 'variables';
+.blog-slider-container{
+  a.slide{
+    padding-top: 70px;
+    cursor: no-drop;
+    h3{
+      text-align: center;
+      transform: rotateZ(-30deg);
+      margin-left: -20px;
+      color: $silver;
+      text-decoration: none;
+    }
+  }
+  a.slide:hover{
+    text-decoration: none;
+  }
+}
+section.magazine a.button-white{
+  cursor: no-drop;
+}
+section.magazine a.button-white:hover{
+  background-color: $transparent;
+  color: $silver;
+  border-color: $silver;
+}

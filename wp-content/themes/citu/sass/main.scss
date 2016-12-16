@@ -63,6 +63,7 @@ section.intro{
 }
 .home-page{
   section.features{
+    position: relative;
     padding: 7rem 0;
     background-color: $white-grey;
     h1, h2, h3, h4{text-align: center;}
