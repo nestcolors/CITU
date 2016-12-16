@@ -32,7 +32,7 @@
 	</div>
 </section><!-- footer section end-->
 <section class="cellar">
-	<span>made by <a href="http://www.nestcolors.com">nest</a></span>
+	<span>made by <a href="http://www.nestcolors.com" target="_blank">nest</a></span>
 </section><!-- cellar section end-->
 
 <?php wp_footer(); ?>

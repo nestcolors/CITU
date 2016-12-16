@@ -891,6 +891,9 @@ section.cellar{
       }
     }
   }
+  .tulip{
+    opacity: 0.09;
+  }
   .nav-bar{
     .main-links{
 
@@ -961,7 +964,10 @@ section.cellar{
     text-align: center;
   }
   .mobile-overlay{
-    padding: 12rem 8rem 0;
+    padding: 12rem 7rem 0;
+    .page-links{
+      text-align: center;
+    }
     img{
       width: 18rem;
       margin: 0 auto;
@@ -1023,7 +1029,7 @@ section.cellar{
 }
 @media (max-width: 375px) {
   .mobile-overlay{
-    padding: 10rem 6rem 0;
+    padding: 10rem 4rem 0;
   }
 }
 @keyframes showFilterBlock{
